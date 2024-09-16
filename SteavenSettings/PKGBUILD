@@ -61,6 +61,7 @@ package() {
   install -Dm644 etc/udev/rules.d/99-ntsync.rules "$pkgdir/usr/lib/udev/rules.d/99-ntsync.rules"
   install -Dm644 etc/udisks2/mount_options.conf "$pkgdir/usr/lib/udisks2/mount_options.conf"
   install -Dm644 etc/chrony.conf "$pkgdir/etc/chrony.conf"
+  install -Dm644 etc/polkit-1/rules.d/99-shutdown-reboot.rules "$pkgdir/etc/polkit-1/rules.d/99-shutdown-reboot.rules"
 
   # Install files from archsettings
   cd "$srcdir/archsettings"
