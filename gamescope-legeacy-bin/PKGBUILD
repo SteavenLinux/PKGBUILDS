@@ -1,6 +1,6 @@
 # Maintainer: omarhanykasban <omarhanykasban706@gmail.com>
 
-pkgname=gamescope-legacy
+pkgname=gamescope-legacy-bin
 pkgver=3.14.2
 pkgrel=1
 pkgdesc="Legacy version of SteamOS session compositing window manager"
@@ -49,18 +49,15 @@ depends=(
   libliftoff
 )
 makedepends=(
-  rpmextract
-  wlroots0.17
-  libliftoff
+  libdisplay-info
 )
 
-source=("https://repos.fyralabs.com/terra40/gamescope-legacy-0:${pkgver}-1.fc40.x86_64.rpm")
-sha256sums=('SKIP')
+source_x86_64=("https://repos.fyralabs.com/terra40/gamescope-legacy-0:${pkgver}-1.fc40.x86_64.rpm")
+sha256sums_x86_64=('610725988259168bd7b21218a4e7c30f1d4e552aee8e5d65b383668f449779e5')
 
 build() {
-    cd "${srcdir}"
     # Extract the RPM package
-    rpmextract.sh "${srcdir}/gamescope-legacy-0:${pkgver}-1.fc40.x86_64.rpm"
+    bsdtar -xvf "${srcdir}/gamescope-legacy-0:${pkgver}-1.fc40.x86_64.rpm"
 }
 
 package() {
