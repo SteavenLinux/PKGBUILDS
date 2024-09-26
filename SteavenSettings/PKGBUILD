@@ -41,14 +41,15 @@ package() {
   install -Dm644 etc/modprobe.d/v4l2loopback.conf "$pkgdir/usr/lib/modprobe.d/v4l2loopback.conf"
   install -Dm644 etc/modules-load.d/kvmfr.conf "$pkgdir/usr/lib/modules-load.d/kvmfr.conf"
   install -Dm644 etc/modules-load.d/v4l2loopback.conf "$pkgdir/usr/lib/modules-load.d/v4l2loopback.conf"
-  install -Dm644 etc/modules-load.d/zram.conf "$pkgdir/usr/lib/modules-load.d/zram.conf"
   install -Dm644 etc/NetworkManager/conf.d/default-wifi-powersave-on.conf "$pkgdir/usr/lib/NetworkManager/conf.d/default-wifi-powersave-on.conf"
   install -Dm644 etc/sysctl.d/80-gamecompatibility.conf "$pkgdir/usr/lib/sysctl.d/80-gamecompatibility.conf"
+  install -Dm644 etc/systemd/timesyncd.conf.d/timesyncd.conf "$pkgdir/usr/lib/systemd/timesyncd.conf.d/timesyncd.conf"
   install -Dm644 etc/systemd/coredump.conf.d/disable.conf "$pkgdir/usr/lib/systemd/coredump.conf.d/disable.conf"
   install -Dm644 etc/systemd/journald.conf.d/00-journal-size.conf "$pkgdir/usr/lib/systemd/journald.conf.d/00-journal-size.conf"
   install -Dm644 etc/systemd/system/battery_charge_threshold.service "$pkgdir/usr/lib/systemd/system/battery_charge_threshold.service"
   install -Dm644 etc/systemd/system/user@.service.d/99-reduce-time.conf "$pkgdir/usr/lib/systemd/user@.service.d/99-reduce-time.conf"
   install -Dm644 etc/systemd/system.conf.d/00-timeout.conf "$pkgdir/usr/lib/systemd/system.conf.d/00-timeout.conf"
+  install -Dm644 etc/udev/rules.d/30-zram.rules "$pkgdir/usr/lib/udev/rules.d/30-zram.rules"
   install -Dm644 etc/udev/rules.d/40-hpet-permissions.rules "$pkgdir/usr/lib/udev/rules.d/40-hpet-permissions.rules"
   install -Dm644 etc/udev/rules.d/50-sata.rules "$pkgdir/usr/lib/udev/rules.d/50-sata.rules"
   install -Dm644 etc/udev/rules.d/60-ioschedulers.rules "$pkgdir/usr/lib/udev/rules.d/60-ioschedulers.rules"
@@ -66,6 +67,5 @@ package() {
   # Install files from archsettings
   cd "$srcdir/archsettings"
   install -Dm644 etc/makepkg.conf.d/use-all-cores.conf "$pkgdir/etc/makepkg.conf.d/use-all-cores.conf"
-  install -Dm644 etc/udev/rules.d/99-zram.rules "$pkgdir/usr/lib/udev/rules.d/99-zram.rules"
 
 }
