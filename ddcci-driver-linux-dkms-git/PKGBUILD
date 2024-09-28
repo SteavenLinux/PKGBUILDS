@@ -14,7 +14,7 @@ depends=('dkms')
 conflicts=("ddcci-driver-linux" "ddcci-driver-linux-dkms")
 source=(
   "git+https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux.git"
-  "https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux/-/merge_requests/16.patch"
+  "https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux/-/merge_requests/17.patch"
 )
 b2sums=('SKIP' 'SKIP')
 
@@ -26,7 +26,7 @@ pkgver() {
 prepare() {
   cd "$_reponame"
   # Apply the merge request patch
-  patch -p1 < ../16.patch
+  patch -p1 < ../17.patch
 }
 
 package() {
