@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Set the default configuration path
+DEFAULT_CONFIG="/opt/fastfetch/share/fastfetch/presets/steavenlinux.jsonc"
+
+# Check if any arguments are provided
+if [[ "$#" -gt 0 ]]; then
+    # Run fastfetch with the provided arguments without the default config
+    /opt/fastfetch/bin/fastfetch "$@"
+else
+    # Run fastfetch with the default configuration
+    /opt/fastfetch/bin/fastfetch --config "$DEFAULT_CONFIG"
+fi
