@@ -1,0 +1,15 @@
+# Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
+
+pkgname=SteavenLinux-gnome-meta
+pkgver=1
+pkgrel=1
+arch=('any')
+pkgdesc='Meta package install KDE Plasma'
+depends=('pipewire' 'pipewire-jack' 'pipewire-alsa' 'pipewire-pulse' 'wireplumber' 'alsa-utils' 'pamixer' 'playerctl' 'pavucontrol' 'helvum' 'lib32-pipewire' 'lib32-pipewire-jack'
+         'xorg-server' 'xorg-xinit'
+         'wayland' 'xorg-xwayland' 'qt5-wayland' 'qt6-wayland' 'wayland-protocols' 'lib32-wayland'
+         'networkmanager' 'network-manager-applet'
+         'xdg-desktop-portal' 'xdg-desktop-portal-gnome' 'xdg-desktop-portal-gtk'
+         'gnome-shell' 'gnome-control-center' 'gnome-session' 'gnome-terminal' 'gnome-settings-daemon' 'gnome-tweaks' 'gnome-screenshot' 'sddm' 
+         'adw-gtk-theme' 'adwaita-cursors' 'adwaita-cursors' 'adwaita-icon-theme-legacy' 'adwaita-qt5' 'adwaita-qt6' 'qt5ct' 'qt6ct' 'kvantum-theme-libadwaita-git' 'kvantum' 'kvantum-qt5' 
+         'kwallet' 'kwallet-pam' 'kwallet5' 'kwalletmanager')
