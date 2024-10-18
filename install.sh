@@ -15,7 +15,10 @@ directories=(
   "SteavenLinux-plasma-meta"
   "SteavenLinux-printering-meta"
   "SteavenSettings"
+  "SteavenSettingsExtra"
   "zenergy-dkms-git"
+  "SteavenLinux-plymouth-theme"
+  "SteavenBuntu-Wallpapers"
 )
 
 # Loop through each directory and run the script

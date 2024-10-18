@@ -4,6 +4,7 @@ mkdir ~/ah
 cp PKGBUILD ~/ah
 cp fastfetch ~/ah
 cp steavenlinux.jsonc ~/ah
+cp steavenlinux-kitty.jsonc ~/ah
 cd ~/ah
 makepkg -sr --sign
 rm -rf /home/omarhanykasban/GitHub/SteavenRepo/x86_64/fastfetch*.pkg.tar.zst

@@ -49,8 +49,8 @@ optdepends=(
   'xfconf: Needed for XFWM theme and XFCE Terminal font'
   'zlib: Faster image output when using kitty graphics protocol'
 )
-source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz" "steavenlinux.jsonc" "fastfetch")
-sha256sums=('de12f8cdb52bc1f123aa9b37813f009eeb09f15cbf43b033693c2936716e2626' "SKIP" "SKIP")
+source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz" "steavenlinux.jsonc" "steavenlinux-kitty.jsonc" "fastfetch")
+sha256sums=('de12f8cdb52bc1f123aa9b37813f009eeb09f15cbf43b033693c2936716e2626' "SKIP" "SKIP" "SKIP")
 
 build() {
 	cmake -B build -S "${pkgname}-${pkgver}" \
@@ -89,4 +89,5 @@ package() {
 	DESTDIR="${pkgdir}" cmake --install build
   install -Dm755 "$srcdir/fastfetch" "$pkgdir/usr/bin/fastfetch"
   install -Dm644 "$srcdir/steavenlinux.jsonc" "$pkgdir/opt/fastfetch/share/fastfetch/presets/steavenlinux.jsonc"
+  install -Dm644 "$srcdir/steavenlinux-kitty.jsonc" "$pkgdir/opt/fastfetch/share/fastfetch/presets/steavenlinux-kitty.jsonc"
 }

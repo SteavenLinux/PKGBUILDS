@@ -2,6 +2,7 @@
 
 # Set the default configuration path
 DEFAULT_CONFIG="/opt/fastfetch/share/fastfetch/presets/steavenlinux.jsonc"
+DEFAULT_CONFIG_KITTY="/opt/fastfetch/share/fastfetch/presets/steavenlinux-kitty.jsonc"
 
 # Check if any arguments are provided
 if [[ "$#" -gt 0 ]]; then
@@ -9,5 +10,13 @@ if [[ "$#" -gt 0 ]]; then
     /opt/fastfetch/bin/fastfetch "$@"
 else
     # Run fastfetch with the default configuration
+    case "$TERM" in
+  "xterm-kitty")
+    /opt/fastfetch/bin/fastfetch --config "$DEFAULT_CONFIG_KITTY"
+    ;;
+  "xterm-256color")
     /opt/fastfetch/bin/fastfetch --config "$DEFAULT_CONFIG"
+    ;;
+esac
+
 fi
