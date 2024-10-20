@@ -9,12 +9,12 @@ cp os-release.hook ~/ah
 cp steavenlinux-hooks-runner ~/ah
 cd ~/ah
 makepkg -sr --sign
-rm -rf /home/omarhanykasban/GitHub/SteavenRepo/x86_64/steavenlinuxname*.pkg.tar.zst
-rm -rf /home/omarhanykasban/GitHub/SteavenRepo/x86_64/steavenlinuxname*.pkg.tar.zst.sig
-cp steavenlinuxname*.pkg.tar.zst /home/omarhanykasban/GitHub/SteavenRepo/x86_64/
-cp steavenlinuxname*.pkg.tar.zst.sig /home/omarhanykasban/GitHub/SteavenRepo/x86_64/
+rm -rf /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo/x86_64/steavenlinuxname*.pkg.tar.zst
+rm -rf /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo/x86_64/steavenlinuxname*.pkg.tar.zst.sig
+cp steavenlinuxname*.pkg.tar.zst /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo/x86_64/
+cp steavenlinuxname*.pkg.tar.zst.sig /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo/x86_64/
 
-cd /home/omarhanykasban/GitHub/SteavenRepo
+cd /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo
 git add .
 git commit -m "Updated steavenlinuxname"
-cd /home/omarhanykasban/GitHub/PKGBUILDS/steavenlinuxname
+cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/steavenlinuxname

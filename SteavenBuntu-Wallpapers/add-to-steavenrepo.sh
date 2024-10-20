@@ -9,12 +9,12 @@ cp windows7.jpg ~/ah
 cp wallpapers.xml ~/ah
 cd ~/ah
 makepkg -sr --sign
-rm -rf /home/omarhanykasban/GitHub/SteavenRepo/x86_64/SteavenBuntu-Wallpapers*.pkg.tar.zst
-rm -rf /home/omarhanykasban/GitHub/SteavenRepo/x86_64/SteavenBuntu-Wallpapers*.pkg.tar.zst.sig
-cp SteavenBuntu-Wallpapers*.pkg.tar.zst /home/omarhanykasban/GitHub/SteavenRepo/x86_64/
-cp SteavenBuntu-Wallpapers*.pkg.tar.zst.sig /home/omarhanykasban/GitHub/SteavenRepo/x86_64/
+rm -rf /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo/x86_64/SteavenBuntu-Wallpapers*.pkg.tar.zst
+rm -rf /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo/x86_64/SteavenBuntu-Wallpapers*.pkg.tar.zst.sig
+cp SteavenBuntu-Wallpapers*.pkg.tar.zst /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo/x86_64/
+cp SteavenBuntu-Wallpapers*.pkg.tar.zst.sig /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo/x86_64/
 
-cd /home/omarhanykasban/GitHub/SteavenRepo
+cd /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo
 git add .
 git commit -m "Updated SteavenBuntu-Wallpapers"
-cd /home/omarhanykasban/GitHub/PKGBUILDS/SteavenBuntu-Wallpapers
+cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/SteavenBuntu-Wallpapers
