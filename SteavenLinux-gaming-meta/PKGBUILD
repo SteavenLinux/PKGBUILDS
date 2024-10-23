@@ -1,12 +1,12 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
 pkgname=SteavenLinux-gaming-meta
-pkgver=1
+pkgver=2
 pkgrel=1
 arch=('any')
 pkgdesc='Meta package for Gaming including Steam, Lutris, Wine, Essential Proprietary libraries & several other dependencies'
 
-depends=('proton-ge-custom' 'wine-staging' 'wine-mono' 'wine-gecko' 'wine-nine'
+depends=('proton-ge-custom' 'wine' 'wine-mono' 'wine-gecko' 'wine-nine'
          'mangohud' 'lib32-mangohud' 'gamemode' 'lib32-gamemode' 'gamescope' 'vulkan-tools' 'protontricks' 'winetricks' 'protonplus'
          'vkd3d' 'lib32-vkd3d' 'vulkan-icd-loader' 'lib32-vulkan-icd-loader' 'dxvk-mingw-git'
          'steam' 'steam-native-runtime' 'lutris' 'heroic-games-launcher-bin' 'bottles'
