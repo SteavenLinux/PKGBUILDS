@@ -1,7 +1,7 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
 pkgname=SteavenLinux-plasma-meta
-pkgver=1
+pkgver=2
 pkgrel=1
 arch=('any')
 pkgdesc='Meta package install KDE Plasma'
@@ -10,6 +10,6 @@ depends=('pipewire' 'pipewire-jack' 'pipewire-alsa' 'pipewire-pulse' 'wireplumbe
          'wayland' 'xorg-xwayland' 'qt5-wayland' 'qt6-wayland' 'wayland-protocols' 'lib32-wayland'
          'networkmanager' 'network-manager-applet'
          'xdg-desktop-portal' 'xdg-desktop-portal-kde' 'xdg-desktop-portal-gtk'
-         'plasma-desktop' 'plasma-nm' 'plasma-pa' 'kscreen' 'dolphin' 'konsole' 'spectacle' 'sddm' 'sddm-kcm' 'flatpak-kcm' 'kde-gtk-config' 'breeze-gtk' 'kvantum' 'kvantum-qt5'
+         'plasma-desktop' 'plasma-nm' 'plasma-pa' 'kdeplasma-addons' 'kscreen' 'dolphin' 'konsole' 'spectacle' 'sddm' 'sddm-kcm' 'flatpak-kcm' 'kde-gtk-config' 'breeze-gtk' 'kvantum' 'kvantum-qt5'
          'kwallet' 'kwallet-pam' 'kwallet5' 'kwalletmanager')
 conflicts=('plasma-meta')
