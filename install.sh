@@ -9,7 +9,6 @@ directories=(
   "hyfetch"
   "SteavenGnome"
   "SteavenLinux-emulators-meta"
-  "wine-staging"
   "SteavenLinux-gaming-meta"
   "SteavenLinux-gnome-meta"
   "SteavenLinuxName"
