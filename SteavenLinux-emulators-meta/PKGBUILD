@@ -13,7 +13,7 @@ depends=(
   'dolphin-emu'
   'pcsx2-avx-git'
   'cemu-bin'
-  'suyu-dev-qt6-git'
+  'suyu-dev-git'
   'retroarch'
   'retroarch-assets-glui'
   'retroarch-assets-ozone'

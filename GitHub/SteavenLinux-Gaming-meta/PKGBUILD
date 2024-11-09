@@ -1,6 +1,6 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
-pkgname=SteavenLinux-gaming-meta
+pkgname=SteavenLinux-Gaming-meta
 pkgver=3
 pkgrel=1
 arch=('any')

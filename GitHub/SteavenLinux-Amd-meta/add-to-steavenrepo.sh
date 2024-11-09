@@ -12,4 +12,4 @@ cp SteavenLinux-Amd-meta*.pkg.tar.zst.sig /home/omarhanykasban/GitHub/SteavenLin
 cd /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo
 git add .
 git commit -m "Updated SteavenLinux-Amd-meta"
-cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/SteavenLinux-Amd-meta
+cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/GitHub/SteavenLinux-Amd-meta

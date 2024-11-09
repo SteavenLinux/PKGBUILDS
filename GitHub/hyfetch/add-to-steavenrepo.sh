@@ -15,4 +15,4 @@ cp hyfetch*.pkg.tar.zst.sig /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo
 cd /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo
 git add .
 git commit -m "Updated hyfetch"
-cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/hyfetch
+cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/GitHub/hyfetch
