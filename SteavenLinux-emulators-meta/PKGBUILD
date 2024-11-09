@@ -8,11 +8,11 @@ pkgdesc='Meta package for Emulating Games including retroarch, duckstation, rpcs
 depends=(
   'SteavenLinux-gaming-meta'
   'duckstation'
-  'rpcs3-git'
+  'rpcs3-bin'
   'ryujinx'
   'dolphin-emu'
   'pcsx2-avx-git'
-  'cemu-git'
+  'cemu-bin'
   'suyu-dev-qt6-git'
   'retroarch'
   'retroarch-assets-glui'

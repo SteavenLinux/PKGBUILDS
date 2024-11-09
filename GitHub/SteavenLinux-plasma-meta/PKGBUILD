@@ -1,0 +1,23 @@
+# Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
+
+pkgname=SteavenLinux-plasma-meta
+pkgver=4
+pkgrel=1
+arch=(any)
+pkgdesc=Meta package install KDE Plasma
+depends=(pipewire pipewire-jack pipewire-alsa pipewire-pulse wireplumber alsa-utils pamixer playerctl pavucontrol helvum lib32-pipewire lib32-pipewire-jack
+         xorg-server xorg-xinit
+         wayland xorg-xwayland qt5-wayland qt6-wayland wayland-protocols lib32-wayland
+         networkmanager network-manager-applet
+         xdg-desktop-portal xdg-desktop-portal-kde xdg-desktop-portal-gtk
+         plasma-desktop plasma-nm plasma-pa kdeplasma-addons kscreen 
+         konsole spectacle
+         dolphin kompare kdegraphics-thumbnailers kimageformats qt6-imageformats kdesdk-thumbnailers ffmpegthumbs ffmpegthumbnailer 
+         taglib icoutils tumbler freetype2 libgsf audiocd-kio baloo
+         ark unzip unrar gvfs gvfs-mtp gvfs-gphoto2 kio-extras
+         sddm sddm-kcm flatpak-kcm kde-gtk-config breeze-gtk kvantum kvantum-qt5
+         kwallet kwallet-pam kwallet5 kwalletmanager
+         bluez bluez-utils bluedevil bluez-qt 
+         bolt plasma-thunderbolt plasma-browser-integration plasma-workspace-wallpapers
+         plasma-meta
+         )
