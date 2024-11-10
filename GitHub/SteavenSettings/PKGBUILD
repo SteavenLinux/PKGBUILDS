@@ -1,6 +1,6 @@
 # Maintainer: omarhanykasban <omarhanykasban706@gmail.com>
 
-pkgname=steavensettings
+pkgname=SteavenSettings
 pkgver=1.0.0
 pkgrel=1
 pkgdesc="SteavenGamerYT's Arch Linux Settings"
@@ -35,7 +35,6 @@ package() {
   install -Dm644 etc/grub.d/40_distrust_cpu.cfg "$pkgdir/etc/grub.d/40_distrust_cpu.cfg"
   install -Dm644 etc/grub.d/40_enable_iommu.cfg "$pkgdir/etc/grub.d/40_enable_iommu.cfg"
   install -Dm644 etc/modprobe.d/amdgpu.conf "$pkgdir/usr/lib/modprobe.d/amdgpu.conf"
-  install -Dm644 etc/modprobe.d/blacklist.conf "$pkgdir/usr/lib/modprobe.d/blacklist.conf"
   install -Dm644 etc/modprobe.d/kvmfr.conf "$pkgdir/usr/lib/modprobe.d/kvmfr.conf"
   install -Dm644 etc/modprobe.d/nvidia.conf "$pkgdir/usr/lib/modprobe.d/nvidia.conf"
   install -Dm644 etc/modprobe.d/v4l2loopback.conf "$pkgdir/usr/lib/modprobe.d/v4l2loopback.conf"
@@ -44,7 +43,6 @@ package() {
   install -Dm644 etc/NetworkManager/conf.d/default-wifi-powersave-on.conf "$pkgdir/usr/lib/NetworkManager/conf.d/default-wifi-powersave-on.conf"
   install -Dm644 etc/sysctl.d/80-gamecompatibility.conf "$pkgdir/usr/lib/sysctl.d/80-gamecompatibility.conf"
   install -Dm644 etc/systemd/timesyncd.conf.d/timesyncd.conf "$pkgdir/usr/lib/systemd/timesyncd.conf.d/timesyncd.conf"
-  install -Dm644 etc/systemd/coredump.conf.d/disable.conf "$pkgdir/usr/lib/systemd/coredump.conf.d/disable.conf"
   install -Dm644 etc/systemd/journald.conf.d/00-journal-size.conf "$pkgdir/usr/lib/systemd/journald.conf.d/00-journal-size.conf"
   install -Dm644 etc/systemd/system/battery_charge_threshold.service "$pkgdir/usr/lib/systemd/system/battery_charge_threshold.service"
   install -Dm644 etc/systemd/system/user@.service.d/99-reduce-time.conf "$pkgdir/usr/lib/systemd/user@.service.d/99-reduce-time.conf"
@@ -54,7 +52,6 @@ package() {
   install -Dm644 etc/udev/rules.d/50-sata.rules "$pkgdir/usr/lib/udev/rules.d/50-sata.rules"
   install -Dm644 etc/udev/rules.d/60-ioschedulers.rules "$pkgdir/usr/lib/udev/rules.d/60-ioschedulers.rules"
   install -Dm644 etc/udev/rules.d/71-nvidia.rules "$pkgdir/usr/lib/udev/rules.d/71-nvidia.rules"
-  install -Dm644 etc/udev/rules.d/90-arduino.rules "$pkgdir/usr/lib/udev/rules.d/90-arduino.rules"
   install -Dm644 etc/udev/rules.d/99-cpu-freq.rules "$pkgdir/usr/lib/udev/rules.d/99-cpu-freq.rules"
   install -Dm644 etc/udev/rules.d/99-intel-cpu-watts-fix.rules "$pkgdir/usr/lib/udev/rules.d/99-intel-cpu-watts-fix.rules"
   install -Dm644 etc/udev/rules.d/99-ntfs3_by_default.rules "$pkgdir/usr/lib/udev/rules.d/99-ntfs3_by_default.rules"
