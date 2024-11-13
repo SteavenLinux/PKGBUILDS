@@ -55,3 +55,9 @@
 [submodule "Repo/Aur/ffmpeg-obs"]
 	path = Repo/Aur/ffmpeg-obs
 	url = https://aur.archlinux.org/ffmpeg-obs.git
+[submodule "Repo/Aur/obs-studio-tytan652"]
+	path = Repo/Aur/obs-studio-tytan652
+	url = https://aur.archlinux.org/obs-studio-tytan652.git
+[submodule "GitHub/Aur/vlc-luajit"]
+	path = GitHub/Aur/vlc-luajit
+	url = https://aur.archlinux.org/vlc-luajit.git

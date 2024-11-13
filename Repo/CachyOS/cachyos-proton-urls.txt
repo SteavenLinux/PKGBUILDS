@@ -1,0 +1,7 @@
+https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/refs/heads/master/proton-cachyos/.SRCINFO
+https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/refs/heads/master/proton-cachyos/.gitignore
+https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/refs/heads/master/proton-cachyos/PKGBUILD
+https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/refs/heads/master/proton-cachyos/nvapi-optical-flow.patch
+https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/refs/heads/master/proton-cachyos/proton-cachyos.install
+https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/refs/heads/master/proton-cachyos/proton-optical-flow.patch
+https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/refs/heads/master/proton-cachyos/wine-optical-flow.patch
