@@ -40,3 +40,18 @@
 [submodule "GitHub/Aur/syncthingtray-qt6"]
 	path = GitHub/Aur/syncthingtray-qt6
 	url = https://aur.archlinux.org/syncthingtray-qt6.git
+[submodule "Repo/Aur/github-desktop-bin"]
+	path = Repo/Aur/github-desktop-bin
+	url = https://aur.archlinux.org/github-desktop-bin.git
+[submodule "Repo/Aur/heroic-games-launcher-bin"]
+	path = Repo/Aur/heroic-games-launcher-bin
+	url = https://aur.archlinux.org/heroic-games-launcher-bin.git
+[submodule "Repo/Aur/proton-ge-custom-bin"]
+	path = Repo/Aur/proton-ge-custom-bin
+	url = https://aur.archlinux.org/proton-ge-custom-bin.git
+[submodule "Repo/Aur/cef-minimal-obs-bin"]
+	path = Repo/Aur/cef-minimal-obs-bin
+	url = https://aur.archlinux.org/cef-minimal-obs-bin.git
+[submodule "Repo/Aur/ffmpeg-obs"]
+	path = Repo/Aur/ffmpeg-obs
+	url = https://aur.archlinux.org/ffmpeg-obs.git
