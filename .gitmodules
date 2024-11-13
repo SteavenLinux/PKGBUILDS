@@ -40,21 +40,3 @@
 [submodule "GitHub/Aur/syncthingtray-qt6"]
 	path = GitHub/Aur/syncthingtray-qt6
 	url = https://aur.archlinux.org/syncthingtray-qt6.git
-[submodule "GitHub/protonplus"]
-    path = GitHub/protonplus
-    url = https://aur.archlinux.org/protonplus.git
-[submodule "GitHub/ryujinx"]
-    path = GitHub/ryujinx
-    url = https://aur.archlinux.org/ryujinx.git
-[submodule "GitHub/suyu-dev-git"]
-    path = GitHub/suyu-dev-git
-    url = https://aur.archlinux.org/suyu-dev-git.git
-[submodule "GitHub/github-desktop-bin"]
-    path = Repo/Aur/github-desktop-bin
-    url = https://aur.archlinux.org/github-desktop-bin.git
-[submodule "GitHub/heroic-games-launcher-bin"]
-    path = Repo/Aur/heroic-games-launcher-bin
-    url = https://aur.archlinux.org/heroic-games-launcher-bin.git
-[submodule "GitHub/proton-ge-custom-bin"]
-    path = Repo/Aur/proton-ge-custom-bin
-    url = https://aur.archlinux.org/proton-ge-custom-bin.git
