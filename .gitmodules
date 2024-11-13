@@ -1,0 +1,60 @@
+[submodule "GitHub/Aur/moonlight-qt-bin"]
+	path = GitHub/Aur/moonlight-qt-bin
+	url = https://aur.archlinux.org/moonlight-qt-bin.git
+[submodule "GitHub/Aur/cemu-bin"]
+	path = GitHub/Aur/cemu-bin
+	url = https://aur.archlinux.org/cemu-bin.git
+[submodule "GitHub/Aur/chatterino2-appimage"]
+	path = GitHub/Aur/chatterino2-appimage
+	url = https://aur.archlinux.org/chatterino2-appimage.git
+[submodule "GitHub/Aur/dxvk-bin"]
+	path = GitHub/Aur/dxvk-bin
+	url = https://aur.archlinux.org/dxvk-bin.git
+[submodule "GitHub/Aur/legendary"]
+	path = GitHub/Aur/legendary
+	url = https://aur.archlinux.org/legendary.git
+[submodule "GitHub/Aur/lib32-lzo"]
+	path = GitHub/Aur/lib32-lzo
+	url = https://aur.archlinux.org/lib32-lzo.git
+[submodule "GitHub/Aur/libajantv2"]
+	path = GitHub/Aur/libajantv2
+	url = https://aur.archlinux.org/libajantv2.git
+[submodule "GitHub/Aur/ncurses5-compat-libs"]
+	path = GitHub/Aur/ncurses5-compat-libs
+	url = https://aur.archlinux.org/ncurses5-compat-libs.git
+[submodule "GitHub/Aur/noto-fonts-ar"]
+	path = GitHub/Aur/noto-fonts-ar
+	url = https://aur.archlinux.org/noto-fonts-ar.git
+[submodule "GitHub/Aur/protontricks"]
+	path = GitHub/Aur/protontricks
+	url = https://aur.archlinux.org/protontricks.git
+[submodule "GitHub/Aur/python-vdf"]
+	path = GitHub/Aur/python-vdf
+	url = https://aur.archlinux.org/python-vdf.git
+[submodule "GitHub/Aur/qtutilities-qt6"]
+	path = GitHub/Aur/qtutilities-qt6
+	url = https://aur.archlinux.org/qtutilities-qt6.git
+[submodule "GitHub/Aur/rpcs3-bin"]
+	path = GitHub/Aur/rpcs3-bin
+	url = https://aur.archlinux.org/rpcs3-bin.git
+[submodule "GitHub/Aur/syncthingtray-qt6"]
+	path = GitHub/Aur/syncthingtray-qt6
+	url = https://aur.archlinux.org/syncthingtray-qt6.git
+[submodule "GitHub/protonplus"]
+    path = GitHub/protonplus
+    url = https://aur.archlinux.org/protonplus.git
+[submodule "GitHub/ryujinx"]
+    path = GitHub/ryujinx
+    url = https://aur.archlinux.org/ryujinx.git
+[submodule "GitHub/suyu-dev-git"]
+    path = GitHub/suyu-dev-git
+    url = https://aur.archlinux.org/suyu-dev-git.git
+[submodule "GitHub/github-desktop-bin"]
+    path = Repo/Aur/github-desktop-bin
+    url = https://aur.archlinux.org/github-desktop-bin.git
+[submodule "GitHub/heroic-games-launcher-bin"]
+    path = Repo/Aur/heroic-games-launcher-bin
+    url = https://aur.archlinux.org/heroic-games-launcher-bin.git
+[submodule "GitHub/proton-ge-custom-bin"]
+    path = Repo/Aur/proton-ge-custom-bin
+    url = https://aur.archlinux.org/proton-ge-custom-bin.git
