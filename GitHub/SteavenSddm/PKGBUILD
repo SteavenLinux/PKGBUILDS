@@ -7,7 +7,7 @@ pkgdesc="SteavenLinux sddm Theme + Settings"
 arch=('any')
 url="https://github.com/steavenlinux/SteavenSddm"
 license=('MIT')
-depends=('git' 'sddm' 'libplasma' 'plasma5support')
+depends=('git' 'sddm' 'libplasma' 'plasma5support' 'ttf-roboto')
 makedepends=('git')
 source=(
   "steavensddm::git+https://github.com/steavenlinux/SteavenSddm.git"
