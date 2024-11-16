@@ -12,4 +12,4 @@ cp SteavenLinux-emulators-meta*.pkg.tar.zst.sig /home/omarhanykasban/GitHub/Stea
 cd /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo
 git add .
 git commit -m "Updated SteavenLinux-emulators-meta"
-cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/SteavenLinux-emulators-meta
+cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/GitHub/SteavenLinux-emulators-meta

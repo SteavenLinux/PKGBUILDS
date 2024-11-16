@@ -61,3 +61,12 @@
 [submodule "GitHub/Aur/vlc-luajit"]
 	path = GitHub/Aur/vlc-luajit
 	url = https://aur.archlinux.org/vlc-luajit.git
+[submodule "GitHub/Aur/duckstation-qt-bin"]
+	path = GitHub/Aur/duckstation-qt-bin
+	url = https://aur.archlinux.org/duckstation-qt-bin.git
+[submodule "GitHub/Aur/pcsx2-latest-bin"]
+	path = GitHub/Aur/pcsx2-latest-bin
+	url = https://aur.archlinux.org/pcsx2-latest-bin.git
+[submodule "GitHub/Aur/retroarch-autoconfig-udev-git"]
+	path = GitHub/Aur/retroarch-autoconfig-udev-git
+	url = https://aur.archlinux.org/retroarch-autoconfig-udev-git.git
