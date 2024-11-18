@@ -12,4 +12,4 @@ cp SteavenLinux-printering-meta*.pkg.tar.zst.sig /home/omarhanykasban/GitHub/Ste
 cd /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo
 git add .
 git commit -m "Updated SteavenLinux-printering-meta"
-cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/SteavenLinux-printering-meta
+cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/GitHub/SteavenLinux-printering-meta
