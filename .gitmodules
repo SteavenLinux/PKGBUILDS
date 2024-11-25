@@ -70,3 +70,30 @@
 [submodule "GitHub/Aur/retroarch-autoconfig-udev-git"]
 	path = GitHub/Aur/retroarch-autoconfig-udev-git
 	url = https://aur.archlinux.org/retroarch-autoconfig-udev-git.git
+[submodule "GitHub/Aur/Ryujinx"]
+	path = GitHub/Aur/Ryujinx
+	url = https://aur.archlinux.org/ryujinx.git
+[submodule "GitHub/Aur/kvantum-theme-libadwaita-git"]
+	path = GitHub/Aur/kvantum-theme-libadwaita-git
+	url = https://aur.archlinux.org/kvantum-theme-libadwaita-git.git
+[submodule "GitHub/Aur/adwaita-qt-git"]
+	path = GitHub/Aur/adwaita-qt-git
+	url = https://aur.archlinux.org/adwaita-qt-git.git
+[submodule "GitHub/Aur/gnome-shell-extension-alphabetical-grid-extension"]
+	path = GitHub/Aur/gnome-shell-extension-alphabetical-grid-extension
+	url = https://aur.archlinux.org/gnome-shell-extension-alphabetical-grid-extension.git
+[submodule "GitHub/Aur/gnome-shell-extension-blur-my-shell"]
+	path = GitHub/Aur/gnome-shell-extension-blur-my-shell
+	url = https://aur.archlinux.org/gnome-shell-extension-blur-my-shell.git
+[submodule "GitHub/Aur/gnome-shell-extension-dash-to-dock"]
+	path = GitHub/Aur/gnome-shell-extension-dash-to-dock
+	url = https://aur.archlinux.org/gnome-shell-extension-dash-to-dock.git
+[submodule "GitHub/Aur/gnome-shell-extension-legacy-theme-auto-switcher-git"]
+	path = GitHub/Aur/gnome-shell-extension-legacy-theme-auto-switcher-git
+	url = https://aur.archlinux.org/gnome-shell-extension-legacy-theme-auto-switcher-git.git
+[submodule "GitHub/Aur/gnome-shell-extension-privacy-menu-git"]
+	path = GitHub/Aur/gnome-shell-extension-privacy-menu-git
+	url = https://aur.archlinux.org/gnome-shell-extension-privacy-menu-git.git
+[submodule "GitHub/Aur/gnome-shell-extension-wallpaper-slideshow"]
+	path = GitHub/Aur/gnome-shell-extension-wallpaper-slideshow
+	url = https://aur.archlinux.org/gnome-shell-extension-wallpaper-slideshow.git
