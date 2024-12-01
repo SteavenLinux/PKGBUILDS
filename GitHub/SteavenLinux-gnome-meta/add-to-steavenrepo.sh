@@ -12,4 +12,4 @@ cp SteavenLinux-gnome-meta*.pkg.tar.zst.sig /home/omarhanykasban/GitHub/SteavenL
 cd /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo
 git add .
 git commit -m "Updated SteavenLinux-gnome-meta"
-cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/SteavenLinux-gnome-meta
+cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/GitHub/SteavenLinux-gnome-meta

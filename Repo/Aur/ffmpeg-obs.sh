@@ -1,4 +1,5 @@
 #!/bin/bash
+export FFMPEG_OBS_FULL=on
 rm -rf ~/ah
 mkdir ~/ah
 cp ffmpeg-obs/PKGBUILD ~/ah

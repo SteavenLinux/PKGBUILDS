@@ -91,9 +91,11 @@
 [submodule "GitHub/Aur/gnome-shell-extension-legacy-theme-auto-switcher-git"]
 	path = GitHub/Aur/gnome-shell-extension-legacy-theme-auto-switcher-git
 	url = https://aur.archlinux.org/gnome-shell-extension-legacy-theme-auto-switcher-git.git
-[submodule "GitHub/Aur/gnome-shell-extension-privacy-menu-git"]
-	path = GitHub/Aur/gnome-shell-extension-privacy-menu-git
-	url = https://aur.archlinux.org/gnome-shell-extension-privacy-menu-git.git
 [submodule "GitHub/Aur/gnome-shell-extension-wallpaper-slideshow"]
 	path = GitHub/Aur/gnome-shell-extension-wallpaper-slideshow
 	url = https://aur.archlinux.org/gnome-shell-extension-wallpaper-slideshow.git
+	
+
+[submodule "GitHub/Aur/gnome-shell-extension-privacy-menu-git"]
+    path = GitHub/Aur/gnome-shell-extension-privacy-menu-git
+    url = https://aur.archlinux.org/gnome-shell-extension-wallpaper-slideshow.git
