@@ -2,7 +2,7 @@
 
 pkgname=SteavenSettings
 pkgver=1.0.0
-pkgrel=2
+pkgrel=3
 pkgdesc="SteavenGamerYT's Arch Linux Settings"
 arch=('any')
 url="https://github.com/steavenlinux/steavensettings"
@@ -29,6 +29,7 @@ package() {
   install -Dm755 usr/bin/nouveau-gpu-run "$pkgdir/usr/bin/nouveau-gpu-run"
   install -Dm755 usr/bin/killpicom "$pkgdir/usr/bin/killpicom"
   install -Dm755 usr/bin/game-run "$pkgdir/usr/bin/game-run"
+  install -Dm755 usr/bin/zink-run "$pkgdir/usr/bin/zink-run"
   install -Dm644 etc/conf.d/libvirt-guests "$pkgdir/etc/conf.d/libvirt-guests"
   install -Dm644 etc/environment.d/editor.conf "$pkgdir/usr/lib/environment.d/editor.conf"
   install -Dm644 etc/grub.d/40_cpu_mitigations.cfg "$pkgdir/etc/grub.d/40_cpu_mitigations.cfg"

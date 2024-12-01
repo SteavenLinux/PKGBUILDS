@@ -12,4 +12,4 @@ cp SteavenSettings*.pkg.tar.zst.sig /home/omarhanykasban/GitHub/SteavenLinux/Ste
 cd /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo
 git add .
 git commit -m "Updated SteavenSettings"
-cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/SteavenSettings
+cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/GitHub/SteavenSettings
