@@ -99,3 +99,6 @@
 [submodule "GitHub/Aur/gnome-shell-extension-privacy-menu-git"]
     path = GitHub/Aur/gnome-shell-extension-privacy-menu-git
     url = https://aur.archlinux.org/gnome-shell-extension-wallpaper-slideshow.git
+[submodule "GitHub/Aur/hy3"]
+	path = GitHub/Aur/hy3
+	url = https://aur.archlinux.org/hy3.git

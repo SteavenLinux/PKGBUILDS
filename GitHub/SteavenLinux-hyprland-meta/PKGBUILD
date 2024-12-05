@@ -1,0 +1,26 @@
+# Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
+
+pkgname=SteavenLinux-hyprland-meta
+pkgver=1
+pkgrel=1
+arch=(any)
+pkgdesc=Meta package install Hyprland
+depends=(pipewire pipewire-jack pipewire-alsa pipewire-pulse wireplumber alsa-utils pamixer playerctl pavucontrol helvum lib32-pipewire lib32-pipewire-jack
+         wayland xorg-xwayland qt5-wayland qt6-wayland wayland-protocols lib32-wayland
+         networkmanager network-manager-applet
+         xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-hyprland xdg-desktop-portal-gtk
+         hyprland hypridle hyprlock hy3 swaylock-effects swaync swaybg
+         polkit-gnome kitty grim wlsunset waybar rofi-wayland mpv
+         nwg-displays jq grimblast-git
+         lxappearance qt5ct qt6ct 
+         nemo nemo-fileroller kcalc
+         ark unzip unrar
+         sddm flatpak kvantum kvantum-qt5
+         kwallet kwallet-pam kwallet5 kwalletmanager
+         bluez bluez-utils blueman
+         noto-fonts noto-fonts-cjk noto-fonts-emoji
+         ttf-roboto ttf-roboto-mono ttf-roboto-mono-nerd
+         ttf-fira-code otf-firamono-nerd ttf-firacode-nerd
+         ttf-croscore)
+
+# pix xviewer
