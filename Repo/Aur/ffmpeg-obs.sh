@@ -7,7 +7,7 @@ cp ffmpeg-obs/031-ffmpeg-add-svt-vp9.patch ~/ah
 cp ffmpeg-obs/add-av_stream_get_first_dts-for-chromium.patch ~/ah
 cp ffmpeg-obs/license_if_nonfree_enabled.txt ~/ah
 cd ~/ah
-makepkg -sr --sign
+FFMPEG_OBS_FULL=on makepkg -sr --sign
 rm -rf /home/omarhanykasban/SteavenRepo/x86_64/ffmpeg-obs*.pkg.tar.zst
 rm -rf /home/omarhanykasban/SteavenRepo/x86_64/ffmpeg-obs*.pkg.tar.zst.sig
 cp ffmpeg-obs*.pkg.tar.zst /home/omarhanykasban/SteavenRepo/x86_64/
