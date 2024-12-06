@@ -11,11 +11,11 @@ depends=(pipewire pipewire-jack pipewire-alsa pipewire-pulse wireplumber alsa-ut
          xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-gtk
          sway swayidle swaylock-effects swaync swaybg
          polkit-gnome kitty grim wlsunset waybar rofi-wayland mpv
-         nwg-displays jq
+         nwg-displays jq cliphist wl-clipboard grimshot
          lxappearance qt5ct qt6ct 
          nemo nemo-fileroller kcalc
          ark unzip unrar
-         sddm flatpak kvantum kvantum-qt5
+         greetd flatpak kvantum kvantum-qt5
          kwallet kwallet-pam kwallet5 kwalletmanager
          bluez bluez-utils blueman
          noto-fonts noto-fonts-cjk noto-fonts-emoji

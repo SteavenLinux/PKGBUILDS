@@ -102,3 +102,6 @@
 [submodule "GitHub/Aur/hy3"]
 	path = GitHub/Aur/hy3
 	url = https://aur.archlinux.org/hy3.git
+[submodule "GitHub/Aur/grimshot"]
+	path = GitHub/Aur/grimshot
+	url = https://aur.archlinux.org/grimshot.git
