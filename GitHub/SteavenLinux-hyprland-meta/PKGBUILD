@@ -1,7 +1,7 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
 pkgname=SteavenLinux-hyprland-meta
-pkgver=1
+pkgver=2
 pkgrel=1
 arch=(any)
 pkgdesc=Meta package install Hyprland
@@ -13,7 +13,9 @@ depends=(pipewire pipewire-jack pipewire-alsa pipewire-pulse wireplumber alsa-ut
          polkit-gnome kitty grim wlsunset waybar rofi-wayland mpv
          nwg-displays jq grimblast-git
          lxappearance qt5ct qt6ct 
-         nemo nemo-fileroller kcalc
+         nemo nemo-fileroller tumbler webp-pixbuf-loader poppler-glib ffmpegthumbnailer freetype2 libgsf evince
+         gvfs-mtp gvfs-gphoto2 gvfs-afc
+         kcalc
          ark unzip unrar
          sddm flatpak kvantum kvantum-qt5
          kwallet kwallet-pam kwallet5 kwalletmanager

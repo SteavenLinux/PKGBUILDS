@@ -2,6 +2,10 @@
 rm -rf ~/ah
 mkdir ~/ah
 cp Ryujinx/PKGBUILD ~/ah
+cp Ryujinx/PKGBUILD.canary ~/ah
+cp Ryujinx/PKGBUILD.common ~/ah
+cp Ryujinx/PKGBUILD.git ~/ah
+cp Ryujinx/PKGBUILD.release ~/ah
 cd ~/ah
 makepkg -sr --sign
 rm -rf /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo/x86_64/ryujinx*.pkg.tar.zst
