@@ -12,14 +12,16 @@ depends=('imagemagick')
 source=("windows7.jpg"
         "wallpapers.xml"
         "ah.jpg"
-        "hream.jpg")
-md5sums=('SKIP' 'SKIP' 'SKIP' 'SKIP')
+        "windows10.jpg"
+        "windowsxp.jpg")
+md5sums=('SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP')
 
 package() {
     # Copy wallpapers to the appropriate directory
     install -Dm644 "${srcdir}/windows7.jpg" "$pkgdir/usr/share/backgrounds/windows7.jpg"
     install -Dm644 "${srcdir}/ah.jpg" "$pkgdir/usr/share/backgrounds/ah.jpg"
-    install -Dm644 "${srcdir}/hream.jpg" "$pkgdir/usr/share/backgrounds/hream.jpg"
+    install -Dm644 "${srcdir}/windows10.jpg" "$pkgdir/usr/share/backgrounds/windows10.jpg"
+    install -Dm644 "${srcdir}/windowsxp.jpg" "$pkgdir/usr/share/backgrounds/windowsxp.jpg"
 
     # Create the gnome-background-properties directory if it doesn't exist
     install -dm755 "$pkgdir/usr/share/gnome-background-properties"

@@ -13,7 +13,7 @@
   <wallpaper deleted="false">
     <name>Company Background 2</name>
     <name xml:lang="de">Firmenhintergrund 2</name>
-    <filename>/usr/share/backgrounds/hream.jpg</filename>
+    <filename>/usr/share/backgrounds/windows10.jpg</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#ff0000</pcolor>
@@ -32,6 +32,15 @@
     <name>Company Background 4</name>
     <name xml:lang="de">Firmenhintergrund 4</name>
     <filename>/usr/share/backgrounds/windows7.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#ff0000</pcolor>
+    <scolor>#00ffff</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Company Background 4</name>
+    <name xml:lang="de">Firmenhintergrund 5</name>
+    <filename>/usr/share/backgrounds/windowsxp.jpg</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#ff0000</pcolor>

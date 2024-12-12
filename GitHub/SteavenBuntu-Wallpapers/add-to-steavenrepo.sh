@@ -3,9 +3,10 @@ rm -rf ~/ah
 mkdir ~/ah
 cp PKGBUILD ~/ah
 cp ah.jpg ~/ah
-cp hream.jpg ~/ah
+cp windows10.jpg ~/ah
 cp Steaven-wallpaper.jpg ~/ah
 cp windows7.jpg ~/ah
+cp windowsxp.jpg ~/ah
 cp wallpapers.xml ~/ah
 cd ~/ah
 makepkg -sr --sign
