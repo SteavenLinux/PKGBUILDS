@@ -1,12 +1,12 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
-pkgname=SteavenLinux-emulators-meta
+pkgname=SteavenLinux-Emulators-meta
 pkgver=2
 pkgrel=1
 arch=('any')
 pkgdesc='Meta package for Emulating Games including retroarch, duckstation, rpcs3, pcsx2, dolphin, cemu, ryujinx, suyu, and libretro cores'
 depends=(
-  'SteavenLinux-gaming-meta'
+  'SteavenLinux-Gaming-meta'
   'duckstation-qt-bin'
   'rpcs3-bin'
   'ryujinx'
