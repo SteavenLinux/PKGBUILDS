@@ -1,0 +1,89 @@
+# Maintainer: Maxime Gauduin <alucryd@archlinux.org>
+# Maintainer: Giancarlo Razzolini <grazzolini@archlinux.org>
+# Contributor: Samuel "scrufulufugus" Monson <smonson@irbash.net>
+# Contributor: PedroHLC <root@pedrohlc.com>
+
+pkgname=gamescope
+pkgver=100.d3174928
+pkgrel=1
+pkgdesc='Micro-compositor optimized for running video games on Wayland'
+arch=('x86_64')
+url="https://github.com/ValveSoftware/gamescope"
+license=('BSD')
+depends=(
+    'gcc-libs' 'glibc' 'libcap' 'libdecor' 'libdrm' 'libpipewire-0.3.so'
+    'libx11' 'libxcb' 'libxcomposite' 'libxcursor' 'libxdamage' 'libxext'
+    'libxfixes' 'libxi' 'libxkbcommon.so' 'libxmu' 'libxrender' 'libxres'
+    'libxtst' 'libxxf86vm' 'pixman' 'sdl2' 'seatd' 'systemd-libs'
+    'vulkan-icd-loader' 'wayland' 'xcb-util-errors' 'xcb-util-wm' 
+    'xorg-server-xwayland' 'lcms2' 'libavif' 'libei'
+)
+makedepends=(
+    'meson' 'ninja' 'cmake' 'git' 'glslang' 'vulkan-headers' 'wayland-protocols'
+    'benchmark' 'libliftoff' 'libxkbcommon' 'spirv-headers' 'glm' 'stb'
+)
+optdepends=('mesa-dri-drivers: OpenGL support'
+            'mesa-vulkan-drivers: Vulkan support')
+
+source=(
+    "git+https://github.com/ValveSoftware/gamescope.git#commit=d3174928"
+    "0001-cstdint.patch"
+    "740.patch"
+    "handheld.patch"
+    "stb.pc" # To satisfy dependency('stb')
+)
+b2sums=('SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP')
+
+prepare() {
+    cd gamescope
+    git submodule update --init --recursive
+    
+    # Apply patches
+    patch -p1 -i ../0001-cstdint.patch
+    patch -p1 -i ../740.patch
+    patch -p1 -i ../handheld.patch
+
+    # Replace spirv-headers include with system directory
+    sed -i 's^../thirdparty/SPIRV-Headers/include/spirv/^/usr/include/spirv/^' src/meson.build
+
+    mkdir -p pkgconfig
+    cp ../stb.pc pkgconfig/stb.pc
+}
+
+pkgver() {
+    cd gamescope
+    echo "100.$(git rev-parse --short HEAD)"
+}
+
+build() {
+    cd gamescope
+    export PKG_CONFIG_PATH="${srcdir}/pkgconfig"
+    arch-meson build \
+        --auto-features=enabled \
+        -Dforce_fallback_for=vkroots,wlroots,libliftoff
+    meson compile -C build
+}
+
+package() {
+    cd gamescope
+    DESTDIR="${pkgdir}" meson install -C build --skip-subprojects
+    
+    # Add capabilities
+    setcap 'cap_sys_nice=eip' "${pkgdir}/usr/bin/gamescope"
+    
+    # License and documentation
+    install -Dm 644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+    install -Dm 644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
+}
+
+package_gamescope-libs() {
+    pkgdesc="Libraries for gamescope"
+    depends=()
+
+    cd "${pkgdir}"
+    install -Dm 644 usr/lib/libVkLayer_FROG_gamescope_wsi_*.so "${pkgdir}/usr/lib/"
+    install -Dm 644 usr/share/vulkan/implicit_layer.d/VkLayer_FROG_gamescope_wsi.*.json \
+        "${pkgdir}/usr/share/vulkan/implicit_layer.d/"
+}
+
+# vim: ts=2 sw=2 et:
