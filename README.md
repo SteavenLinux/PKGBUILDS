@@ -39,7 +39,8 @@ This is the PKGBUILDS of the packages that you will find in SteavenLinux Repos.
 ### Not AUR
 
 - [**Xwayland**](https://github.com/SteavenLinux/PKGBUILDS/tree/main/GitHub/xorg-xwayland)
-  xXwayland patched with fix for locked fps on some systems.
+ 
+ Xwayland patched with fix for locked fps on some systems.
 
 - [**Ddci Driver Dkms**](https://github.com/SteavenLinux/PKGBUILDS/tree/main/GitHub/ddcci-driver-linux-dkms-git)  
   Kernel module providing advanced Display Data Channel Command Interface (DDCCI) functionality.
