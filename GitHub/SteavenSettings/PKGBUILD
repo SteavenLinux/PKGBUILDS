@@ -48,6 +48,7 @@ package() {
   install -Dm644 etc/systemd/system/battery_charge_threshold.service "$pkgdir/usr/lib/systemd/system/battery_charge_threshold.service"
   install -Dm644 etc/systemd/system/user@.service.d/99-reduce-time.conf "$pkgdir/usr/lib/systemd/user@.service.d/99-reduce-time.conf"
   install -Dm644 etc/systemd/system.conf.d/00-timeout.conf "$pkgdir/usr/lib/systemd/system.conf.d/00-timeout.conf"
+  install -Dm644 etc/systemd/zram-generator.conf "$pkgdir/usr/lib/systemd/zram-generator.conf"
   install -Dm644 etc/udev/rules.d/30-zram.rules "$pkgdir/usr/lib/udev/rules.d/30-zram.rules"
   install -Dm644 etc/udev/rules.d/40-hpet-permissions.rules "$pkgdir/usr/lib/udev/rules.d/40-hpet-permissions.rules"
   install -Dm644 etc/udev/rules.d/50-sata.rules "$pkgdir/usr/lib/udev/rules.d/50-sata.rules"
