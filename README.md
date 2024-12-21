@@ -11,27 +11,27 @@ This is the PKGBUILDS of the packages that you will find in SteavenLinux Repos.
 
 ### CachyOS
 
-- **CachyOS Proton**  
+- [**CachyOS Proton**](https://github.com/SteavenLinux/PKGBUILDS/tree/main/Repo/CachyOS)
   Custom Proton build optimized for performance on CachyOS.
 
 ### AUR
 
-- [**cef-minimal-obs-bin**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/cef-minimal-obs-bin.sh)  
+- [**cef-minimal-obs-bin**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/Repo/Aur/cef-minimal-obs-bin.sh)  
   Minimal version of cef with OBS compatibility for better integration with streaming software.
 
-- [**FFmpeg-obs**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/ffmpeg-obs.sh)  
+- [**FFmpeg-obs**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/Repo/Aur/ffmpeg-obs.sh)  
   FFmpeg build specifically tailored for OBS Studio to enhance video encoding features.
 
-- [**GitHub Desktop**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/github-desktop-bin.sh)  
+- [**GitHub Desktop**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/Repo/Aur/github-desktop-bin.sh)  
   Official GitHub Desktop for easier version control and GitHub repository management.
 
-- [**Heroic Games Launcher**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/heroic-games-launcher-bin.sh)  
+- [**Heroic Games Launcher**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/Repo/Aur/heroic-games-launcher-bin.sh)  
   Epic Games Store client for Linux that allows running Epic Games on Linux-based systems.
 
-- [**Obs Studio Tytan652**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/obs-studio-tytan652.sh)  
+- [**Obs Studio Tytan652**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/Repo/Aur/obs-studio-tytan652.sh)  
   Customized build of OBS Studio with additional performance tweaks.
 
-- [**Proton GE**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/proton-ge.sh)  
+- [**Proton GE**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/Repo/Aur/proton-ge.sh)  
   A popular version of Proton with additional patches for improved compatibility with Windows games.
 
 ## GitHub Repo (not to be confused with Repo)
