@@ -22,6 +22,7 @@ makedepends=(
     'meson' 'ninja' 'cmake' 'git' 'glslang' 'vulkan-headers' 'wayland-protocols'
     'benchmark' 'libliftoff' 'libxkbcommon' 'spirv-headers' 'glm' 'stb'
 )
+
 optdepends=('mesa-dri-drivers: OpenGL support'
             'mesa-vulkan-drivers: Vulkan support')
 
@@ -59,8 +60,9 @@ build() {
     cd gamescope
     export PKG_CONFIG_PATH="${srcdir}/pkgconfig"
     arch-meson build \
-        --auto-features=enabled \
-        -Dforce_fallback_for=vkroots,wlroots,libliftoff
+    --auto-features=enabled \
+    -Dforce_fallback_for=epoll-shim,stb,libdisplay-info,libliftoff,vkroots,wlroots \
+    -Dpipewire=enabled
     meson compile -C build
 }
 
