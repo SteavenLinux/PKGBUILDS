@@ -31,7 +31,7 @@ This is the PKGBUILDS of the packages that you will find in SteavenLinux Repos.
 - [**Obs Studio Tytan652**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/Repo/Aur/obs-studio-tytan652.sh)  
   Customized build of OBS Studio with additional performance tweaks.
 
-- [**Proton GE**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/Repo/Aur/proton-ge.sh)  
+- [**Proton GE**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/Repo/Aur/proton-ge-custom-bin.sh)  
   A popular version of Proton with additional patches for improved compatibility with Windows games.
 
 ## GitHub Repo (not to be confused with Repo)
@@ -64,42 +64,42 @@ This is the PKGBUILDS of the packages that you will find in SteavenLinux Repos.
 
 ## Chaotic AUR
 
-- [**Gamescope Git**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/ChaoticAUR/gamescope-git.sh)  
+- [**Gamescope Git**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Choatic-Aur/gamescope-git.sh)  
   The latest development build of Gamescope, providing cutting-edge features and improvements.
 
-- [**MangoHud Git**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/ChaoticAUR/mangohud-git.sh)  
+- [**MangoHud Git**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Choatic-Aur/mangohud.sh)  
   An advanced Vulkan and OpenGL overlay for monitoring frame rate, CPU, and GPU performance in real time.
 
-- [**Syncthing Tray Qt6**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/ChaoticAUR/syncthingtray-qt6.sh)  
+- [**Syncthing Tray Qt6**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Choatic-Aur/syncthingtray-qt6.sh)  
   A system tray app for Syncthing, built with Qt6 for improved compatibility and performance.
 
 ## AUR
 
-- [**Adwaita Qt Theme**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/adwaita-qt-theme.sh)  
+- [**Adwaita Qt Theme**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/adwaita-qt-git.sh)  
   A Qt5/Qt6 theme that provides the appearance of GNOME's Adwaita theme.
 
 - [**Cemu**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/cemu.sh)  
   A popular Wii U emulator for Linux with support for a wide range of games.
 
-- [**Chatterino2**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/chatterino2.sh)  
+- [**Chatterino2**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/chatterino2-appimage.sh)  
   An open-source IRC client designed for Twitch, with extensive functionality for streamers.
 
-- [**Duckstation Qt**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/duckstation-qt.sh)  
+- [**Duckstation Qt**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/duckstation-qt-bin.sh)  
   A PlayStation 1 emulator with high compatibility and a user-friendly interface.
 
-- [**DXVK**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/dxvk.sh)  
+- [**DXVK**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/dxvk-bin.sh)  
   DirectX to Vulkan translation layer to improve performance of Windows games running on Linux.
 
-- [**Some GNOME Extensions**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/gnome-extensions.sh)  
+- **Some GNOME Extensions** 
   A collection of useful GNOME Shell extensions for improved functionality and customizability.
 
-- [**Hyprland Screenshot Tool**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/hyprland-screenshot-tool.sh)  
+- [**Grimshot**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/grimshot.sh)  
   A screenshot tool specifically designed for the Hyprland Wayland compositor.
 
-- [**i3-like Experience for Hyprland**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/i3-hyprland.sh)  
+- [**hy3**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/hy3.sh)  
   A package that brings the i3 window manager's look and feel to Hyprland.
 
-- [**Adwaita Kvantum Theme**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/adwaita-kvantum-theme.sh)  
+- [**Adwaita Kvantum Theme**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/kvantum-theme-libadwaita-git.sh)  
   Adwaita-themed Kvantum engine for a native GTK appearance in Qt-based applications.
 
 - [**Legendary**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/legendary.sh)  
@@ -111,7 +111,7 @@ This is the PKGBUILDS of the packages that you will find in SteavenLinux Repos.
 - [**libajantv2**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/libajantv2.sh)  
   A library for enhanced media processing capabilities on Linux.
 
-- [**Moonlight Qt**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/moonlight-qt.sh)  
+- [**Moonlight Qt**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/moonlight-qt-bin.sh)  
   A cross-platform application for streaming games from your PC to another device using NVIDIA GameStream.
 
 - [**ncurses5 Compat Libs**](https://github.com/SteavenLinux/PKGBUILDS/blob/main/GitHub/Aur/ncurses5-compat-libs.sh)  
