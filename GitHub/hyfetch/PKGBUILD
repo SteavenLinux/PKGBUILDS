@@ -2,8 +2,8 @@
 # Contributor: Aleksana QWQ <me@aleksana.moe>
 
 pkgname=hyfetch
-pkgver=1.4.11
-pkgrel=3
+pkgver=1.99.0
+pkgrel=1
 pkgdesc="Neofetch with LGBTQ+ pride flags!"
 arch=('any')
 url='https://github.com/hykilpikonna/hyfetch'
@@ -12,7 +12,7 @@ depends=('python-setuptools' 'python-typing_extensions' 'lolcat')
 provides=("neofetch")
 conflicts=("neofetch")
 source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/${pkgver}.tar.gz" "neofetch" "config.conf" "steaven.txt")
-sha256sums=('79cd6706a681fa7c05754b35d9338abf96bebce222c27376a4155e94d6a5350d' 'SKIP' 'SKIP' 'SKIP')
+sha256sums=('c712a11a354b34a86c86e7b080ee5e63faa6db5b8a88a3ebea35ef67c33588fd' 'SKIP' 'SKIP' 'SKIP')
 
 build() {
 	cd "${pkgname}-${pkgver}"
