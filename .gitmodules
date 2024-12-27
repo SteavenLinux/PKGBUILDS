@@ -100,3 +100,30 @@
 [submodule "GitHub/Aur/grimshot"]
 	path = GitHub/Aur/grimshot
 	url = https://aur.archlinux.org/grimshot.git
+[submodule "GitHub/Aur/amdgpu_top-bin"]
+	path = GitHub/Aur/amdgpu_top-bin
+	url = https://aur.archlinux.org/amdgpu_top-bin.git
+[submodule "GitHub/Aur/anydesk-bin"]
+	path = GitHub/Aur/anydesk-bin
+	url = https://aur.archlinux.org/anydesk-bin.git
+[submodule "GitHub/Aur/betterdiscordctl"]
+	path = GitHub/Aur/betterdiscordctl
+	url = https://aur.archlinux.org/betterdiscordctl.git
+[submodule "GitHub/Aur/mprime-bin"]
+	path = GitHub/Aur/mprime-bin
+	url = https://aur.archlinux.org/mprime-bin.git
+[submodule "GitHub/Aur/qownnotes"]
+	path = GitHub/Aur/qownnotes
+	url = https://aur.archlinux.org/qownnotes.git
+[submodule "GitHub/Aur/qtforkawesome-qt6"]
+	path = GitHub/Aur/qtforkawesome-qt6
+	url = https://aur.archlinux.org/qtforkawesome-qt6.git
+[submodule "GitHub/Aur/udev-joystick-blacklist-git"]
+	path = GitHub/Aur/udev-joystick-blacklist-git
+	url = https://aur.archlinux.org/udev-joystick-blacklist-git.git
+[submodule "GitHub/Aur/rate-mirrors-bin"]
+	path = GitHub/Aur/rate-mirrors-bin
+	url = https://aur.archlinux.org/rate-mirrors-bin.git
+[submodule "GitHub/Aur/steamgrid"]
+	path = GitHub/Aur/steamgrid
+	url = https://aur.archlinux.org/steamgrid.git
