@@ -127,3 +127,27 @@
 [submodule "GitHub/Aur/steamgrid"]
 	path = GitHub/Aur/steamgrid
 	url = https://aur.archlinux.org/steamgrid.git
+[submodule "GitHub/Aur/libstrangle-git"]
+	path = GitHub/Aur/libstrangle-git
+	url = https://aur.archlinux.org/libstrangle-git.git
+[submodule "GitHub/Aur/python-pyclip"]
+	path = GitHub/Aur/python-pyclip
+	url = https://aur.archlinux.org/python-pyclip.git
+[submodule "GitHub/Aur/sunshine-bin"]
+	path = GitHub/Aur/sunshine-bin
+	url = https://aur.archlinux.org/sunshine-bin.git
+[submodule "GitHub/Aur/waydroid-helper-git"]
+	path = GitHub/Aur/waydroid-helper-git
+	url = https://aur.archlinux.org/waydroid-helper-git.git
+[submodule "GitHub/Aur/whitesur-cursor-theme-git"]
+	path = GitHub/Aur/whitesur-cursor-theme-git
+	url = https://aur.archlinux.org/whitesur-cursor-theme-git.git
+[submodule "GitHub/Aur/game-devices-udev"]
+	path = GitHub/Aur/game-devices-udev
+	url = https://aur.archlinux.org/game-devices-udev.git
+[submodule "GitHub/Aur/bindfs"]
+	path = GitHub/Aur/bindfs
+	url = https://aur.archlinux.org/bindfs.git
+[submodule "GitHub/Aur/input-remapper-git"]
+	path = GitHub/Aur/input-remapper-git
+	url = https://aur.archlinux.org/input-remapper-git.git
