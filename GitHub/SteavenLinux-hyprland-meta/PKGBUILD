@@ -10,7 +10,7 @@ depends=(pipewire pipewire-jack pipewire-alsa pipewire-pulse wireplumber alsa-ut
          networkmanager network-manager-applet
          xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-hyprland xdg-desktop-portal-gtk
          hyprland hypridle hyprlock hy3 swaylock-effects swaync swaybg
-         polkit-gnome kitty grim wlsunset waybar rofi-wayland mpv
+         polkit-gnome kitty grim wlsunset waybar rofi-wayland mpv wl-clipboard wl-clip-persist
          nwg-displays jq grimblast-git
          lxappearance qt5ct qt6ct 
          nemo nemo-fileroller tumbler webp-pixbuf-loader poppler-glib ffmpegthumbnailer freetype2 libgsf evince

@@ -1,7 +1,7 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
 pkgname=SteavenLinux-sway-meta
-pkgver=2
+pkgver=3
 pkgrel=1
 arch=(any)
 pkgdesc=Meta package install Sway
@@ -11,7 +11,7 @@ depends=(pipewire pipewire-jack pipewire-alsa pipewire-pulse wireplumber alsa-ut
          xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-gtk
          sway swayidle swaylock-effects swaync swaybg
          polkit-gnome kitty grim wlsunset waybar rofi-wayland mpv
-         nwg-displays jq cliphist wl-clipboard grimshot
+         nwg-displays jq cliphist wl-clipboard wl-clip-persist grimshot
          lxappearance qt5ct qt6ct 
          nemo nemo-fileroller tumbler webp-pixbuf-loader poppler-glib ffmpegthumbnailer freetype2 libgsf evince
          gvfs-mtp gvfs-gphoto2 gvfs-afc
