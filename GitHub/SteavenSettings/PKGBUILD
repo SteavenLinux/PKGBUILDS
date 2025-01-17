@@ -11,9 +11,8 @@ depends=('git')
 makedepends=('git')
 source=(
   "steavensettings::git+https://github.com/steavenlinux/steavensettings.git"
-  "archsettings::git+https://github.com/steavenlinux/archsettings.git"
 )
-sha256sums=('SKIP' 'SKIP')
+sha256sums=('SKIP')
 
 pkgver() {
   cd "$srcdir/steavensettings"
@@ -62,9 +61,5 @@ package() {
   install -Dm644 etc/chrony.conf "$pkgdir/etc/chrony.conf"
   install -Dm644 etc/polkit-1/rules.d/99-shutdown-reboot.rules "$pkgdir/etc/polkit-1/rules.d/99-shutdown-reboot.rules"
   install -Dm644 etc/polkit-1/rules.d/90-flatpak.rules "$pkgdir/etc/polkit-1/rules.d/90-flatapk.rules"
-
-  # Install files from archsettings
-  cd "$srcdir/archsettings"
-  install -Dm644 etc/makepkg.conf.d/use-all-cores.conf "$pkgdir/etc/makepkg.conf.d/use-all-cores.conf"
 
 }

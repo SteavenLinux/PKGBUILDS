@@ -37,9 +37,6 @@
 [submodule "GitHub/Aur/rpcs3-bin"]
 	path = GitHub/Aur/rpcs3-bin
 	url = https://aur.archlinux.org/rpcs3-bin.git
-[submodule "GitHub/Aur/syncthingtray-qt6"]
-	path = GitHub/Aur/syncthingtray-qt6
-	url = https://aur.archlinux.org/syncthingtray-qt6.git
 [submodule "Repo/Aur/github-desktop-bin"]
 	path = Repo/Aur/github-desktop-bin
 	url = https://aur.archlinux.org/github-desktop-bin.git

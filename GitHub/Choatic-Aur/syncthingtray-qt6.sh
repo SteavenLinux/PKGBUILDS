@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="1.6.4-1"
+VERSION="1.7.1-1"
 
 rm -rf ~/ah
 mkdir ~/ah

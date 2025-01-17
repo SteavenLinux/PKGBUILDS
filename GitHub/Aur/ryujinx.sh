@@ -2,9 +2,7 @@
 rm -rf ~/ah
 mkdir ~/ah
 cp Ryujinx/PKGBUILD ~/ah
-cp Ryujinx/PKGBUILD.canary ~/ah
 cp Ryujinx/PKGBUILD.common ~/ah
-cp Ryujinx/PKGBUILD.git ~/ah
 cp Ryujinx/PKGBUILD.release ~/ah
 cd ~/ah
 makepkg -sr --sign
