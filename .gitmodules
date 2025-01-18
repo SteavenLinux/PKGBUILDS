@@ -148,3 +148,21 @@
 [submodule "GitHub/Aur/input-remapper-git"]
 	path = GitHub/Aur/input-remapper-git
 	url = https://aur.archlinux.org/input-remapper-git.git
+[submodule "GitHub/Aur/zenergy-dkms-git"]
+	path = GitHub/Aur/zenergy-dkms-git
+	url = https://aur.archlinux.org/zenergy-dkms-git.git
+[submodule "GitHub/Aur/coolercontrold-bin"]
+	path = GitHub/Aur/coolercontrold-bin
+	url = https://aur.archlinux.org/coolercontrold-bin.git
+[submodule "GitHub/Aur/coolercontrol-bin"]
+	path = GitHub/Aur/coolercontrol-bin
+	url = https://aur.archlinux.org/coolercontrol-bin.git
+[submodule "GitHub/Aur/coolercontrol-liqctld"]
+	path = GitHub/Aur/coolercontrol-liqctld
+	url = https://aur.archlinux.org/coolercontrol-liqctld.git
+[submodule "GitHub/Aur/papirus-folders"]
+	path = GitHub/Aur/papirus-folders
+	url = https://aur.archlinux.org/papirus-folders.git
+[submodule "GitHub/Aur/asusctl"]
+	path = GitHub/Aur/asusctl
+	url = https://aur.archlinux.org/asusctl.git
