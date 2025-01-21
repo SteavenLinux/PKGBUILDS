@@ -166,3 +166,6 @@
 [submodule "GitHub/Aur/asusctl"]
 	path = GitHub/Aur/asusctl
 	url = https://aur.archlinux.org/asusctl.git
+[submodule "GitHub/Aur/looking-glass-git"]
+	path = GitHub/Aur/looking-glass-git
+	url = https://aur.archlinux.org/looking-glass-git.git
