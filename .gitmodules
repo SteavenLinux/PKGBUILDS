@@ -169,3 +169,9 @@
 [submodule "GitHub/Aur/looking-glass-git"]
 	path = GitHub/Aur/looking-glass-git
 	url = https://aur.archlinux.org/looking-glass-git.git
+[submodule "Repo/Aur/dotnet-sdk-bin"]
+	path = Repo/Aur/dotnet-sdk-bin
+	url = https://aur.archlinux.org/dotnet-core-bin.git
+[submodule "Repo/Aur/dotnet-runtime-bin"]
+	path = Repo/Aur/dotnet-runtime-bin
+	url = https://aur.archlinux.org/dotnet-runtime-bin.git
