@@ -175,3 +175,6 @@
 [submodule "Repo/Aur/dotnet-runtime-bin"]
 	path = Repo/Aur/dotnet-runtime-bin
 	url = https://aur.archlinux.org/dotnet-runtime-bin.git
+[submodule "GitHub/Aur/lact"]
+	path = GitHub/Aur/lact
+	url = https://aur.archlinux.org/lact.git
