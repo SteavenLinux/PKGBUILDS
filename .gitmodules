@@ -184,3 +184,6 @@
 [submodule "GitHub/Aur/grimblast-git"]
 	path = GitHub/Aur/grimblast-git
 	url = https://aur.archlinux.org/grimblast-git.git
+[submodule "GitHub/Aur/uwsm"]
+	path = GitHub/Aur/uwsm
+	url = https://aur.archlinux.org/uwsm.git
