@@ -1,7 +1,7 @@
 #!/bin/bash
 
-VERSION="6.12.10-1"
-VERSIONLTS="6.6.72-1"
+VERSION="6.13-1"
+VERSIONLTS="6.12.11-1"
 
 rm -rf ~/ah
 mkdir ~/ah

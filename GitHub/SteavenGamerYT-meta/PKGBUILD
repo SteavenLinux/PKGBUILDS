@@ -1,8 +1,12 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
 pkgname=SteavenGamerYT-meta
-pkgver=1
+pkgver=2
 pkgrel=1
 arch=('any')
 pkgdesc='Meta package install SteavenGamerYT Packages'
-depends=(trash-cli atuin eza fastfetch hyfetch wget unzip unrar kitty zoxide nano bash-completion git github-cli bash-preexec starship yt-dlp xorg-xlsclients ffmpeg distrobox mangohud lib32-mangohud gamemode lib32-gamemode wine-staging wine-gecko wine-mono winetricks vulkan-tools)
+depends=(trash-cli atuin eza fastfetch hyfetch wget unzip unrar kitty zoxide nano bash-completion git github-cli bash-preexec starship yt-dlp xorg-xlsclients ffmpeg distrobox mangohud lib32-mangohud gamemode lib32-gamemode wine-staging wine-gecko wine-mono winetricks vulkan-tools
+         noto-fonts noto-fonts-cjk noto-fonts-emoji
+         ttf-roboto ttf-roboto-mono ttf-roboto-mono-nerd
+         ttf-fira-code otf-firamono-nerd ttf-firacode-nerd
+         ttf-croscore)
