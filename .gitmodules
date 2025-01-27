@@ -181,3 +181,6 @@
 [submodule "GitHub/Aur/swaylock-effects"]
 	path = GitHub/Aur/swaylock-effects
 	url = https://aur.archlinux.org/swaylock-effects.git
+[submodule "GitHub/Aur/grimblast-git"]
+	path = GitHub/Aur/grimblast-git
+	url = https://aur.archlinux.org/grimblast-git.git
