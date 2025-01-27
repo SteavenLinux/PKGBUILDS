@@ -3,6 +3,7 @@ rm -rf ~/ah
 mkdir ~/ah
 cp sunshine-bin/PKGBUILD ~/ah
 cp sunshine-bin/Makefile ~/ah
+cp sunshine-bin/sunshine.install ~/ah
 cd ~/ah
 makepkg -sr --sign
 rm -rf /home/omarhanykasban/GitHub/SteavenLinux/SteavenRepo/x86_64/sunshine-bin*.pkg.tar.zst
