@@ -178,3 +178,6 @@
 [submodule "GitHub/Aur/lact"]
 	path = GitHub/Aur/lact
 	url = https://aur.archlinux.org/lact.git
+[submodule "GitHub/Aur/swaylock-effects"]
+	path = GitHub/Aur/swaylock-effects
+	url = https://aur.archlinux.org/swaylock-effects.git
