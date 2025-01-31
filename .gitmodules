@@ -193,3 +193,6 @@
 [submodule "GitHub/Aur/python-ioctl-opt"]
 	path = GitHub/Aur/python-ioctl-opt
 	url = https://aur.archlinux.org/python-ioctl-opt.git
+[submodule "GitHub/Aur/sunshine"]
+	path = GitHub/Aur/sunshine
+	url = https://aur.archlinux.org/sunshine.git
