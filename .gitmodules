@@ -187,3 +187,9 @@
 [submodule "GitHub/Aur/uwsm"]
 	path = GitHub/Aur/uwsm
 	url = https://aur.archlinux.org/uwsm.git
+[submodule "GitHub/Aur/sc-controller-git"]
+	path = GitHub/Aur/sc-controller-git
+	url = https://aur.archlinux.org/sc-controller-git.git
+[submodule "GitHub/Aur/python-ioctl-opt"]
+	path = GitHub/Aur/python-ioctl-opt
+	url = https://aur.archlinux.org/python-ioctl-opt.git
