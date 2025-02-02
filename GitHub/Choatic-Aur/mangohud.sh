@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="0.7.2.r146.g0575c8e-1"
+VERSION="0.8.0.r1.gdf950f5-1"
 
 rm -rf ~/ah
 mkdir ~/ah
