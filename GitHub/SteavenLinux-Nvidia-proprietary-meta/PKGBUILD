@@ -5,7 +5,7 @@ pkgver=1
 pkgrel=1
 arch=('any')
 pkgdesc='Meta package install Nvidia Drivers'
-depends=('linux-cachyos-nvidia' 'nvidia-utils' 'opencl-nvidia' 'nvidia-settings' 
+depends=('nvidia-dkms' 'nvidia-utils' 'opencl-nvidia' 'nvidia-settings' 
          'libva-nvidia-driver'
          'lib32-nvidia-utils' 'lib32-opencl-nvidia')
-conflicts=('SteavenLinux-Nvidia-open-meta' 'linux-cachyos-nvidia-open')
+conflicts=('SteavenLinux-Nvidia-open-meta' 'nvidia-dkms-open')
