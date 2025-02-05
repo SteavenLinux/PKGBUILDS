@@ -196,3 +196,6 @@
 [submodule "GitHub/Aur/sunshine"]
 	path = GitHub/Aur/sunshine
 	url = https://aur.archlinux.org/sunshine.git
+[submodule "Repo/Aur/amdgpu-pro"]
+	path = Repo/Aur/amdgpu-pro
+	url = https://aur.archlinux.org/amdgpu-pro-installer.git
