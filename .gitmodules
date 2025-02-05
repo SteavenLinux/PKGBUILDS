@@ -199,3 +199,6 @@
 [submodule "Repo/Aur/amdgpu-pro"]
 	path = Repo/Aur/amdgpu-pro
 	url = https://aur.archlinux.org/amdgpu-pro-installer.git
+[submodule "GitHub/Aur/supergfxctl"]
+	path = GitHub/Aur/supergfxctl
+	url = https://aur.archlinux.org/supergfxctl.git
