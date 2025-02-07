@@ -202,3 +202,9 @@
 [submodule "GitHub/Aur/supergfxctl"]
 	path = GitHub/Aur/supergfxctl
 	url = https://aur.archlinux.org/supergfxctl.git
+[submodule "Repo/Aur/davinci-resolve-studio"]
+	path = Repo/Aur/davinci-resolve-studio
+	url = https://aur.archlinux.org/davinci-resolve-studio.git
+[submodule "Repo/Aur/freedownloadmanager"]
+	path = Repo/Aur/freedownloadmanager
+	url = https://aur.archlinux.org/freedownloadmanager.git

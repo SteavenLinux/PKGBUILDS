@@ -40,6 +40,7 @@ package() {
   install -Dm644 etc/modprobe.d/v4l2loopback.conf "$pkgdir/usr/lib/modprobe.d/v4l2loopback.conf"
   install -Dm644 etc/modules-load.d/kvmfr.conf "$pkgdir/usr/lib/modules-load.d/kvmfr.conf"
   install -Dm644 etc/modules-load.d/v4l2loopback.conf "$pkgdir/usr/lib/modules-load.d/v4l2loopback.conf"
+  install -Dm644 etc/modules-load.d/ntsync.conf "$pkgdir/usr/lib/modules-load.d/ntsync.conf"  
   install -Dm644 etc/NetworkManager/conf.d/default-wifi-powersave-on.conf "$pkgdir/usr/lib/NetworkManager/conf.d/default-wifi-powersave-on.conf"
   install -Dm644 etc/sysctl.d/80-gamecompatibility.conf "$pkgdir/usr/lib/sysctl.d/80-gamecompatibility.conf"
   install -Dm644 etc/systemd/timesyncd.conf.d/timesyncd.conf "$pkgdir/usr/lib/systemd/timesyncd.conf.d/timesyncd.conf"
