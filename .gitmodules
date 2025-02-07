@@ -208,3 +208,6 @@
 [submodule "Repo/Aur/freedownloadmanager"]
 	path = Repo/Aur/freedownloadmanager
 	url = https://aur.archlinux.org/freedownloadmanager.git
+[submodule "GitHub/Aur/asusctl-git"]
+	path = GitHub/Aur/asusctl-git
+	url = https://aur.archlinux.org/asusctl-git.git
