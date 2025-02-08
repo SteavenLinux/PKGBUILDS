@@ -211,3 +211,9 @@
 [submodule "GitHub/Aur/asusctl-git"]
 	path = GitHub/Aur/asusctl-git
 	url = https://aur.archlinux.org/asusctl-git.git
+[submodule "GitHub/Aur/syncthingtray-qt6"]
+	path = GitHub/Aur/syncthingtray-qt6
+	url = https://aur.archlinux.org/syncthingtray-qt6.git
+[submodule "GitHub/Aur/c++utilities"]
+	path = GitHub/Aur/c++utilities
+	url = https://aur.archlinux.org/c++utilities.git
