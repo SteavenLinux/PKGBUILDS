@@ -1,7 +1,7 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
 pkgname=SteavenGamerYT-meta
-pkgver=5
+pkgver=6
 pkgrel=1
 arch=('any')
 pkgdesc='Meta package install SteavenGamerYT Packages'
@@ -10,4 +10,4 @@ depends=(trash-cli atuin eza fastfetch hyfetch wget unzip unrar kitty zoxide nan
          ttf-roboto ttf-roboto-mono ttf-roboto-mono-nerd
          ttf-fira-code otf-firamono-nerd ttf-firacode-nerd
          ttf-croscore docker docker-compose pipewire-zeroconf
-	 sc-controller)
+	 sc-controller waydroid)
