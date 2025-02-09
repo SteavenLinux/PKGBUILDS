@@ -217,3 +217,6 @@
 [submodule "GitHub/Aur/c++utilities"]
 	path = GitHub/Aur/c++utilities
 	url = https://aur.archlinux.org/c++utilities.git
+[submodule "GitHub/Aur/shell-color-scripts-git"]
+	path = GitHub/Aur/shell-color-scripts-git
+	url = https://aur.archlinux.org/shell-color-scripts-git.git
