@@ -1,7 +1,7 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
 pkgname=SteavenLinux-kvm-meta
-pkgver=1
+pkgver=2
 pkgrel=1
 arch=(any)
 pkgdesc="Meta package to install KVM and related tools"
@@ -10,6 +10,8 @@ depends=(qemu-desktop
          edk2-ovmf
          virt-manager
          dnsmasq
+         looking-glass-git
+         looking-glass-module-dkms-git
 )
 post_install() {
   sed -i 's/#unix_sock_group = "libvirt"/unix_sock_group = "libvirt"/g' /etc/libvirt/libvirtd.conf
