@@ -97,9 +97,6 @@
 [submodule "Repo/Aur/dotnet-sdk-bin"]
 	path = Repo/Aur/dotnet-sdk-bin
 	url = https://aur.archlinux.org/dotnet-core-bin.git
-[submodule "GitHub/Aur/uwsm"]
-	path = GitHub/Aur/uwsm
-	url = https://aur.archlinux.org/uwsm.git
 [submodule "GitHub/Aur/sc-controller-git"]
 	path = GitHub/Aur/sc-controller-git
 	url = https://aur.archlinux.org/sc-controller-git.git
