@@ -28,9 +28,6 @@
 [submodule "Repo/Aur/github-desktop-bin"]
 	path = Repo/Aur/github-desktop-bin
 	url = https://aur.archlinux.org/github-desktop-bin.git
-[submodule "Repo/Aur/heroic-games-launcher-bin"]
-	path = Repo/Aur/heroic-games-launcher-bin
-	url = https://aur.archlinux.org/heroic-games-launcher-bin.git
 [submodule "Repo/Aur/proton-ge-custom-bin"]
 	path = Repo/Aur/proton-ge-custom-bin
 	url = https://aur.archlinux.org/proton-ge-custom-bin.git
@@ -130,9 +127,6 @@
 [submodule "Repo/Aur/dotnet-sdk-bin"]
 	path = Repo/Aur/dotnet-sdk-bin
 	url = https://aur.archlinux.org/dotnet-core-bin.git
-[submodule "Repo/Aur/dotnet-runtime-bin"]
-	path = Repo/Aur/dotnet-runtime-bin
-	url = https://aur.archlinux.org/dotnet-runtime-bin.git
 [submodule "GitHub/Aur/uwsm"]
 	path = GitHub/Aur/uwsm
 	url = https://aur.archlinux.org/uwsm.git
@@ -151,9 +145,6 @@
 [submodule "Repo/Aur/davinci-resolve-studio"]
 	path = Repo/Aur/davinci-resolve-studio
 	url = https://aur.archlinux.org/davinci-resolve-studio.git
-[submodule "Repo/Aur/freedownloadmanager"]
-	path = Repo/Aur/freedownloadmanager
-	url = https://aur.archlinux.org/freedownloadmanager.git
 [submodule "GitHub/Aur/asusctl-git"]
 	path = GitHub/Aur/asusctl-git
 	url = https://aur.archlinux.org/asusctl-git.git
