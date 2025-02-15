@@ -25,9 +25,6 @@
 [submodule "GitHub/Aur/noto-fonts-ar"]
 	path = GitHub/Aur/noto-fonts-ar
 	url = https://aur.archlinux.org/noto-fonts-ar.git
-[submodule "GitHub/Aur/protontricks"]
-	path = GitHub/Aur/protontricks
-	url = https://aur.archlinux.org/protontricks.git
 [submodule "GitHub/Aur/python-vdf"]
 	path = GitHub/Aur/python-vdf
 	url = https://aur.archlinux.org/python-vdf.git
@@ -127,9 +124,6 @@
 [submodule "GitHub/Aur/python-pyclip"]
 	path = GitHub/Aur/python-pyclip
 	url = https://aur.archlinux.org/python-pyclip.git
-[submodule "GitHub/Aur/sunshine-bin"]
-	path = GitHub/Aur/sunshine-bin
-	url = https://aur.archlinux.org/sunshine-bin.git
 [submodule "GitHub/Aur/waydroid-helper-git"]
 	path = GitHub/Aur/waydroid-helper-git
 	url = https://aur.archlinux.org/waydroid-helper-git.git
@@ -190,9 +184,6 @@
 [submodule "GitHub/Aur/python-ioctl-opt"]
 	path = GitHub/Aur/python-ioctl-opt
 	url = https://aur.archlinux.org/python-ioctl-opt.git
-[submodule "GitHub/Aur/sunshine"]
-	path = GitHub/Aur/sunshine
-	url = https://aur.archlinux.org/sunshine.git
 [submodule "Repo/Aur/amdgpu-pro"]
 	path = Repo/Aur/amdgpu-pro
 	url = https://aur.archlinux.org/amdgpu-pro-installer.git
