@@ -13,18 +13,12 @@
 [submodule "GitHub/Aur/legendary"]
 	path = GitHub/Aur/legendary
 	url = https://aur.archlinux.org/legendary.git
-[submodule "GitHub/Aur/lib32-lzo"]
-	path = GitHub/Aur/lib32-lzo
-	url = https://aur.archlinux.org/lib32-lzo.git
 [submodule "GitHub/Aur/libajantv2"]
 	path = GitHub/Aur/libajantv2
 	url = https://aur.archlinux.org/libajantv2.git
 [submodule "GitHub/Aur/noto-fonts-ar"]
 	path = GitHub/Aur/noto-fonts-ar
 	url = https://aur.archlinux.org/noto-fonts-ar.git
-[submodule "GitHub/Aur/python-vdf"]
-	path = GitHub/Aur/python-vdf
-	url = https://aur.archlinux.org/python-vdf.git
 [submodule "GitHub/Aur/qtutilities-qt6"]
 	path = GitHub/Aur/qtutilities-qt6
 	url = https://aur.archlinux.org/qtutilities-qt6.git
@@ -40,9 +34,6 @@
 [submodule "Repo/Aur/proton-ge-custom-bin"]
 	path = Repo/Aur/proton-ge-custom-bin
 	url = https://aur.archlinux.org/proton-ge-custom-bin.git
-[submodule "Repo/Aur/cef-minimal-obs-bin"]
-	path = Repo/Aur/cef-minimal-obs-bin
-	url = https://aur.archlinux.org/cef-minimal-obs-bin.git
 [submodule "Repo/Aur/ffmpeg-obs"]
 	path = Repo/Aur/ffmpeg-obs
 	url = https://aur.archlinux.org/ffmpeg-obs.git
@@ -64,9 +55,6 @@
 [submodule "GitHub/Aur/gnome-shell-extension-blur-my-shell"]
 	path = GitHub/Aur/gnome-shell-extension-blur-my-shell
 	url = https://aur.archlinux.org/gnome-shell-extension-blur-my-shell.git
-[submodule "GitHub/Aur/gnome-shell-extension-dash-to-dock"]
-	path = GitHub/Aur/gnome-shell-extension-dash-to-dock
-	url = https://aur.archlinux.org/gnome-shell-extension-dash-to-dock.git
 [submodule "GitHub/Aur/gnome-shell-extension-legacy-theme-auto-switcher-git"]
 	path = GitHub/Aur/gnome-shell-extension-legacy-theme-auto-switcher-git
 	url = https://aur.archlinux.org/gnome-shell-extension-legacy-theme-auto-switcher-git.git
