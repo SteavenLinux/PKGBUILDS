@@ -73,9 +73,6 @@
 [submodule "GitHub/Aur/kvantum-theme-libadwaita-git"]
 	path = GitHub/Aur/kvantum-theme-libadwaita-git
 	url = https://aur.archlinux.org/kvantum-theme-libadwaita-git.git
-[submodule "GitHub/Aur/adwaita-qt-git"]
-	path = GitHub/Aur/adwaita-qt-git
-	url = https://aur.archlinux.org/adwaita-qt-git.git
 [submodule "GitHub/Aur/gnome-shell-extension-alphabetical-grid-extension"]
 	path = GitHub/Aur/gnome-shell-extension-alphabetical-grid-extension
 	url = https://aur.archlinux.org/gnome-shell-extension-alphabetical-grid-extension.git
