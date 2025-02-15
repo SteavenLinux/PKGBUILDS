@@ -19,9 +19,6 @@
 [submodule "GitHub/Aur/libajantv2"]
 	path = GitHub/Aur/libajantv2
 	url = https://aur.archlinux.org/libajantv2.git
-[submodule "GitHub/Aur/ncurses5-compat-libs"]
-	path = GitHub/Aur/ncurses5-compat-libs
-	url = https://aur.archlinux.org/ncurses5-compat-libs.git
 [submodule "GitHub/Aur/noto-fonts-ar"]
 	path = GitHub/Aur/noto-fonts-ar
 	url = https://aur.archlinux.org/noto-fonts-ar.git
@@ -52,9 +49,6 @@
 [submodule "Repo/Aur/obs-studio-tytan652"]
 	path = Repo/Aur/obs-studio-tytan652
 	url = https://aur.archlinux.org/obs-studio-tytan652.git
-[submodule "GitHub/Aur/vlc-luajit"]
-	path = GitHub/Aur/vlc-luajit
-	url = https://aur.archlinux.org/vlc-luajit.git
 [submodule "GitHub/Aur/duckstation-qt-bin"]
 	path = GitHub/Aur/duckstation-qt-bin
 	url = https://aur.archlinux.org/duckstation-qt-bin.git
@@ -64,12 +58,6 @@
 [submodule "GitHub/Aur/retroarch-autoconfig-udev-git"]
 	path = GitHub/Aur/retroarch-autoconfig-udev-git
 	url = https://aur.archlinux.org/retroarch-autoconfig-udev-git.git
-[submodule "GitHub/Aur/Ryujinx"]
-	path = GitHub/Aur/Ryujinx
-	url = https://aur.archlinux.org/ryujinx.git
-[submodule "GitHub/Aur/kvantum-theme-libadwaita-git"]
-	path = GitHub/Aur/kvantum-theme-libadwaita-git
-	url = https://aur.archlinux.org/kvantum-theme-libadwaita-git.git
 [submodule "GitHub/Aur/gnome-shell-extension-alphabetical-grid-extension"]
 	path = GitHub/Aur/gnome-shell-extension-alphabetical-grid-extension
 	url = https://aur.archlinux.org/gnome-shell-extension-alphabetical-grid-extension.git
@@ -142,15 +130,6 @@
 [submodule "GitHub/Aur/zenergy-dkms-git"]
 	path = GitHub/Aur/zenergy-dkms-git
 	url = https://aur.archlinux.org/zenergy-dkms-git.git
-[submodule "GitHub/Aur/coolercontrold-bin"]
-	path = GitHub/Aur/coolercontrold-bin
-	url = https://aur.archlinux.org/coolercontrold-bin.git
-[submodule "GitHub/Aur/coolercontrol-bin"]
-	path = GitHub/Aur/coolercontrol-bin
-	url = https://aur.archlinux.org/coolercontrol-bin.git
-[submodule "GitHub/Aur/coolercontrol-liqctld"]
-	path = GitHub/Aur/coolercontrol-liqctld
-	url = https://aur.archlinux.org/coolercontrol-liqctld.git
 [submodule "GitHub/Aur/papirus-folders"]
 	path = GitHub/Aur/papirus-folders
 	url = https://aur.archlinux.org/papirus-folders.git
@@ -166,15 +145,6 @@
 [submodule "Repo/Aur/dotnet-runtime-bin"]
 	path = Repo/Aur/dotnet-runtime-bin
 	url = https://aur.archlinux.org/dotnet-runtime-bin.git
-[submodule "GitHub/Aur/lact"]
-	path = GitHub/Aur/lact
-	url = https://aur.archlinux.org/lact.git
-[submodule "GitHub/Aur/swaylock-effects"]
-	path = GitHub/Aur/swaylock-effects
-	url = https://aur.archlinux.org/swaylock-effects.git
-[submodule "GitHub/Aur/grimblast-git"]
-	path = GitHub/Aur/grimblast-git
-	url = https://aur.archlinux.org/grimblast-git.git
 [submodule "GitHub/Aur/uwsm"]
 	path = GitHub/Aur/uwsm
 	url = https://aur.archlinux.org/uwsm.git
