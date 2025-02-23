@@ -1,0 +1,60 @@
+# Maintainer: omarhanykasban <omarhanykasban706@gmail.com>
+
+pkgname=SteavenCachyosSettings
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="CachyOS's Arch Linux Settings"
+arch=('any')
+url="https://github.com/steavenlinux/SteavenCachyosSettings"
+license=('MIT')
+depends=('git' 'SteavenSettings' 'cachyos-ananicy-rules' 'inxi' 'systemd>=256')
+makedepends=('git')
+conflicts=('cachyos-settings')
+optdepends=('SteavenSettingsExtra'
+            'libluv: for topmem'
+            'lua-luv: for topmem'
+            'power-profiles-daemon: For game-performance')
+
+source=(
+  "SteavenCachyosSettings::git+https://github.com/steavenlinux/SteavenCachyosSettings.git"
+)
+sha256sums=('SKIP')
+
+pkgver() {
+  cd "$srcdir/SteavenCachyosSettings"
+  git rev-parse --short HEAD
+}
+
+package() {
+  # Install files from SteavenCachyosSettings
+  cd "$srcdir/SteavenCachyosSettings"
+  install -Dm755 usr/bin/amdpstate-guided "$pkgdir/usr/bin/amdpstate-guided"
+  install -Dm755 usr/bin/cachyos-bugreport.sh "$pkgdir/usr/bin/cachyos-bugreport.sh"
+  install -Dm755 usr/bin/game-performance "$pkgdir/usr/bin/game-performance"
+  install -Dm755 usr/bin/kerver "$pkgdir/usr/bin/kerver"
+  install -Dm755 usr/bin/paste-cachyos "$pkgdir/usr/bin/paste-cachyos"
+  install -Dm755 usr/bin/pci-latency "$pkgdir/usr/bin/pci-latency"
+  install -Dm755 usr/bin/sbctl-batch-sign "$pkgdir/usr/bin/sbctl-batch-sign"
+  install -Dm755 usr/bin/topmem "$pkgdir/usr/bin/topmem"
+  install -Dm644 etc/NetworkManager/conf.d/dns.conf "$pkgdir/usr/lib/NetworkManager/conf.d/dns.conf"
+  install -Dm644 etc/modprobe.d/blacklist.conf "$pkgdir/usr/lib/modprobe.d/blacklist.conf"
+  install -Dm644 etc/modprobe.d/nvidia.conf "$pkgdir/usr/lib/modprobe.d/nvidia-cachyos.conf"
+  install -Dm644 etc/sysctl.d/99-bore-scheduler.conf "$pkgdir/usr/lib/sysctl.d/99-bore-scheduler.conf"
+  install -Dm644 etc/sysctl.d/99-cachyos-settings.conf "$pkgdir/usr/lib/sysctl.d/99-cachyos-settings.conf"
+  install -Dm644 etc/systemd/system.conf.d/limits.conf "$pkgdir/usr/lib/systemd/system.conf.d/limits.conf"
+  install -Dm644 etc/systemd/system/rtkit-daemon.service.d/override.conf "$pkgdir/usr/lib/systemd/system/rtkit-daemon.service.d/override.conf"
+  install -Dm644 etc/systemd/system/user@.service.d/delegate.conf "$pkgdir/usr/lib/systemd/system/user@.service.d/delegate.conf"
+  install -Dm644 etc/systemd/system/pci-latency.service "$pkgdir/usr/lib/systemd/system/pci-latency.service"
+  install -Dm644 etc/systemd/user.conf.d/limits.conf "$pkgdir/usr/lib/systemd/user.conf.d/limits.conf"
+  install -Dm644 etc/tmpfiles.d/coredump.conf "$pkgdir/usr/lib/tmpfiles.d/coredump.conf"
+  install -Dm644 etc/tmpfiles.d/disable-zswap.conf "$pkgdir/usr/lib/tmpfiles.d/disable-zswap.conf"
+  install -Dm644 etc/tmpfiles.d/optimize-interruptfreq.conf "$pkgdir/usr/lib/tmpfiles.d/optimize-interruptfreq.conf"
+  install -Dm644 etc/tmpfiles.d/thp-shrinker.conf "$pkgdir/usr/lib/tmpfiles.d/thp-shrinker.conf"
+  install -Dm644 etc/tmpfiles.d/thp.conf "$pkgdir/usr/lib/tmpfiles.d/thp.conf"
+  install -Dm644 etc/udev/rules.d/69-hdparm.rules "$pkgdir/usr/lib/udev/rules.d/69-hdparm.rules"
+  install -Dm644 etc/udev/rules.d/99-cpu-dma-latency.rules "$pkgdir/usr/lib/udev/rules.d/99-cpu-dma-latency.rules"
+  install -Dm644 usr/share/X11/xorg.conf.d/20-touchpad.conf "$pkgdir/usr/share/X11/xorg.conf.d/20-touchpad.conf"
+  install -Dm644 usr/share/glib-2.0/schemas/zz_cachyos.org.gnome.login-screen.gschema.override "$pkgdir/usr/share/glib-2.0/schemas/zz_cachyos.org.gnome.login-screen.gschema.override"
+  install -Dm644 usr/share/icons/cachyos.svg "$pkgdir/usr/share/icons/cachyos.svg"
+  install -Dm644 etc/debuginfod/cachyos.urls "$pkgdir/etc/debuginfod/cachyos.urls"
+}

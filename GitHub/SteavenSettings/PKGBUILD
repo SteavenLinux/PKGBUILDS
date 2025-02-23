@@ -7,8 +7,10 @@ pkgdesc="SteavenGamerYT's Arch Linux Settings"
 arch=('any')
 url="https://github.com/steavenlinux/steavensettings"
 license=('MIT')
-depends=('git')
+depends=('git' 'inxi' 'systemd>=256' 'zram-generator')
 makedepends=('git')
+conflicts=('cachyos-settings')
+optdepends=('SteavenCachyosSettings' 'SteavenSettingsExtra')
 source=(
   "steavensettings::git+https://github.com/steavenlinux/steavensettings.git"
 )

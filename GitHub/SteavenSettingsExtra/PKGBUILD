@@ -7,8 +7,9 @@ pkgdesc="SteavenLinuxExtra Settings"
 arch=('any')
 url="https://github.com/SteavenLinux/SteavenSettingsExtra"
 license=('MIT')
-depends=('git')
+depends=('git' 'SteavenSettings')
 makedepends=('git')
+optdepends=('SteavenCachyosSettings')
 source=(
   "SteavenSettingsExtra::git+https://github.com/SteavenLinux/SteavenSettingsExtra.git"
 )
