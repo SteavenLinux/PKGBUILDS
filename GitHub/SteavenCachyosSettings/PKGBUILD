@@ -2,7 +2,7 @@
 
 pkgname=SteavenCachyosSettings
 pkgver=1.0.0
-pkgrel=1
+pkgrel=2
 pkgdesc="CachyOS's Arch Linux Settings"
 arch=('any')
 url="https://github.com/steavenlinux/SteavenCachyosSettings"
@@ -36,6 +36,8 @@ package() {
   install -Dm755 usr/bin/pci-latency "$pkgdir/usr/bin/pci-latency"
   install -Dm755 usr/bin/sbctl-batch-sign "$pkgdir/usr/bin/sbctl-batch-sign"
   install -Dm755 usr/bin/topmem "$pkgdir/usr/bin/topmem"
+  install -Dm755 usr/bin/dlss-swapper "$pkgdir/usr/bin/dlss-swapper"
+  install -Dm755 usr/bin/dlss-swapper-dll "$pkgdir/usr/bin/dlss-swapper-dll"
   install -Dm644 etc/NetworkManager/conf.d/dns.conf "$pkgdir/usr/lib/NetworkManager/conf.d/dns.conf"
   install -Dm644 etc/modprobe.d/blacklist.conf "$pkgdir/usr/lib/modprobe.d/blacklist.conf"
   install -Dm644 etc/modprobe.d/nvidia.conf "$pkgdir/usr/lib/modprobe.d/nvidia-cachyos.conf"
