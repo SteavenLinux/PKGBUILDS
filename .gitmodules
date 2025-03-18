@@ -16,3 +16,48 @@
 [submodule "Aur/waydroid-helper"]
 	path = Aur/waydroid-helper
 	url = https://aur.archlinux.org/waydroid-helper.git
+[submodule "Aur/chatterino2-appimage"]
+	path = Aur/chatterino2-appimage
+	url = https://aur.archlinux.org/chatterino2-appimage.git
+[submodule "Aur/dxvk-bin"]
+	path = Aur/dxvk-bin
+	url = https://aur.archlinux.org/dxvk-bin.git
+[submodule "Aur/gnome-shell-extension-alphabetical-grid-extension"]
+	path = Aur/gnome-shell-extension-alphabetical-grid-extension
+	url = https://aur.archlinux.org/gnome-shell-extension-alphabetical-grid-extension.git
+[submodule "Aur/gnome-shell-extension-wallpaper-slideshow"]
+	path = Aur/gnome-shell-extension-wallpaper-slideshow
+	url = https://aur.archlinux.org/gnome-shell-extension-wallpaper-slideshow.git
+[submodule "Aur/hy3"]
+	path = Aur/hy3
+	url = https://aur.archlinux.org/hy3.git
+[submodule "Aur/grimshot-bin-sway"]
+	path = Aur/grimshot-bin-sway
+	url = https://aur.archlinux.org/grimshot-bin-sway.git
+[submodule "Aur/udev-joystick-blacklist"]
+	path = Aur/udev-joystick-blacklist
+	url = https://aur.archlinux.org/udev-joystick-blacklist.git
+[submodule "Aur/libstrangle-git"]
+	path = Aur/libstrangle-git
+	url = https://aur.archlinux.org/libstrangle-git.git
+[submodule "Aur/whitesur-cursor-theme-git"]
+	path = Aur/whitesur-cursor-theme-git
+	url = https://aur.archlinux.org/whitesur-cursor-theme-git.git
+[submodule "Aur/zenergy-dkms-git"]
+	path = Aur/zenergy-dkms-git
+	url = https://aur.archlinux.org/zenergy-dkms-git.git
+[submodule "Aur/amdgpu-pro-installer"]
+	path = Aur/amdgpu-pro-installer
+	url = https://aur.archlinux.org/amdgpu-pro-installer.git
+[submodule "Aur/libretro-citra-git"]
+	path = Aur/libretro-citra-git
+	url = https://aur.archlinux.org/libretro-citra-git.git
+[submodule "Aur/cubeb"]
+	path = Aur/cubeb
+	url = https://aur.archlinux.org/cubeb.git
+[submodule "Aur/vulkan-memory-allocator"]
+	path = Aur/vulkan-memory-allocator
+	url = https://aur.archlinux.org/vulkan-memory-allocator.git
+[submodule "Aur/sudachi"]
+	path = Aur/sudachi
+	url = https://aur.archlinux.org/sudachi.git

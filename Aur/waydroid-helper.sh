@@ -18,8 +18,8 @@ rm -f /mnt/nvme/SteavenRepo/x86_64/waydroid-helper*.pkg.tar.zst
 rm -f /mnt/nvme/SteavenRepo/x86_64/waydroid-helper*.pkg.tar.zst.sig
 
 # Copy new package and signature to the repo
-cp waydroid-helper*.pkg.tar.zst /mnt/nvme/SteavenRepo/x86_64
-cp waydroid-helper*.pkg.tar.zst.sig /mnt/nvme/SteavenRepo/x86_64
+cp *.pkg.tar.zst /mnt/nvme/SteavenRepo/x86_64
+cp *.pkg.tar.zst.sig /mnt/nvme/SteavenRepo/x86_64
 
 # Change to repo directory (optional, but doesn't execute anything)
 cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/Aur

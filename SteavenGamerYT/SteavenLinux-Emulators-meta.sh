@@ -4,18 +4,18 @@
 mkdir -p ~/ah
 
 # Remove old copy and copy fresh sources
-rm -rf ~/ah/unigine-heaven
-cp -r unigine-heaven ~/ah/unigine-heaven
+rm -rf ~/ah/SteavenLinux-Emulators-meta
+cp -r SteavenLinux-Emulators-meta ~/ah/SteavenLinux-Emulators-meta
 
 # Move to build directory
-cd ~/ah/unigine-heaven || exit 1
+cd ~/ah/SteavenLinux-Emulators-meta || exit 1
 
 # Build and sign package
 makepkg -sr --sign || exit 1
 
 # Remove old package and signature from the repo
-rm -f /mnt/nvme/SteavenRepo/x86_64/unigine-heaven*.pkg.tar.zst
-rm -f /mnt/nvme/SteavenRepo/x86_64/unigine-heaven*.pkg.tar.zst.sig
+rm -f /mnt/nvme/SteavenRepo/x86_64/SteavenLinux-Emulators-meta*.pkg.tar.zst
+rm -f /mnt/nvme/SteavenRepo/x86_64/SteavenLinux-Emulators-meta*.pkg.tar.zst.sig
 
 # Copy new package and signature to the repo
 cp *.pkg.tar.zst /mnt/nvme/SteavenRepo/x86_64

@@ -1,18 +1,19 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
 pkgname=SteavenLinux-Emulators-meta
-pkgver=2
+pkgver=1
 pkgrel=1
 arch=('any')
 pkgdesc='Meta package for Emulating Games including retroarch, duckstation, rpcs3, pcsx2, dolphin, cemu, ryujinx, suyu, and libretro cores'
 depends=(
   'SteavenLinux-Gaming-meta'
-  'duckstation-qt-bin'
-  'rpcs3-bin'
+  'duckstation'
+  'rpcs3-avx-git'
   'ryujinx'
+  'sudachi'
   'dolphin-emu'
-  'pcsx2-latest-bin'
-  'cemu-bin'
+  'pcsx2-avx-git'
+  'cemu-git'
   'retroarch'
   'retroarch-assets-glui'
   'retroarch-assets-ozone'
@@ -34,7 +35,7 @@ depends=(
   'libretro-bsnes'
   'libretro-bsnes-hd'
   'libretro-bsnes2014'
-  'libretro-citra'
+  'libretro-citra-git'
   'libretro-desmume'
   'libretro-flycast'
   'libretro-gambatte'

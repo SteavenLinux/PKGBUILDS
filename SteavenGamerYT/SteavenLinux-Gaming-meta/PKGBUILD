@@ -1,7 +1,7 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
 pkgname=SteavenLinux-Gaming-meta
-pkgver=4
+pkgver=1
 pkgrel=1
 arch=('any')
 pkgdesc='Meta package for Gaming including Steam, Lutris, Wine, Essential Proprietary libraries & several other dependencies'
