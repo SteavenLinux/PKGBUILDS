@@ -9,9 +9,9 @@ cp proton-ge-custom-bin/pleasenote.install ~/ah
 cp proton-ge-custom-bin/changelog.md ~/ah
 cd ~/ah
 makepkg -sr --sign
-rm -rf /home/omarhanykasban/SteavenRepo/x86_64/proton-ge-custom-bin*.pkg.tar.zst
-rm -rf /home/omarhanykasban/SteavenRepo/x86_64/proton-ge-custom-bin*.pkg.tar.zst.sig
-cp proton-ge-custom-bin*.pkg.tar.zst /home/omarhanykasban/SteavenRepo/x86_64/
-cp proton-ge-custom-bin*.pkg.tar.zst.sig /home/omarhanykasban/SteavenRepo/x86_64/
+rm -rf /mnt/nvme/SteavenRepo/x86_64/proton-ge-custom-bin*.pkg.tar.zst
+rm -rf /mnt/nvme/SteavenRepo/x86_64/proton-ge-custom-bin*.pkg.tar.zst.sig
+cp proton-ge-custom-bin*.pkg.tar.zst /mnt/nvme/SteavenRepo/x86_64/
+cp proton-ge-custom-bin*.pkg.tar.zst.sig /mnt/nvme/SteavenRepo/x86_64/
 
 cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/Repo/Aur
