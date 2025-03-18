@@ -1,5 +1,0 @@
-https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/refs/heads/master/proton-cachyos/.SRCINFO
-https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/refs/heads/master/proton-cachyos/.gitignore
-https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/refs/heads/master/proton-cachyos/PKGBUILD
-https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/refs/heads/master/proton-cachyos/879f09d2ac799cca99b78de3442194ebbe29d24a.patch
-https://raw.githubusercontent.com/CachyOS/CachyOS-PKGBUILDS/refs/heads/master/proton-cachyos/proton-cachyos.install
