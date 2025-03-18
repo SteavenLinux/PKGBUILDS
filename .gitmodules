@@ -1,18 +1,18 @@
 [submodule "Aur/mprime-bin"]
 	path = Aur/mprime-bin
-	url = https://Aur.archlinux.org/mprime-bin.git
+	url = https://aur.archlinux.org/mprime-bin.git
 [submodule "Aur/noto-fonts-ar"]
 	path = Aur/noto-fonts-ar
-	url = https://Aur.archlinux.org/noto-fonts-ar.git
+	url = https://aur.archlinux.org/noto-fonts-ar.git
 [submodule "Aur/obs-pipewire-audio-capture-bin"]
 	path = Aur/obs-pipewire-audio-capture-bin
-	url = https://Aur.archlinux.org/obs-pipewire-audio-capture-bin.git
+	url = https://aur.archlinux.org/obs-pipewire-audio-capture-bin.git
 [submodule "Aur/unigine-heaven"]
 	path = Aur/unigine-heaven
-	url = https://Aur.archlinux.org/unigine-heaven.git
+	url = https://aur.archlinux.org/unigine-heaven.git
 [submodule "Aur/unigine-superposition"]
 	path = Aur/unigine-superposition
-	url = https://Aur.archlinux.org/unigine-superposition.git
+	url = https://aur.archlinux.org/unigine-superposition.git
 [submodule "Aur/waydroid-helper"]
 	path = Aur/waydroid-helper
-	url = https://Aur.archlinux.org/waydroid-helper.git
+	url = https://aur.archlinux.org/waydroid-helper.git
