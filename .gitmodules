@@ -1,18 +1,18 @@
-[submodule "mprime-bin"]
-    path = PKGBUILDS/mprime-bin
-    url = https://aur.archlinux.org/mprime-bin.git
-[submodule "noto-fonts-ar"]
-    path = PKGBUILDS/noto-fonts-ar
-    url = https://aur.archlinux.org/noto-fonts-ar.git
-[submodule "obs-pipewire-audio-capture-bin"]
-    path = PKGBUILDS/obs-pipewire-audio-capture-bin
-    url = https://aur.archlinux.org/obs-pipewire-audio-capture-bin.git
-[submodule "unigine-heaven"]
-    path = PKGBUILDS/unigine-heaven
-    url = https://aur.archlinux.org/unigine-heaven.git
-[submodule "unigine-superposition"]
-    path = PKGBUILDS/unigine-superposition
-    url = https://aur.archlinux.org/unigine-superposition.git
-[submodule "waydroid-helper"]
-    path = PKGBUILDS/waydroid-helper
-    url = https://aur.archlinux.org/waydroid-helper.git
+[submodule "AUR/mprime-bin"]
+	path = AUR/mprime-bin
+	url = https://aur.archlinux.org/mprime-bin.git
+[submodule "AUR/noto-fonts-ar"]
+	path = AUR/noto-fonts-ar
+	url = https://aur.archlinux.org/noto-fonts-ar.git
+[submodule "AUR/obs-pipewire-audio-capture-bin"]
+	path = AUR/obs-pipewire-audio-capture-bin
+	url = https://aur.archlinux.org/obs-pipewire-audio-capture-bin.git
+[submodule "AUR/unigine-heaven"]
+	path = AUR/unigine-heaven
+	url = https://aur.archlinux.org/unigine-heaven.git
+[submodule "AUR/unigine-superposition"]
+	path = AUR/unigine-superposition
+	url = https://aur.archlinux.org/unigine-superposition.git
+[submodule "AUR/waydroid-helper"]
+	path = AUR/waydroid-helper
+	url = https://aur.archlinux.org/waydroid-helper.git
