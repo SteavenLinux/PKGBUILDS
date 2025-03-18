@@ -1,0 +1,16 @@
+# Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
+
+pkgname=SteavenLinux-plymouth-theme
+pkgver=1
+pkgrel=1
+arch=('any')
+pkgdesc="SteavenLinux plymouth theme"
+source=("SteavenLinux-plymouth-theme::git+https://github.com/steavenlinux/SteavenLinux-Plymouth-Theme.git")
+sha256sums=("SKIP")
+
+package() {
+  install -d "$pkgdir/usr/share/plymouth/themes"
+  cp -rf "${pkgname}/src" "${pkgdir}/usr/share/plymouth/themes/steavenlinux"
+  cp -rf "${pkgname}/src2" "${pkgdir}/usr/share/plymouth/themes/steavenlinux2"
+}
+

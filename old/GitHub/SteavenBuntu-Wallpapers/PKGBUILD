@@ -1,0 +1,31 @@
+# Maintainer: Your Name <your.email@example.com>
+pkgname=SteavenBuntu-Wallpapers
+pkgver=1.0
+pkgrel=1
+pkgdesc="Collection of SteavenBuntu wallpapers"
+arch=('any')
+url="https://github.com/SteavenBuntu/SteavenBuntu-Wallpapers"
+license=('custom:CC-BY-SA-4.0')
+depends=('imagemagick')
+
+# Adjust source to include local files
+source=("windows7.jpg"
+        "wallpapers.xml"
+        "ah.jpg"
+        "windows10.jpg"
+        "windowsxp.jpg")
+md5sums=('SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP')
+
+package() {
+    # Copy wallpapers to the appropriate directory
+    install -Dm644 "${srcdir}/windows7.jpg" "$pkgdir/usr/share/backgrounds/windows7.jpg"
+    install -Dm644 "${srcdir}/ah.jpg" "$pkgdir/usr/share/backgrounds/ah.jpg"
+    install -Dm644 "${srcdir}/windows10.jpg" "$pkgdir/usr/share/backgrounds/windows10.jpg"
+    install -Dm644 "${srcdir}/windowsxp.jpg" "$pkgdir/usr/share/backgrounds/windowsxp.jpg"
+
+    # Create the gnome-background-properties directory if it doesn't exist
+    install -dm755 "$pkgdir/usr/share/gnome-background-properties"
+
+    # Copy the wallpapers.xml file
+    install -Dm644 "${srcdir}/wallpapers.xml" "$pkgdir/usr/share/gnome-background-properties/wallpapers.xml"
+}

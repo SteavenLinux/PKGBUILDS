@@ -1,0 +1,97 @@
+# Maintainer: omarhanykasban <omarhanykasban706@gmail.com>
+
+pkgname=gamescope-bazzite
+pkgver=101.d3174928
+pkgrel=1
+pkgdesc="Bazzite version of SteamOS session compositing window manager and libraries"
+arch=('x86_64')
+url=https://github.com/ValveSoftware/gamescope
+license=(
+  BSD-2-Clause
+  BSD-3-Clause
+  LicenseRef-Reshade
+)
+depends=(
+  gcc-libs
+  glibc
+  lcms2
+  libavif
+  libcap.so
+  libdecor
+  libdrm
+  libei
+  libinput
+  libpipewire-0.3.so
+  libx11
+  libxcb
+  libxcomposite
+  libxcursor
+  libxdamage
+  libxext
+  libxfixes
+  libxi
+  libxkbcommon.so
+  libxmu
+  libxrender
+  libxres
+  libxtst
+  libxxf86vm
+  pixman
+  sdl2
+  seatd
+  systemd-libs
+  vulkan-icd-loader
+  wayland
+  xcb-util-errors
+  xcb-util-wm
+  xorg-server-xwayland
+  wlroots0.17
+  libliftoff
+)
+
+source_x86_64=(
+  "https://download.copr.fedorainfracloud.org/results/kylegospo/bazzite-multilib/fedora-41-x86_64/08414414-gamescope/gamescope-${pkgver}-1.bazzite.x86_64.rpm"
+  "https://download.copr.fedorainfracloud.org/results/kylegospo/bazzite-multilib/fedora-41-x86_64/08414414-gamescope/gamescope-libs-${pkgver}-1.bazzite.x86_64.rpm"
+)
+sha256sums_x86_64=(
+  'SKIP'
+  'SKIP'
+)
+
+build() {
+    # Extract the RPM packages
+    mkdir -p "${srcdir}/extracted"
+    for rpm in "${source_x86_64[@]}"; do
+        bsdtar -xvf "${srcdir}/$(basename "$rpm")" -C "${srcdir}/extracted"
+    done
+}
+
+package() {
+    cd "${srcdir}/extracted"
+
+    # Install binaries
+    install -Dm755 usr/bin/gamescope "$pkgdir/usr/bin/gamescope"
+    install -Dm755 usr/bin/gamescopectl "$pkgdir/usr/bin/gamescopectl"
+    install -Dm755 usr/bin/gamescopereaper "$pkgdir/usr/bin/gamescopereaper"
+    install -Dm755 usr/bin/gamescopestream "$pkgdir/usr/bin/gamescopestream"
+
+    # Install libraries
+    install -Dm644 usr/lib64/libVkLayer_FROG_gamescope_wsi_x86_64.so "$pkgdir/usr/lib/libVkLayer_FROG_gamescope_wsi_x86_64.so"
+    install -Dm644 usr/share/vulkan/implicit_layer.d/VkLayer_FROG_gamescope_wsi.x86_64.json "$pkgdir/usr/share/vulkan/implicit_layer.d/VkLayer_FROG_gamescope_wsi.x86_64.json"
+
+    # Documentation
+    install -Dm644 usr/share/doc/gamescope/README.md "$pkgdir/usr/share/doc/gamescope/README.md"
+
+    # Scripts
+    install -Dm644 usr/share/gamescope/scripts/README.md "$pkgdir/usr/share/gamescope/scripts/README.md"
+    install -Dm644 usr/share/gamescope/scripts/00-gamescope/common/inspect.lua "$pkgdir/usr/share/gamescope/scripts/00-gamescope/common/inspect.lua"
+    install -Dm644 usr/share/gamescope/scripts/00-gamescope/common/modegen.lua "$pkgdir/usr/share/gamescope/scripts/00-gamescope/common/modegen.lua"
+    install -Dm644 usr/share/gamescope/scripts/00-gamescope/common/util.lua "$pkgdir/usr/share/gamescope/scripts/00-gamescope/common/util.lua"
+    install -Dm644 usr/share/gamescope/scripts/00-gamescope/displays/asus.rogally.lcd.lua "$pkgdir/usr/share/gamescope/scripts/00-gamescope/displays/asus.rogally.lcd.lua"
+    install -Dm644 usr/share/gamescope/scripts/00-gamescope/displays/deckhd.steamdeck.deckhd-lcd.lua "$pkgdir/usr/share/gamescope/scripts/00-gamescope/displays/deckhd.steamdeck.deckhd-lcd.lua"
+    install -Dm644 usr/share/gamescope/scripts/00-gamescope/displays/valve.steamdeck.lcd.lua "$pkgdir/usr/share/gamescope/scripts/00-gamescope/displays/valve.steamdeck.lcd.lua"
+    install -Dm644 usr/share/gamescope/scripts/00-gamescope/displays/valve.steamdeck.oled.lua "$pkgdir/usr/share/gamescope/scripts/00-gamescope/displays/valve.steamdeck.oled.lua"
+
+    # Licenses
+    install -Dm644 usr/share/licenses/gamescope/LICENSE "$pkgdir/usr/share/licenses/gamescope/LICENSE"
+}

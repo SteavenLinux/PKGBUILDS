@@ -1,0 +1,34 @@
+# Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
+
+pkgname=SteavenLinux-kvm-meta
+pkgver=1
+pkgrel=1
+arch=(any)
+pkgdesc="Meta package to install KVM and related tools"
+depends=(qemu-desktop
+         libvirt
+         edk2-ovmf
+         virt-manager
+         dnsmasq
+         looking-glass-git
+         looking-glass-module-dkms-git
+)
+post_install() {
+  sed -i 's/#unix_sock_group = "libvirt"/unix_sock_group = "libvirt"/g' /etc/libvirt/libvirtd.conf
+  sed -i 's/#unix_sock_rw_perms = "0770"/unix_sock_rw_perms = "0770"/g' /etc/libvirt/libvirtd.conf
+  systemctl enable libvirtd
+  virsh net-autostart default
+  virsh net-start default
+}
+
+post_upgrade() {
+  sed -i 's/#unix_sock_group = "libvirt"/unix_sock_group = "libvirt"/g' /etc/libvirt/libvirtd.conf
+  sed -i 's/#unix_sock_rw_perms = "0770"/unix_sock_rw_perms = "0770"/g' /etc/libvirt/libvirtd.conf
+  systemctl enable libvirtd --now
+  virsh net-autostart default
+  virsh net-start default
+}
+
+pre_remove() {
+  systemctl disable libvirtd --now
+}
