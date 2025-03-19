@@ -22,4 +22,5 @@ cp *.pkg.tar.zst /mnt/nvme/SteavenRepo/x86_64
 cp *.pkg.tar.zst.sig /mnt/nvme/SteavenRepo/x86_64
 
 # Change to repo directory (optional, but doesn't execute anything)
-cd /mnt/nvme/SteavenRepo/SteavenGamerYT
+cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/SteavenGamerYT
+
