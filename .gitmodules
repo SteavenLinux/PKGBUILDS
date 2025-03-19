@@ -19,9 +19,6 @@
 [submodule "Aur/chatterino2-appimage"]
 	path = Aur/chatterino2-appimage
 	url = https://aur.archlinux.org/chatterino2-appimage.git
-[submodule "Aur/dxvk-bin"]
-	path = Aur/dxvk-bin
-	url = https://aur.archlinux.org/dxvk-bin.git
 [submodule "Aur/gnome-shell-extension-alphabetical-grid-extension"]
 	path = Aur/gnome-shell-extension-alphabetical-grid-extension
 	url = https://aur.archlinux.org/gnome-shell-extension-alphabetical-grid-extension.git

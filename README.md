@@ -22,8 +22,6 @@ Packages that are in Aur but no in Choatic Aur
 
 - [**cubeb**](https://github.com/chaotic-aur/packages/issues/3566)
 
-- [**dxvk-bin**](https://github.com/chaotic-aur/packages/issues/3567)
-
 - [**gnome-shell-extension-alphabetical-grid-extension**](https://github.com/chaotic-aur/packages/issues/3568)
 
 - [**gnome-shell-extension-wallpaper-slideshow**](https://github.com/chaotic-aur/packages/issues/3569)
