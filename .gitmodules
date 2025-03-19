@@ -58,6 +58,6 @@
 [submodule "Aur/vulkan-memory-allocator"]
 	path = Aur/vulkan-memory-allocator
 	url = https://aur.archlinux.org/vulkan-memory-allocator.git
-[submodule "Aur/sudachi"]
-	path = Aur/sudachi
-	url = https://aur.archlinux.org/sudachi.git
+[submodule "Aur/sudachi-bin"]
+	path = Aur/sudachi-bin
+	url = https://aur.archlinux.org/sudachi-bin.git

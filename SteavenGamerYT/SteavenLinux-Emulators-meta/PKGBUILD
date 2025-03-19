@@ -10,7 +10,7 @@ depends=(
   'duckstation'
   'rpcs3-avx-git'
   'ryujinx'
-  'sudachi'
+  'sudachi-bin'
   'dolphin-emu'
   'pcsx2-avx-git'
   'cemu-git'

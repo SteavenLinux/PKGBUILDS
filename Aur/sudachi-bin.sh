@@ -4,18 +4,18 @@
 mkdir -p ~/ah
 
 # Remove old copy and copy fresh sources
-rm -rf ~/ah/sudachi
-cp -r sudachi ~/ah/sudachi
+rm -rf ~/ah/sudachi-bin
+cp -r sudachi-bin ~/ah/sudachi-bin
 
 # Move to build directory
-cd ~/ah/sudachi || exit 1
+cd ~/ah/sudachi-bin || exit 1
 
 # Build and sign package
 makepkg -sr --sign || exit 1
 
 # Remove old package and signature from the repo
-rm -f /mnt/nvme/SteavenRepo/x86_64/sudachi*.pkg.tar.zst
-rm -f /mnt/nvme/SteavenRepo/x86_64/sudachi*.pkg.tar.zst.sig
+rm -f /mnt/nvme/SteavenRepo/x86_64/sudachi-bin*.pkg.tar.zst
+rm -f /mnt/nvme/SteavenRepo/x86_64/sudachi-bin*.pkg.tar.zst.sig
 
 # Copy new package and signature to the repo
 cp *.pkg.tar.zst /mnt/nvme/SteavenRepo/x86_64
