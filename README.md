@@ -18,8 +18,6 @@ Packages that are in Aur but no in Choatic Aur
 
 - [**amdgpu-pro-installer**](https://github.com/chaotic-aur/packages/issues/3105) Closed with not adding
 
-- [**chatterino2-appimage**](https://github.com/chaotic-aur/packages/issues/3565)
-
 - [**cubeb**](https://github.com/chaotic-aur/packages/issues/3566)
 
 - [**gnome-shell-extension-alphabetical-grid-extension**](https://github.com/chaotic-aur/packages/issues/3568)
