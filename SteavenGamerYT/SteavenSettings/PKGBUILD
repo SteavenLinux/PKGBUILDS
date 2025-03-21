@@ -2,7 +2,7 @@
 
 pkgname=SteavenSettings
 pkgver=1.0.0
-pkgrel=3
+pkgrel=1
 pkgdesc="SteavenGamerYT's Arch Linux Settings"
 arch=('any')
 url="https://github.com/steavenlinux/steavensettings"
