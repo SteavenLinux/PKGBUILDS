@@ -28,9 +28,6 @@
 [submodule "Aur/grimshot-bin-sway"]
 	path = Aur/grimshot-bin-sway
 	url = https://aur.archlinux.org/grimshot-bin-sway.git
-[submodule "Aur/udev-joystick-blacklist"]
-	path = Aur/udev-joystick-blacklist
-	url = https://aur.archlinux.org/udev-joystick-blacklist.git
 [submodule "Aur/libstrangle-git"]
 	path = Aur/libstrangle-git
 	url = https://aur.archlinux.org/libstrangle-git.git
