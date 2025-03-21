@@ -37,9 +37,6 @@
 [submodule "Aur/whitesur-cursor-theme-git"]
 	path = Aur/whitesur-cursor-theme-git
 	url = https://aur.archlinux.org/whitesur-cursor-theme-git.git
-[submodule "Aur/zenergy-dkms-git"]
-	path = Aur/zenergy-dkms-git
-	url = https://aur.archlinux.org/zenergy-dkms-git.git
 [submodule "Aur/amdgpu-pro-installer"]
 	path = Aur/amdgpu-pro-installer
 	url = https://aur.archlinux.org/amdgpu-pro-installer.git
