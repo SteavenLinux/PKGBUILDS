@@ -1,7 +1,7 @@
 # Maintainer: omarhanykasban <omarhanykasban706@gmail.com>
 
 pkgname=SteavenLinuxName
-pkgver=3
+pkgver=1
 pkgrel=1
 pkgdesc="SteavenLinux Brandings"
 arch=('any')
