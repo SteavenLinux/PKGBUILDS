@@ -52,3 +52,6 @@
 [submodule "Aur/sudachi-bin"]
 	path = Aur/sudachi-bin
 	url = https://aur.archlinux.org/sudachi-bin.git
+[submodule "Aur/udev-joystick-blacklist-git"]
+	path = Aur/udev-joystick-blacklist-git
+	url = https://aur.archlinux.org/udev-joystick-blacklist-git.git

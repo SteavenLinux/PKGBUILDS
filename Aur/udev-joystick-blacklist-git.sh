@@ -4,18 +4,18 @@
 mkdir -p ~/ah
 
 # Remove old copy and copy fresh sources
-rm -rf ~/ah/udev-joystick-blacklist
-cp -r udev-joystick-blacklist ~/ah/udev-joystick-blacklist
+rm -rf ~/ah/udev-joystick-blacklist-git
+cp -r udev-joystick-blacklist-git ~/ah/udev-joystick-blacklist-git
 
 # Move to build directory
-cd ~/ah/udev-joystick-blacklist || exit 1
+cd ~/ah/udev-joystick-blacklist-git || exit 1
 
 # Build and sign package
 makepkg -sr --sign || exit 1
 
 # Remove old package and signature from the repo
-rm -f /mnt/nvme/SteavenRepo/x86_64/udev-joystick-blacklist*.pkg.tar.zst
-rm -f /mnt/nvme/SteavenRepo/x86_64/udev-joystick-blacklist*.pkg.tar.zst.sig
+rm -f /mnt/nvme/SteavenRepo/x86_64/udev-joystick-blacklist-git*.pkg.tar.zst
+rm -f /mnt/nvme/SteavenRepo/x86_64/udev-joystick-blacklist-git*.pkg.tar.zst.sig
 
 # Copy new package and signature to the repo
 cp *.pkg.tar.zst /mnt/nvme/SteavenRepo/x86_64

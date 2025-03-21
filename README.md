@@ -40,7 +40,7 @@ Packages that are in Aur but no in Choatic Aur
 
 - [**obs-pipewire-audio-capture-bin**](https://github.com/chaotic-aur/packages/issues/3557)
 
-- [**udev-joystick-blacklist**](https://github.com/chaotic-aur/packages/issues/3575)
+- [**udev-joystick-blacklist-git**](https://github.com/chaotic-aur/packages/issues/3575)
 
 - [**unigine-heaven**](https://github.com/chaotic-aur/packages/issues/3561)
 
