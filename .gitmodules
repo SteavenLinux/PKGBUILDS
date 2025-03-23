@@ -52,3 +52,6 @@
 [submodule "Aur/udev-joystick-blacklist-git"]
 	path = Aur/udev-joystick-blacklist-git
 	url = https://aur.archlinux.org/udev-joystick-blacklist-git.git
+[submodule "Aur/wiiudownloader"]
+	path = Aur/wiiudownloader
+	url = https://aur.archlinux.org/wiiudownloader.git

@@ -49,3 +49,5 @@ Packages that are in Aur but no in Choatic Aur
 - [**waydroid-helper**](https://github.com/chaotic-aur/packages/issues/3556)
 
 - [**whitesur-cursor-theme-git**](https://github.com/chaotic-aur/packages/issues/3577)
+
+- [**wiiudownloader**](https://github.com/chaotic-aur/packages/issues/3582)
