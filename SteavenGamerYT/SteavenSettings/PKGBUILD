@@ -24,6 +24,7 @@ pkgver() {
 package() {
   # Install files from steavensettings
   cd "$srcdir/steavensettings"
+  install -Dm755 usr/bin/linver "$pkgdir/usr/bin/linver"
   install -Dm755 usr/bin/amd-gpu-run "$pkgdir/usr/bin/amd-gpu-run"
   install -Dm755 usr/bin/intel-gpu-run "$pkgdir/usr/bin/intel-gpu-run"
   install -Dm755 usr/bin/nvidia-gpu-run "$pkgdir/usr/bin/nvidia-gpu-run"
