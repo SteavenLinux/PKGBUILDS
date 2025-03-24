@@ -50,4 +50,4 @@ Packages that are in Aur but no in Choatic Aur
 
 - [**whitesur-cursor-theme-git**](https://github.com/chaotic-aur/packages/issues/3577)
 
-- [**wiiudownloader**](https://github.com/chaotic-aur/packages/issues/3582)
+- [**wiiudownloader**](https://github.com/chaotic-aur/packages/issues/3582) Closed with not adding.
