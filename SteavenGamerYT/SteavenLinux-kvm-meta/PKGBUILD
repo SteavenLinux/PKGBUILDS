@@ -13,20 +13,20 @@ depends=(qemu-desktop
          looking-glass-git
          looking-glass-module-dkms-git
 )
+source=("libvirt-config.hook" "libvirt-qemu-config.hook")
+
+package() {
+  install -d "${pkgdir}/etc/pacman.d/hooks"
+  install -m 644 "${srcdir}/libvirt-config.hook" "${pkgdir}/etc/pacman.d/hooks/libvirt-config.hook"
+  install -m 644 "${srcdir}/libvirt-qemu-config.hook" "${pkgdir}/etc/pacman.d/hooks/libvirt-qemu-config.hook"
+}
+
 post_install() {
-  sed -i 's/#unix_sock_group = "libvirt"/unix_sock_group = "libvirt"/g' /etc/libvirt/libvirtd.conf
-  sed -i 's/#unix_sock_rw_perms = "0770"/unix_sock_rw_perms = "0770"/g' /etc/libvirt/libvirtd.conf
-  systemctl enable libvirtd
-  virsh net-autostart default
-  virsh net-start default
+  systemctl enable libvirtd --now
 }
 
 post_upgrade() {
-  sed -i 's/#unix_sock_group = "libvirt"/unix_sock_group = "libvirt"/g' /etc/libvirt/libvirtd.conf
-  sed -i 's/#unix_sock_rw_perms = "0770"/unix_sock_rw_perms = "0770"/g' /etc/libvirt/libvirtd.conf
   systemctl enable libvirtd --now
-  virsh net-autostart default
-  virsh net-start default
 }
 
 pre_remove() {

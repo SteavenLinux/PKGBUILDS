@@ -1,0 +1,13 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = libvirt
+Target = looking-glass-module-dkms-git
+Target = qemu
+
+[Action]
+Description = Updating cgroup_device_acl in qemu.conf...
+When = PostTransaction
+Exec = /bin/sh -c "sed -i '/^#cgroup_device_acl = \[/,/^#\]/ s/^#//g' /etc/libvirt/qemu.conf && \
+                       sed -i 's|\(\"/dev/userfaultfd\"\)|\1, \"/dev/kvmfr0\"|' /etc/libvirt/qemu.conf'"
