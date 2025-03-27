@@ -1,7 +1,7 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
 pkgname=SteavenLinux-kvm-meta
-pkgver=1
+pkgver=2
 pkgrel=1
 arch=(any)
 pkgdesc="Meta package to install KVM and related tools"
@@ -12,14 +12,22 @@ depends=(qemu-desktop
          dnsmasq
          looking-glass-git
          looking-glass-module-dkms-git
+         swtpm
 )
-source=("libvirt-config.hook" "libvirt-qemu-config.hook")
-sha256sums=('SKIP' 'SKIP')
+source=("libvirt-config.hook"
+        "libvirt-qemu-config.hook"
+        "update-libvirt-config.sh")
+sha256sums=('SKIP' 'SKIP' 'SKIP')
 
 package() {
+  # Install pacman hooks
   install -d "${pkgdir}/etc/pacman.d/hooks"
   install -m 644 "${srcdir}/libvirt-config.hook" "${pkgdir}/etc/pacman.d/hooks/libvirt-config.hook"
   install -m 644 "${srcdir}/libvirt-qemu-config.hook" "${pkgdir}/etc/pacman.d/hooks/libvirt-qemu-config.hook"
+
+  # Install the update script
+  install -d "${pkgdir}/usr/local/bin"
+  install -m 755 "${srcdir}/update-libvirt-config.sh" "${pkgdir}/usr/local/bin/update-libvirt-config.sh"
 }
 
 post_install() {
