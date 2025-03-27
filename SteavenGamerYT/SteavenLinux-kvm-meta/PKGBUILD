@@ -14,6 +14,7 @@ depends=(qemu-desktop
          looking-glass-module-dkms-git
 )
 source=("libvirt-config.hook" "libvirt-qemu-config.hook")
+sha256sums=('SKIP' 'SKIP')
 
 package() {
   install -d "${pkgdir}/etc/pacman.d/hooks"
