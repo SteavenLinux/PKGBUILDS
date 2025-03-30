@@ -55,3 +55,6 @@
 [submodule "Aur/wiiudownloader"]
 	path = Aur/wiiudownloader
 	url = https://aur.archlinux.org/wiiudownloader.git
+[submodule "Aur/davinci-ffmpeg-encoder-plugin"]
+	path = Aur/davinci-ffmpeg-encoder-plugin
+	url = https://aur.archlinux.org/davinci-ffmpeg-encoder-plugin.git
