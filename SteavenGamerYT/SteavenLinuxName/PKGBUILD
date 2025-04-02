@@ -1,7 +1,7 @@
 # Maintainer: omarhanykasban <omarhanykasban706@gmail.com>
 
 pkgname=SteavenLinuxName
-pkgver=1
+pkgver=2
 pkgrel=1
 pkgdesc="SteavenLinux Brandings"
 arch=('any')
@@ -9,14 +9,15 @@ url="https://github.com/steavenlinux/steavensettings"
 license=('MIT')
 depends=('git')
 makedepends=('git')
-source=('steavenlinux-hooks-runner' 'os-release.hook' 'lsb-release.hook' 'logo.png' 'logo.svg' 'steavenlinux-logo.png' 'gdm.hook')
-sha256sums=('SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP')
+source=('steavenlinux-hooks-runner' 'os-release.hook' 'lsb-release.hook' 'logo.png' 'logo.svg' 'steavenlinux-logo.png' 'gdm.hook' 'zz_steavenlinux.org.gnome.login-screen.gschema.override')
+sha256sums=('SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP')
 
 package() {
   install -Dm755 "$srcdir/steavenlinux-hooks-runner" "$pkgdir/usr/bin/steavenlinux-hooks-runner"
   install -Dm644 "$srcdir/os-release.hook" "$pkgdir/etc/pacman.d/hooks/os-release.hook"
   install -Dm644 "$srcdir/lsb-release.hook" "$pkgdir/etc/pacman.d/hooks/lsb-release.hook"
   install -Dm644 "$srcdir/gdm.hook" "$pkgdir/etc/pacman.d/hooks/gdm.hook"
-  install -Dm644 "$srcdir/logo.png" "$pkgdir/usr/share/pixmaps/steavenlinux-logo.png"
+  install -Dm644 "$srcdir/logo.svg" "$pkgdir/usr/share/pixmaps/steavenlinux-logo.svg"
   install -Dm644 "$srcdir/logo.svg" "$pkgdir/usr/share/icons/steavenlinux.svg"
+  install -Dm644 "$srcdir/zz_steavenlinux.org.gnome.login-screen.gschema.override" "$pkgdir/usr/share/glib-2.0/schemas/zz_steavenlinux.org.gnome.login-screen.gschema.override"
 }

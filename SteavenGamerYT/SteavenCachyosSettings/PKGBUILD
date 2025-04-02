@@ -56,7 +56,6 @@ package() {
   install -Dm644 etc/udev/rules.d/69-hdparm.rules "$pkgdir/usr/lib/udev/rules.d/69-hdparm.rules"
   install -Dm644 etc/udev/rules.d/99-cpu-dma-latency.rules "$pkgdir/usr/lib/udev/rules.d/99-cpu-dma-latency.rules"
   install -Dm644 usr/share/X11/xorg.conf.d/20-touchpad.conf "$pkgdir/usr/share/X11/xorg.conf.d/20-touchpad.conf"
-  install -Dm644 usr/share/glib-2.0/schemas/zz_cachyos.org.gnome.login-screen.gschema.override "$pkgdir/usr/share/glib-2.0/schemas/zz_cachyos.org.gnome.login-screen.gschema.override"
   install -Dm644 usr/share/icons/cachyos.svg "$pkgdir/usr/share/icons/cachyos.svg"
   install -Dm644 etc/debuginfod/cachyos.urls "$pkgdir/etc/debuginfod/cachyos.urls"
 }
