@@ -1,0 +1,23 @@
+# Maintainer: omarhanykasban <omarhanykasban706@gmail.com>
+pkgname=davinci-vaapi-encoder-plugin-bin
+pkgver=0.1
+pkgrel=1
+pkgdesc="VAAPI Encoder Plugin for DaVinci Resolve Studio (Precompiled Binary)"
+arch=('x86_64')
+url="https://github.com/nowrep/dvcp-vaapi"
+license=('GPL-3.0-or-later')
+depends=('ffmpeg')
+optdepends=('davinci-resolve-studio' 'davinci-resolve-studio-beta')
+source=("https://github.com/nowrep/dvcp-vaapi/releases/download/v${pkgver}/vaapi_encoder.dvcp.bundle.zip")
+sha256sums=('SKIP') # Replace 'SKIP' with actual checksum after downloading
+
+package() {
+    install -dm755 "$pkgdir/opt/resolve/IOPlugins/vaapi_encoder.dvcp.bundle/Contents/Linux-x86-64/"
+    
+    bsdtar -xf "$srcdir/vaapi_encoder.dvcp.bundle.zip" -C "$pkgdir/opt/resolve/IOPlugins/"
+
+    chmod 755 "$pkgdir/opt/resolve/IOPlugins/vaapi_encoder.dvcp.bundle/Contents/Linux-x86-64/vaapi_encoder.dvcp"
+}
+
+provides=('davinci-vaapi-encoder-plugin')
+conflicts=('davinci-vaapi-encoder-plugin')
