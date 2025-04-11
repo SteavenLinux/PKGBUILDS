@@ -76,3 +76,9 @@
 [submodule "Aur/unleashedrecomp-bin"]
 	path = Aur/unleashedrecomp-bin
 	url = https://aur.archlinux.org/unleashedrecomp-bin.git
+[submodule "Aur/adwaita-colors-icon-theme"]
+	path = Aur/adwaita-colors-icon-theme
+	url = https://aur.archlinux.org/adwaita-colors-icon-theme.git
+[submodule "Aur/gnome-shell-extension-legacy-theme-auto-switcher-git"]
+	path = Aur/gnome-shell-extension-legacy-theme-auto-switcher-git
+	url = https://aur.archlinux.org/gnome-shell-extension-legacy-theme-auto-switcher-git.git

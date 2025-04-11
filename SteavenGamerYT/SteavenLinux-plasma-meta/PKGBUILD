@@ -1,10 +1,10 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
 pkgname=SteavenLinux-plasma-meta
-pkgver=4
+pkgver=1
 pkgrel=1
 arch=(any)
-pkgdesc=Meta package install KDE Plasma
+pkgdesc="Meta package install KDE Plasma"
 depends=(pipewire pipewire-jack pipewire-alsa pipewire-pulse wireplumber alsa-utils pamixer playerctl pavucontrol helvum lib32-pipewire lib32-pipewire-jack
          xorg-server xorg-xinit
          wayland xorg-xwayland qt5-wayland qt6-wayland wayland-protocols lib32-wayland

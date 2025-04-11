@@ -16,6 +16,8 @@ Packages that are in Aur but no in Choatic Aur
 
 ### Issues in Choatic Aur about the Packaegs
 
+- [**adwaita-colors-icon-theme**](https://github.com/chaotic-aur/packages/issues/3617)
+
 - [**amdgpu-pro-installer**](https://github.com/chaotic-aur/packages/issues/3105) Closed with not adding.
 
 - [**an-anime-game-launcher-bin**](https://github.com/chaotic-aur/packages/issues/2472) Got removed in 2023.
@@ -27,6 +29,8 @@ Packages that are in Aur but no in Choatic Aur
 - [**cubeb**](https://github.com/chaotic-aur/packages/issues/3566) Closed because they think its unneeded dependency.
 
 - [**gnome-shell-extension-alphabetical-grid-extension**](https://github.com/chaotic-aur/packages/issues/3568)
+
+- [**gnome-shell-extension-legacy-theme-auto-switcher-git**](https://github.com/chaotic-aur/packages/issues/3618)
 
 - [**gnome-shell-extension-wallpaper-slideshow**](https://github.com/chaotic-aur/packages/issues/3569)
 
