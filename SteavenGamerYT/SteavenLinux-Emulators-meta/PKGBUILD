@@ -1,7 +1,7 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
 pkgname=SteavenLinux-Emulators-meta
-pkgver=3
+pkgver=4
 pkgrel=1
 arch=('any')
 pkgdesc='Meta package for Emulating Games including retroarch, duckstation, rpcs3, pcsx2, dolphin, cemu, ryujinx, suyu, and libretro cores'
@@ -13,7 +13,7 @@ depends=(
   'sudachi-bin'
   'dolphin-emu'
   'pcsx2-avx-git'
-  'cemu-git'
+  'cemu-bin'
   'retroarch'
   'retroarch-assets-glui'
   'retroarch-assets-ozone'
@@ -57,4 +57,5 @@ depends=(
   'libretro-yabause'
   'wiiudownloader'
   'mame-tools'
+  'ciso'
 )

@@ -58,3 +58,21 @@
 [submodule "Aur/davinci-ffmpeg-encoder-plugin"]
 	path = Aur/davinci-ffmpeg-encoder-plugin
 	url = https://aur.archlinux.org/davinci-ffmpeg-encoder-plugin.git
+[submodule "Aur/an-anime-game-launcher-bin"]
+	path = Aur/an-anime-game-launcher-bin
+	url = https://aur.archlinux.org/an-anime-game-launcher-bin.git
+[submodule "Aur/cemu-bin"]
+	path = Aur/cemu-bin
+	url = https://aur.archlinux.org/cemu-bin.git
+[submodule "Aur/ciso"]
+	path = Aur/ciso
+	url = https://aur.archlinux.org/ciso.git
+[submodule "Aur/libnick"]
+	path = Aur/libnick
+	url = https://aur.archlinux.org/libnick.git
+[submodule "Aur/parabolic"]
+	path = Aur/parabolic
+	url = https://aur.archlinux.org/parabolic.git
+[submodule "Aur/unleashedrecomp-bin"]
+	path = Aur/unleashedrecomp-bin
+	url = https://aur.archlinux.org/unleashedrecomp-bin.git
