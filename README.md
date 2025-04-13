@@ -38,7 +38,7 @@ Packages that are in Aur but no in Choatic Aur
 
 - [**hy3**](https://github.com/chaotic-aur/packages/issues/3571)
 
-- [**libnick**](https://github.com/chaotic-aur/packages/issues/3615)
+- [**libnick**](https://github.com/chaotic-aur/packages/issues/3615) not planned, they dont add deps.
 
 - [**libretro-citra-git**](https://github.com/chaotic-aur/packages/issues/3572)
 
