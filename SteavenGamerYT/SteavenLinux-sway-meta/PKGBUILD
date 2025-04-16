@@ -8,7 +8,7 @@ pkgdesc="Meta package install Sway"
 depends=(pipewire pipewire-jack pipewire-alsa pipewire-pulse wireplumber alsa-utils pamixer playerctl pavucontrol helvum lib32-pipewire lib32-pipewire-jack
          wayland xorg-xwayland qt5-wayland qt6-wayland wayland-protocols lib32-wayland
          networkmanager network-manager-applet
-         xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-gtk
+         xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-gtk xdg-desktop-portal-hyprland
          sway swayidle swaylock-effects swaync swaybg
          polkit-gnome kitty grim wlsunset waybar rofi-wayland mpv
          nwg-displays jq cliphist wl-clipboard wl-clip-persist grimshot
@@ -23,6 +23,8 @@ depends=(pipewire pipewire-jack pipewire-alsa pipewire-pulse wireplumber alsa-ut
          noto-fonts noto-fonts-cjk noto-fonts-emoji
          ttf-roboto ttf-roboto-mono ttf-roboto-mono-nerd
          ttf-fira-code otf-firamono-nerd ttf-firacode-nerd
-         ttf-croscore)
+         ttf-croscore
+         papirus-icon-theme papirus-folders whitesur-cursor-theme-git kvantum-theme-nordic-git nordic-theme-git
+         fluent-icon-theme-git fluent-gtk-theme-git fluent-cursor-theme-git)
 
 # grimshot pix xviewer
