@@ -1,6 +1,6 @@
 # Maintainer: omarhanykasban <omarhanykasban706@gmail.com>
 pkgname=davinci-vaapi-encoder-plugin-bin
-pkgver=0.2
+pkgver=0.3
 pkgrel=1
 pkgdesc="VAAPI Encoder Plugin for DaVinci Resolve Studio (Precompiled Binary)"
 arch=('x86_64')
