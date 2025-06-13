@@ -28,7 +28,6 @@ pkgver() {
 package() {
   # Install files from SteavenCachyosSettings
   cd "$srcdir/SteavenCachyosSettings"
-  install -Dm755 usr/bin/amdpstate-guided "$pkgdir/usr/bin/amdpstate-guided"
   install -Dm755 usr/bin/cachyos-bugreport.sh "$pkgdir/usr/bin/cachyos-bugreport.sh"
   install -Dm755 usr/bin/game-performance "$pkgdir/usr/bin/game-performance"
   install -Dm755 usr/bin/kerver "$pkgdir/usr/bin/kerver"
@@ -47,9 +46,10 @@ package() {
   install -Dm644 etc/systemd/system/rtkit-daemon.service.d/override.conf "$pkgdir/usr/lib/systemd/system/rtkit-daemon.service.d/override.conf"
   install -Dm644 etc/systemd/system/user@.service.d/delegate.conf "$pkgdir/usr/lib/systemd/system/user@.service.d/delegate.conf"
   install -Dm644 etc/systemd/system/pci-latency.service "$pkgdir/usr/lib/systemd/system/pci-latency.service"
+  install -Dm644 etc/systemd/system/system.slice.d/10-oomd-per-slice-defaults.conf "$pkgdir/usr/lib/systemd/system/system.slice.d/10-oomd-per-slice-defaults.conf"
+  install -Dm644 etc/systemd/system/user-.slice.d/10-oomd-per-slice-defaults.conf "$pkgdir/usr/lib/systemd/system/user-.slice.d/10-oomd-per-slice-defaults.conf"
   install -Dm644 etc/systemd/user.conf.d/limits.conf "$pkgdir/usr/lib/systemd/user.conf.d/limits.conf"
   install -Dm644 etc/tmpfiles.d/coredump.conf "$pkgdir/usr/lib/tmpfiles.d/coredump.conf"
-  install -Dm644 etc/tmpfiles.d/disable-zswap.conf "$pkgdir/usr/lib/tmpfiles.d/disable-zswap.conf"
   install -Dm644 etc/tmpfiles.d/thp-shrinker.conf "$pkgdir/usr/lib/tmpfiles.d/thp-shrinker.conf"
   install -Dm644 etc/tmpfiles.d/thp.conf "$pkgdir/usr/lib/tmpfiles.d/thp.conf"
   install -Dm644 etc/tmpfiles.d/optimize-interruptfreq.conf "$pkgdir/usr/lib/tmpfiles.d/optimize-interruptfreq.conf"
