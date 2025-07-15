@@ -52,8 +52,6 @@ Packages that are in Aur but no in Choatic Aur
 
 - [**parabolic**](https://github.com/chaotic-aur/packages/issues/3404) they said it has packaging problems.
 
-- [**udev-joystick-blacklist-git**](https://github.com/chaotic-aur/packages/issues/3575)
-
 - [**unigine-heaven**](https://github.com/chaotic-aur/packages/issues/3561) Closed with too big to add.
 
 - [**unigine-superposition**](https://github.com/chaotic-aur/packages/issues/3562) Closed with too big to add.
