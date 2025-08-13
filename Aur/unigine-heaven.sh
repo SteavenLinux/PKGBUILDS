@@ -4,18 +4,18 @@
 mkdir -p ~/ah
 
 # Remove old copy and copy fresh sources
-rm -rf ~/ah/waydroid-helper
-cp -r waydroid-helper ~/ah/waydroid-helper
+rm -rf ~/ah/unigine-heaven
+cp -r unigine-heaven ~/ah/unigine-heaven
 
 # Move to build directory
-cd ~/ah/waydroid-helper || exit 1
+cd ~/ah/unigine-heaven || exit 1
 
 # Build and sign package
 makepkg -sr --sign || exit 1
 
 # Remove old package and signature from the repo
-rm -f /mnt/hdd/SteavenRepo/x86_64/waydroid-helper*.pkg.tar.zst
-rm -f /mnt/hdd/SteavenRepo/x86_64/waydroid-helper*.pkg.tar.zst.sig
+rm -f /mnt/hdd/SteavenRepo/x86_64/unigine-heaven*.pkg.tar.zst
+rm -f /mnt/hdd/SteavenRepo/x86_64/unigine-heaven*.pkg.tar.zst.sig
 
 # Copy new package and signature to the repo
 cp *.pkg.tar.zst /mnt/hdd/SteavenRepo/x86_64

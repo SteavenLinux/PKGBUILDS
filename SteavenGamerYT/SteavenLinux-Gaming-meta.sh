@@ -14,12 +14,12 @@ cd ~/ah/SteavenLinux-Gaming-meta || exit 1
 makepkg -sr --sign || exit 1
 
 # Remove old package and signature from the repo
-rm -f /mnt/nvme/SteavenRepo/x86_64/SteavenLinux-Gaming-meta*.pkg.tar.zst
-rm -f /mnt/nvme/SteavenRepo/x86_64/SteavenLinux-Gaming-meta*.pkg.tar.zst.sig
+rm -f /mnt/hdd/SteavenRepo/x86_64/SteavenLinux-Gaming-meta*.pkg.tar.zst
+rm -f /mnt/hdd/SteavenRepo/x86_64/SteavenLinux-Gaming-meta*.pkg.tar.zst.sig
 
 # Copy new package and signature to the repo
-cp *.pkg.tar.zst /mnt/nvme/SteavenRepo/x86_64
-cp *.pkg.tar.zst.sig /mnt/nvme/SteavenRepo/x86_64
+cp *.pkg.tar.zst /mnt/hdd/SteavenRepo/x86_64
+cp *.pkg.tar.zst.sig /mnt/hdd/SteavenRepo/x86_64
 
 # Change to repo directory (optional, but doesn't execute anything)
 cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/SteavenGamerYT
