@@ -4,7 +4,7 @@
 mkdir -p ~/ah
 
 # Remove old copy and copy fresh sources
-#rm -rf ~/ah/proton-em
+rm -rf ~/ah/proton-em
 cp -r proton-em ~/ah/proton-em
 
 # Move to build directory

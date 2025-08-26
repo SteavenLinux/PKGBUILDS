@@ -73,6 +73,12 @@ optdepends=(
 provides=('proton')
 install=${pkgname}.install
 
+build() {
+    cd "${srcdir}/proton-EM-10.0-2D"
+    # Fix display_name → proton-em
+    sed -i 's/\("display_name"[[:space:]]*"\)[^"]*/\1proton-em/' compatibilitytool.vdf
+}
+
 package() {
     local compatdir="${pkgdir}/usr/share/steam/compatibilitytools.d/proton-EM"
     local srcdir_extracted="${srcdir}/proton-EM-${_srctag}"
