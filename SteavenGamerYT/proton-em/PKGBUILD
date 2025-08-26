@@ -1,0 +1,92 @@
+# Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
+
+pkgname=proton-em
+_srctag=10.0-2D
+pkgver=${_srctag//-/.}
+pkgrel=1
+epoch=1
+
+_package_name="proton-em-${_srctag}-bin-x86_64"
+sha256sums=('c60fd355dc018ee0a7d42e5f38c2ff7fd0d5861f1c43ba49ccc72ed2659a543f')
+source=(
+  "https://github.com/Etaash-mathamsetty/Proton/releases/download/EM-${_srctag}/proton-EM-${_srctag}.tar.xz"
+)
+
+pkgdesc="A compatibility tool for Steam Play based on Wine and additional components, experimental branch with extra EM flavour (Steam Linux Runtime build)"
+url="https://github.com/Etaash-mathamsetty/Proton"
+arch=(x86_64 x86_64_v3)
+options=(!strip emptydirs)
+license=('BSD' 'LGPL' 'zlib' 'MIT' 'MPL' 'custom')
+depends=(
+  bash
+  coreutils
+  curl
+  dbus
+  desktop-file-utils
+  diffutils
+  freetype2
+  gcc-libs
+  gdk-pixbuf2
+  glibc
+  hicolor-icon-theme
+  libxcrypt
+  libxcrypt-compat
+  libxkbcommon-x11
+  lsb-release
+  lsof
+  nss
+  python
+  ttf-font
+  usbutils
+  vulkan-driver
+  vulkan-icd-loader
+  xdg-user-dirs
+  xorg-xrandr
+  xz
+  zenity
+)
+depends_x86_64=(
+  lib32-alsa-plugins
+  lib32-fontconfig
+  lib32-gcc-libs
+  lib32-glibc
+  lib32-libgl
+  lib32-libgpg-error
+  lib32-libnm
+  lib32-libva
+  lib32-libx11
+  lib32-libxcrypt
+  lib32-libxcrypt-compat
+  lib32-libxinerama
+  lib32-libxss
+  lib32-nss
+  lib32-pipewire
+  lib32-systemd
+  lib32-vulkan-driver
+  lib32-vulkan-icd-loader
+)
+makedepends=(rsync)
+optdepends=(
+  steam
+  umu-launcher
+)
+provides=('proton')
+install=${pkgname}.install
+
+package() {
+    local compatdir="${pkgdir}/usr/share/steam/compatibilitytools.d/proton-EM"
+    local srcdir_extracted="${srcdir}/proton-EM-${_srctag}"
+
+    # Install Proton EM files (contents of extracted folder, not the folder itself)
+    install -d "${compatdir}"
+    cp -a "${srcdir_extracted}/." "${compatdir}/"
+
+    # Install licenses from inside Proton directory
+    install -d "${pkgdir}/usr/share/licenses/${pkgname}"
+    for f in LICENSE LICENSE.OFL PATENTS.AV1; do
+        if [[ -f "${srcdir_extracted}/$f" ]]; then
+            install -m644 "${srcdir_extracted}/$f" \
+                "${pkgdir}/usr/share/licenses/${pkgname}/"
+        fi
+    done
+}

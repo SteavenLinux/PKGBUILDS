@@ -82,3 +82,6 @@
 [submodule "Aur/terabox-bin"]
 	path = Aur/terabox-bin
 	url = https://aur.archlinux.org/terabox-bin.git
+[submodule "Aur/lib32-lapack-blas-cblas-lapacke"]
+	path = Aur/lib32-lapack-blas-cblas-lapacke
+	url = https://aur.archlinux.org/lib32-lapack.git
