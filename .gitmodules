@@ -85,3 +85,6 @@
 [submodule "Aur/lib32-lapack-blas-cblas-lapacke"]
 	path = Aur/lib32-lapack-blas-cblas-lapacke
 	url = https://aur.archlinux.org/lib32-lapack.git
+[submodule "Aur/proton-cachyos-slr"]
+	path = Aur/proton-cachyos-slr
+	url = https://aur.archlinux.org/proton-cachyos-slr.git
