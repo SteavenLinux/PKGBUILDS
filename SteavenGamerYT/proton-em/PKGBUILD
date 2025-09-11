@@ -1,13 +1,13 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
 pkgname=proton-em
-_srctag=10.0-2D
+_srctag=10.0-2E
 pkgver=${_srctag//-/.}
 pkgrel=1
 epoch=1
 
 _package_name="proton-em-${_srctag}-bin-x86_64"
-sha256sums=('c60fd355dc018ee0a7d42e5f38c2ff7fd0d5861f1c43ba49ccc72ed2659a543f')
+sha256sums=('SKIP')
 source=(
   "https://github.com/Etaash-mathamsetty/Proton/releases/download/EM-${_srctag}/proton-EM-${_srctag}.tar.xz"
 )
