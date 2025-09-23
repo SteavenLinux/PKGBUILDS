@@ -88,3 +88,6 @@
 [submodule "Aur/proton-cachyos-slr"]
 	path = Aur/proton-cachyos-slr
 	url = https://aur.archlinux.org/proton-cachyos-slr.git
+[submodule "Aur/libmaddy"]
+	path = Aur/libmaddy
+	url = https://aur.archlinux.org/libmaddy.git
