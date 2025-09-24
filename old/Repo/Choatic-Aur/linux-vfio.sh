@@ -15,9 +15,9 @@ gpg --detach-sign --use-agent --output "linux-vfio-${VERSION}-x86_64.pkg.tar.zst
 gpg --detach-sign --use-agent --output "linux-vfio-headers-${VERSION}-x86_64.pkg.tar.zst.sig" "linux-vfio-headers-${VERSION}-x86_64.pkg.tar.zst"
 gpg --detach-sign --use-agent --output "linux-vfio-lts-${VERSIONLTS}-x86_64.pkg.tar.zst.sig" "linux-vfio-lts-${VERSIONLTS}-x86_64.pkg.tar.zst"
 gpg --detach-sign --use-agent --output "linux-vfio-lts-headers-${VERSIONLTS}-x86_64.pkg.tar.zst.sig" "linux-vfio-lts-headers-${VERSIONLTS}-x86_64.pkg.tar.zst"
-rm -rf /mnt/hdd/SteavenRepo/x86_64/linux-vfio*.pkg.tar.zst
-rm -rf /mnt/hdd/SteavenRepo/x86_64/linux-vfio*.pkg.tar.zst.sig
-cp linux-vfio*.pkg.tar.zst /mnt/hdd/SteavenRepo/x86_64/
-cp linux-vfio*.pkg.tar.zst.sig /mnt/hdd/SteavenRepo/x86_64/
+rm -rf /mnt/Omar-Old-PC/mnt/nvme/SteavenRepo/x86_64/linux-vfio*.pkg.tar.zst
+rm -rf /mnt/Omar-Old-PC/mnt/nvme/SteavenRepo/x86_64/linux-vfio*.pkg.tar.zst.sig
+cp linux-vfio*.pkg.tar.zst /mnt/Omar-Old-PC/mnt/nvme/SteavenRepo/x86_64/
+cp linux-vfio*.pkg.tar.zst.sig /mnt/Omar-Old-PC/mnt/nvme/SteavenRepo/x86_64/
 
 cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/Repo/Choatic-Aur
