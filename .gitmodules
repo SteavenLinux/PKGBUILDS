@@ -106,3 +106,6 @@
 [submodule "Aur/xwaylandvideobridge"]
 	path = Aur/xwaylandvideobridge
 	url = https://aur.archlinux.org/xwaylandvideobridge.git
+[submodule "Aur/rtl88x2bu-dkms-git"]
+	path = Aur/rtl88x2bu-dkms-git
+	url = https://aur.archlinux.org/rtl88x2bu-dkms-git.git
