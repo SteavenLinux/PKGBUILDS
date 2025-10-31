@@ -178,3 +178,27 @@
 [submodule "Aur/steam-native-runtime"]
 	path = Aur/steam-native-runtime
 	url = https://aur.archlinux.org/steam-native-runtime.git
+[submodule "Aur/gtk-sharp-2"]
+	path = Aur/gtk-sharp-2
+	url = https://aur.archlinux.org/gtk-sharp-2.git
+[submodule "Aur/lib32-gtk2"]
+	path = Aur/lib32-gtk2
+	url = https://aur.archlinux.org/lib32-gtk2.git
+[submodule "Aur/lib32-libappindicator-gtk2"]
+	path = Aur/lib32-libappindicator-gtk2
+	url = https://aur.archlinux.org/lib32-libappindicator-gtk2.git
+[submodule "Aur/lib32-libdbusmenu-gtk2"]
+	path = Aur/lib32-libdbusmenu-gtk2
+	url = https://aur.archlinux.org/lib32-libdbusmenu-gtk2.git
+[submodule "Aur/lib32-libindicator-gtk2"]
+	path = Aur/lib32-libindicator-gtk2
+	url = https://aur.archlinux.org/lib32-libindicator-gtk2.git
+[submodule "Aur/libappindicator-gtk2"]
+	path = Aur/libappindicator-gtk2
+	url = https://aur.archlinux.org/libappindicator-gtk2.git
+[submodule "Aur/libdbusmenu-gtk2"]
+	path = Aur/libdbusmenu-gtk2
+	url = https://aur.archlinux.org/libdbusmenu-gtk2.git
+[submodule "Aur/libindicator-gtk2"]
+	path = Aur/libindicator-gtk2
+	url = https://aur.archlinux.org/libindicator-gtk2.git
