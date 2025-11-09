@@ -202,3 +202,9 @@
 [submodule "Aur/libindicator-gtk2"]
 	path = Aur/libindicator-gtk2
 	url = https://aur.archlinux.org/libindicator-gtk2.git
+[submodule "Aur/input-remapper-bin"]
+	path = Aur/input-remapper-bin
+	url = https://aur.archlinux.org/input-remapper-bin.git
+[submodule "Aur/hiddify"]
+	path = Aur/hiddify
+	url = https://aur.archlinux.org/hiddify.git
