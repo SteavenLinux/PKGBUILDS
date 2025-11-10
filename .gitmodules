@@ -208,3 +208,6 @@
 [submodule "Aur/hiddify"]
 	path = Aur/hiddify
 	url = https://aur.archlinux.org/hiddify.git
+[submodule "Aur/ffuf-bin"]
+	path = Aur/ffuf-bin
+	url = https://aur.archlinux.org/ffuf-bin.git
