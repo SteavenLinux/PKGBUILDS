@@ -211,3 +211,12 @@
 [submodule "Aur/ffuf-bin"]
 	path = Aur/ffuf-bin
 	url = https://aur.archlinux.org/ffuf-bin.git
+[submodule "Aur/qt5-webchannel"]
+	path = Aur/qt5-webchannel
+	url = https://aur.archlinux.org/qt5-webchannel.git
+[submodule "Aur/qt5-webengine"]
+	path = Aur/qt5-webengine
+	url = https://aur.archlinux.org/qt5-webengine.git
+[submodule "Aur/qt5-websockets"]
+	path = Aur/qt5-websockets
+	url = https://aur.archlinux.org/qt5-websockets.git
