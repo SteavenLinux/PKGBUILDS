@@ -1,7 +1,7 @@
 # Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
 
 pkgname=proton-em
-_srctag=10.0-30
+_srctag=10.0-31
 pkgver=${_srctag//-/.}
 pkgrel=1
 epoch=1
@@ -74,7 +74,7 @@ provides=('proton')
 install=${pkgname}.install
 
 build() {
-    cd "${srcdir}/proton-EM-10.0-30"
+    cd "${srcdir}/proton-EM-10.0-31"
     # Fix display_name → proton-em
     sed -i 's/\("display_name"[[:space:]]*"\)[^"]*/\1proton-em/' compatibilitytool.vdf
 }
