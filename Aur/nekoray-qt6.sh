@@ -4,18 +4,18 @@
 mkdir -p ~/ah
 
 # Remove old copy and copy fresh sources
-rm -rf ~/ah/gnome-shell-extension-alphabetical-grid-extension
-cp -r gnome-shell-extension-alphabetical-grid-extension ~/ah/gnome-shell-extension-alphabetical-grid-extension
+rm -rf ~/ah/nekoray-qt6
+cp -r nekoray-qt6 ~/ah/nekoray-qt6
 
 # Move to build directory
-cd ~/ah/gnome-shell-extension-alphabetical-grid-extension || exit 1
+cd ~/ah/nekoray-qt6 || exit 1
 
 # Build and sign package
 makepkg -sr --sign || exit 1
 
 # Remove old package and signature from the repo
-rm -f /mnt/Omar-Old-PC/mnt/nvme/SteavenRepo/x86_64/gnome-shell-extension-alphabetical-grid-extension*.pkg.tar.zst
-rm -f /mnt/Omar-Old-PC/mnt/nvme/SteavenRepo/x86_64/gnome-shell-extension-alphabetical-grid-extension*.pkg.tar.zst.sig
+rm -f /mnt/Omar-Old-PC/mnt/nvme/SteavenRepo/x86_64/nekoray-qt6*.pkg.tar.zst
+rm -f /mnt/Omar-Old-PC/mnt/nvme/SteavenRepo/x86_64/nekoray-qt6*.pkg.tar.zst.sig
 
 # Copy new package and signature to the repo
 cp *.pkg.tar.zst /mnt/Omar-Old-PC/mnt/nvme/SteavenRepo/x86_64
