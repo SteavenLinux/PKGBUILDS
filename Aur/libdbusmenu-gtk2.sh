@@ -14,12 +14,12 @@ cd ~/ah/libdbusmenu-gtk2 || exit 1
 makepkg -sr --sign || exit 1
 
 # Remove old package and signature from the repo
-rm -f /mnt/Omar-Old-PC/mnt/nvme/SteavenRepo/x86_64/libdbusmenu-gtk2*.pkg.tar.zst
-rm -f /mnt/Omar-Old-PC/mnt/nvme/SteavenRepo/x86_64/libdbusmenu-gtk2*.pkg.tar.zst.sig
+rm -f /mnt/Omar-Old-PC/home/omarhanykasban/SteavenRepo/x86_64/libdbusmenu-gtk2*.pkg.tar.zst
+rm -f /mnt/Omar-Old-PC/home/omarhanykasban/SteavenRepo/x86_64/libdbusmenu-gtk2*.pkg.tar.zst.sig
 
 # Copy new package and signature to the repo
-cp *.pkg.tar.zst /mnt/Omar-Old-PC/mnt/nvme/SteavenRepo/x86_64
-cp *.pkg.tar.zst.sig /mnt/Omar-Old-PC/mnt/nvme/SteavenRepo/x86_64
+cp *.pkg.tar.zst /mnt/Omar-Old-PC/home/omarhanykasban/SteavenRepo/x86_64
+cp *.pkg.tar.zst.sig /mnt/Omar-Old-PC/home/omarhanykasban/SteavenRepo/x86_64
 
 # Change to repo directory (optional, but doesn't execute anything)
 cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/Aur
