@@ -208,3 +208,9 @@
 [submodule "Aur/nekoray-qt6"]
 	path = Aur/nekoray-qt6
 	url = https://aur.archlinux.org/nekoray-qt6.git
+[submodule "Aur/exodus"]
+	path = Aur/exodus
+	url = https://aur.archlinux.org/exodus.git
+[submodule "Aur/gtkmm"]
+	path = Aur/gtkmm
+	url = https://aur.archlinux.org/gtkmm.git
