@@ -214,3 +214,6 @@
 [submodule "Aur/gtkmm"]
 	path = Aur/gtkmm
 	url = https://aur.archlinux.org/gtkmm.git
+[submodule "Aur/cursor-bin"]
+	path = Aur/cursor-bin
+	url = https://aur.archlinux.org/cursor-bin.git
