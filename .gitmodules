@@ -217,3 +217,30 @@
 [submodule "Aur/cursor-bin"]
 	path = Aur/cursor-bin
 	url = https://aur.archlinux.org/cursor-bin.git
+[submodule "Aur/clutter"]
+	path = Aur/clutter
+	url = https://aur.archlinux.org/clutter.git
+[submodule "Aur/clutter-gtk"]
+	path = Aur/clutter-gtk
+	url = https://aur.archlinux.org/clutter-gtk.git
+[submodule "Aur/cogl"]
+	path = Aur/cogl
+	url = https://aur.archlinux.org/cogl.git
+[submodule "Aur/jstest-gtk-git"]
+	path = Aur/jstest-gtk-git
+	url = https://aur.archlinux.org/jstest-gtk-git.git
+[submodule "Aur/lib32-openssl-1.1"]
+	path = Aur/lib32-openssl-1.1
+	url = https://aur.archlinux.org/lib32-openssl-1.1.git
+[submodule "Aur/libchamplain"]
+	path = Aur/libchamplain
+	url = https://aur.archlinux.org/libchamplain.git
+[submodule "Aur/libx11-mr293"]
+	path = Aur/libx11-mr293
+	url = https://aur.archlinux.org/libx11-mr293.git
+[submodule "Aur/openssl-1.1"]
+	path = Aur/openssl-1.1
+	url = https://aur.archlinux.org/openssl-1.1.git
+[submodule "Aur/xpad-dkms-git"]
+	path = Aur/xpad-dkms-git
+	url = https://aur.archlinux.org/xpad-dkms-git.git
