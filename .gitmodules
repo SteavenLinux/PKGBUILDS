@@ -76,9 +76,6 @@
 [submodule "Aur/libmaddy"]
 	path = Aur/libmaddy
 	url = https://aur.archlinux.org/libmaddy.git
-[submodule "Aur/clamav-gui"]
-	path = Aur/clamav-gui
-	url = https://aur.archlinux.org/clamav-gui.git
 [submodule "Aur/lm_sensors-it87-git"]
 	path = Aur/lm_sensors-it87-git
 	url = https://aur.archlinux.org/lm_sensors-it87-git.git
