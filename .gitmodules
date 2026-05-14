@@ -241,3 +241,12 @@
 [submodule "Aur/xpad-dkms-git"]
 	path = Aur/xpad-dkms-git
 	url = https://aur.archlinux.org/xpad-dkms-git.git
+[submodule "Aur/lib32-gstreamer"]
+	path = Aur/lib32-gstreamer
+	url = https://aur.archlinux.org/lib32-gstreamer.git
+[submodule "Aur/nemo-dropbox"]
+	path = Aur/nemo-dropbox
+	url = https://aur.archlinux.org/nemo-dropbox.git
+[submodule "Aur/nautilus-backspace"]
+	path = Aur/nautilus-backspace
+	url = https://aur.archlinux.org/nautilus-backspace.git
