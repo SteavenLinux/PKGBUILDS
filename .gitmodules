@@ -250,3 +250,6 @@
 [submodule "Aur/nautilus-backspace"]
 	path = Aur/nautilus-backspace
 	url = https://aur.archlinux.org/nautilus-backspace.git
+[submodule "Aur/flac1.3"]
+	path = Aur/flac1.3
+	url = https://aur.archlinux.org/flac1.3.git
