@@ -253,3 +253,21 @@
 [submodule "Aur/flac1.3"]
 	path = Aur/flac1.3
 	url = https://aur.archlinux.org/flac1.3.git
+[submodule "Aur/jellyfin-desktop"]
+	path = Aur/jellyfin-desktop
+	url = https://aur.archlinux.org/jellyfin-desktop.git
+[submodule "Aur/kesl"]
+	path = Aur/kesl
+	url = https://aur.archlinux.org/kesl.git
+[submodule "Aur/kesl-gui"]
+	path = Aur/kesl-gui
+	url = https://aur.archlinux.org/kesl-gui.git
+[submodule "Aur/libsoup"]
+	path = Aur/libsoup
+	url = https://aur.archlinux.org/libsoup.git
+[submodule "Aur/openrgb-plugin-http-hook-git"]
+	path = Aur/openrgb-plugin-http-hook-git
+	url = https://aur.archlinux.org/openrgb-plugin-http-hook-git.git
+[submodule "Aur/wxedid"]
+	path = Aur/wxedid
+	url = https://aur.archlinux.org/wxedid.git

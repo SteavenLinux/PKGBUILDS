@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Ensure the directory exists
+mkdir -p ~/ah
+
+# Remove old copy and copy fresh sources
+#rm -rf ~/ah/proton-ge-custom
+cp -r proton-ge-custom ~/ah/proton-ge-custom
+
+# Move to build directory
+cd ~/ah/proton-ge-custom || exit 1
+
+# Build and sign package
+makepkg -sr --sign || exit 1
+
+# Remove old package and signature from the repo
+rm -f /mnt/Omar-PC-Server/home/omarhanykasban/SteavenRepo/x86_64/proton-ge-custom*.pkg.tar.zst
+rm -f /mnt/Omar-PC-Server/home/omarhanykasban/SteavenRepo/x86_64/proton-ge-custom*.pkg.tar.zst.sig
+
+# Copy new package and signature to the repo
+cp *.pkg.tar.zst /mnt/Omar-PC-Server/home/omarhanykasban/SteavenRepo/x86_64
+cp *.pkg.tar.zst.sig /mnt/Omar-PC-Server/home/omarhanykasban/SteavenRepo/x86_64
+
+# Change to repo directory (optional, but doesn't execute anything)
+cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/SteavenGamerYT
+
