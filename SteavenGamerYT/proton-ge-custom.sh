@@ -4,7 +4,7 @@
 mkdir -p ~/ah
 
 # Remove old copy and copy fresh sources
-#rm -rf ~/ah/proton-ge-custom
+rm -rf ~/ah/proton-ge-custom
 cp -r proton-ge-custom ~/ah/proton-ge-custom
 
 # Move to build directory
