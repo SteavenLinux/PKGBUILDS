@@ -24,6 +24,27 @@ pkgver() {
 
 package() {
   cd "$srcdir/steavensettings"
+    install -d -m755 \
+    "$pkgdir/usr/bin" \
+    "$pkgdir/etc/conf.d" \
+    "$pkgdir/usr/lib/environment.d" \
+    "$pkgdir/etc/grub.d" \
+    "$pkgdir/usr/lib/modprobe.d" \
+    "$pkgdir/usr/lib/modules-load.d" \
+    "$pkgdir/usr/lib/NetworkManager/conf.d" \
+    "$pkgdir/usr/lib/sysctl.d" \
+    "$pkgdir/usr/lib/systemd/timesyncd.conf.d" \
+    "$pkgdir/usr/lib/systemd/journald.conf.d" \
+    "$pkgdir/usr/lib/systemd/system" \
+    "$pkgdir/usr/lib/systemd/system/user@.service.d" \
+    "$pkgdir/usr/lib/systemd/system.conf.d" \
+    "$pkgdir/usr/lib" \
+    "$pkgdir/usr/lib/udev/rules.d" \
+    "$pkgdir/usr/lib/udisks2" \
+    "$pkgdir/etc/polkit-1/rules.d" \
+    "$pkgdir/etc/pacman.d/hooks" \
+    "$pkgdir/etc/makepkg.conf.d"
+  install -Dm755 usr/bin/steavenlinux-drivers-installer  "$pkgdir/usr/bin/steavenlinux-drivers-installer"
   install -Dm755 usr/bin/linver "$pkgdir/usr/bin/linver"
   install -Dm755 usr/bin/amd-gpu-run "$pkgdir/usr/bin/amd-gpu-run"
   install -Dm755 usr/bin/intel-gpu-run "$pkgdir/usr/bin/intel-gpu-run"
@@ -65,7 +86,7 @@ package() {
   install -Dm644 etc/udisks2/mount_options.conf "$pkgdir/usr/lib/udisks2/mount_options.conf"
   install -Dm644 etc/chrony.conf "$pkgdir/etc/chrony.conf"
   install -Dm644 etc/polkit-1/rules.d/99-shutdown-reboot.rules "$pkgdir/etc/polkit-1/rules.d/99-shutdown-reboot.rules"
-  install -Dm644 etc/polkit-1/rules.d/90-flatpak.rules "$pkgdir/etc/polkit-1/rules.d/90-flatapk.rules"
+  install -Dm644 etc/polkit-1/rules.d/90-flatpak.rules "$pkgdir/etc/polkit-1/rules.d/90-flatpak.rules"
   cd "$srcdir/archsettings"
   install -Dm644 etc/pacman.d/hooks/sway-unsupported-gpu.hook "$pkgdir/etc/pacman.d/hooks/sway-unsupported-gpu.hook"
   install -Dm644 etc/makepkg.conf.d/use-all-cores.conf "$pkgdir/etc/makepkg.conf.d/use-all-cores.conf"

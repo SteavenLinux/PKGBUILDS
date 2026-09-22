@@ -271,3 +271,9 @@
 [submodule "Aur/wxedid"]
 	path = Aur/wxedid
 	url = https://aur.archlinux.org/wxedid.git
+[submodule "Aur/kvantum-theme-libadwaita-git"]
+	path = Aur/kvantum-theme-libadwaita-git
+	url = https://aur.archlinux.org/kvantum-theme-libadwaita-git.git
+[submodule "Aur/zenpower5-dkms-git"]
+	path = Aur/zenpower5-dkms-git
+	url = https://aur.archlinux.org/zenpower5-dkms-git.git

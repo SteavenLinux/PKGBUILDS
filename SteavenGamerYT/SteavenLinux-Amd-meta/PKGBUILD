@@ -5,8 +5,8 @@ pkgver=1
 pkgrel=1
 arch=('any')
 pkgdesc='Meta package install AMD Gpu Drivers'
-depends=('mesa' 'mesa-vdpau' 'vulkan-radeon' 'libva-mesa-driver' 
-         'rocm-opencl-runtime'
-         'lib32-mesa' 'lib32-mesa-vdpau' 'lib32-vulkan-radeon' 'lib32-libva-mesa-driver'
-         'amf-amdgpu-pro'
+depends=('mesa' 'vulkan-radeon'
+         'rocm-opencl-runtime' 'rocminfo' 'rocm-smi-lib' 'linux-firmware-amdgpu'
+         'lib32-mesa' 'lib32-vulkan-radeon'
+         'amf-amdgpu-pro' 'hip-runtime-amd'
          )
