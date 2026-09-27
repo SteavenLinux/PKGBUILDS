@@ -1,0 +1,13 @@
+# Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
+
+pkgname=SteavenLinux-Pipwire-meta
+pkgver=1
+pkgrel=1
+arch=('any')
+pkgdesc='Meta package for Pipewire'
+
+depends=('pipewire' 'pipewire-alsa' 'pipewire-audio' 'pipewire-jack' 'pipewire-pulse' 'pipewire-session-manager' 'pipewire-v4l2'
+         'lib32-pipewire' 'lib32-pipewire-jack' 'lib32-pipewire-v4l2'
+         'wireplumber'
+         'sof-firmware' 'sof-tools'
+         'alsa-utils' 'alsa-plugins' 'alsa-card-profiles')

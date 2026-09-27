@@ -1,0 +1,16 @@
+# Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
+
+pkgname=SteavenLinux-Printering-meta
+pkgver=1
+pkgrel=1
+arch=('any')
+pkgdesc='Meta package for using Printers, hp or epson'
+
+depends=('cups' 'cups-browsed' 'cups-filters' 'cups-pk-helper' 'python-pycups'
+         'foomatic-db' 'foomatic-db-engine' 'foomatic-db-ppds'
+         'foomatic-db-nonfree' 'foomatic-db-nonfree-ppds'
+         'gutenprint' 'foomatic-db-gutenprint-ppds'
+         'hplip' 'python-pyqt5'
+         'epson-inkjet-printer-escpr' 'epson-inkjet-printer-escpr2' 'epson-printer-utility'
+         'system-config-printer'
+         'ipp-usb' 'sane-airscan')

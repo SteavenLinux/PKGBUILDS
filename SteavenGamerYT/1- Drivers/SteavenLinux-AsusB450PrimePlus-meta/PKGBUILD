@@ -1,0 +1,8 @@
+# Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
+
+pkgname=SteavenLinux-AsusB450PrimePlus-meta
+pkgver=1
+pkgrel=1
+arch=('any')
+pkgdesc='Meta package install Asus b450 Prime Plus Drivers'
+depends=('SteavenLinux-Ryzen-meta' 'it87-dkms-git' 'lm_sensors-it87-git')

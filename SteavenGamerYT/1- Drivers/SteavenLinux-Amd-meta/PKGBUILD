@@ -1,0 +1,12 @@
+# Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
+
+pkgname=SteavenLinux-Amd-meta
+pkgver=1
+pkgrel=1
+arch=('any')
+pkgdesc='Meta package install AMD Gpu Drivers'
+depends=('mesa' 'vulkan-radeon'
+         'rocm-opencl-runtime' 'rocminfo' 'rocm-smi-lib' 'linux-firmware-amdgpu'
+         'lib32-mesa' 'lib32-vulkan-radeon'
+         'amf-amdgpu-pro' 'hip-runtime-amd'
+         )

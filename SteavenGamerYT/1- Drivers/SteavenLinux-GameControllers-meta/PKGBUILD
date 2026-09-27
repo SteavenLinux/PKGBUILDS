@@ -1,0 +1,13 @@
+# Maintainer: Omar Hany Kasban <omarhanykasban706@gmail.com>
+
+pkgname=SteavenLinux-GameControllers-meta
+pkgver=1
+pkgrel=1
+arch=('any')
+pkgdesc='Meta package install Game Controllers Drivers'
+
+depends=(
+    'xpad-dkms-git'
+    'xpadneo-dkms-git'
+    'jstest-gtk-git'
+)
