@@ -184,3 +184,27 @@
 [submodule "Aur/zenpower5-dkms-git"]
 	path = Aur/zenpower5-dkms-git
 	url = https://aur.archlinux.org/zenpower5-dkms-git.git
+[submodule "Aur/openrgb-plugin-effects"]
+	path = Aur/openrgb-plugin-effects
+	url = https://aur.archlinux.org/openrgb-plugin-effects.git
+[submodule "Aur/openrgb-plugin-hardware-sync"]
+	path = Aur/openrgb-plugin-hardware-sync
+	url = https://aur.archlinux.org/openrgb-plugin-hardware-sync.git
+[submodule "Aur/openrgb-plugin-http-hook"]
+	path = Aur/openrgb-plugin-http-hook
+	url = https://aur.archlinux.org/openrgb-plugin-http-hook.git
+[submodule "Aur/openrgb-plugin-visual-map"]
+	path = Aur/openrgb-plugin-visual-map
+	url = https://aur.archlinux.org/openrgb-plugin-visual-map.git
+[submodule "Aur/aspell-ar"]
+	path = Aur/aspell-ar
+	url = https://aur.archlinux.org/aspell-ar.git
+[submodule "Aur/python312"]
+	path = Aur/python312
+	url = https://aur.archlinux.org/python312.git
+[submodule "Aur/epson-printer-utility"]
+	path = Aur/epson-printer-utility
+	url = https://aur.archlinux.org/epson-printer-utility.git
+[submodule "Aur/Aur/epson-printer-utility"]
+	path = Aur/Aur/epson-printer-utility
+	url = https://aur.archlinux.org/epson-printer-utility.git

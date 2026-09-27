@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Ensure the directory exists
+mkdir -p ~/ah
+
+# Remove old copy and copy fresh sources
+rm -rf ~/ah/openrgb-plugin-effects
+cp -r openrgb-plugin-effects ~/ah/openrgb-plugin-effects
+
+# Move to build directory
+cd ~/ah/openrgb-plugin-effects || exit 1
+
+# Build and sign package
+makepkg -sr --sign || exit 1
+
+# Remove old package and signature from the repo
+rm -f /mnt/hdd/SteavenRepo/x86_64/openrgb-plugin-effects*.pkg.tar.zst
+rm -f /mnt/hdd/SteavenRepo/x86_64/openrgb-plugin-effects*.pkg.tar.zst.sig
+
+# Copy new package and signature to the repo
+cp *.pkg.tar.zst /mnt/hdd/SteavenRepo/x86_64
+cp *.pkg.tar.zst.sig /mnt/hdd/SteavenRepo/x86_64
+
+# Change to repo directory (optional, but doesn't execute anything)
+cd /home/omarhanykasban/GitHub/SteavenLinux/PKGBUILDS/Aur
