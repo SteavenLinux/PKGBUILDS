@@ -91,99 +91,18 @@
 [submodule "Aur/rtl88x2bu-dkms-git"]
 	path = Aur/rtl88x2bu-dkms-git
 	url = https://aur.archlinux.org/rtl88x2bu-dkms-git.git
-[submodule "Aur/lib32-glew1.10"]
-	path = Aur/lib32-glew1.10
-	url = https://aur.archlinux.org/lib32-glew1.10.git
-[submodule "Aur/lib32-libgcrypt15"]
-	path = Aur/lib32-libgcrypt15
-	url = https://aur.archlinux.org/lib32-libgcrypt15.git
-[submodule "Aur/lib32-libidn11"]
-	path = Aur/lib32-libidn11
-	url = https://aur.archlinux.org/lib32-libidn11.git
-[submodule "Aur/lib32-libjpeg6-turbo"]
-	path = Aur/lib32-libjpeg6-turbo
-	url = https://aur.archlinux.org/lib32-libjpeg6-turbo.git
-[submodule "Aur/lib32-libpng12"]
-	path = Aur/lib32-libpng12
-	url = https://aur.archlinux.org/lib32-libpng12.git
-[submodule "Aur/lib32-librtmp0"]
-	path = Aur/lib32-librtmp0
-	url = https://aur.archlinux.org/lib32-librtmp0.git
-[submodule "Aur/lib32-libtiff4"]
-	path = Aur/lib32-libtiff4
-	url = https://aur.archlinux.org/lib32-libtiff4.git
-[submodule "Aur/lib32-libudev0-shim"]
-	path = Aur/lib32-libudev0-shim
-	url = https://aur.archlinux.org/lib32-libudev0-shim.git
-[submodule "Aur/lib32-libvpx1.3"]
-	path = Aur/lib32-libvpx1.3
-	url = https://aur.archlinux.org/lib32-libvpx1.3.git
-[submodule "Aur/lib32-openssl-1.0"]
-	path = Aur/lib32-openssl-1.0
-	url = https://aur.archlinux.org/lib32-openssl-1.0.git
-[submodule "Aur/libgcrypt15"]
-	path = Aur/libgcrypt15
-	url = https://aur.archlinux.org/libgcrypt15.git
-[submodule "Aur/libidn11"]
-	path = Aur/libidn11
-	url = https://aur.archlinux.org/libidn11.git
-[submodule "Aur/libjpeg6-turbo"]
-	path = Aur/libjpeg6-turbo
-	url = https://aur.archlinux.org/libjpeg6-turbo.git
-[submodule "Aur/libpng12"]
-	path = Aur/libpng12
-	url = https://aur.archlinux.org/libpng12.git
-[submodule "Aur/librtmp0"]
-	path = Aur/librtmp0
-	url = https://aur.archlinux.org/librtmp0.git
-[submodule "Aur/libtiff4"]
-	path = Aur/libtiff4
-	url = https://aur.archlinux.org/libtiff4.git
-[submodule "Aur/libudev0-shim"]
-	path = Aur/libudev0-shim
-	url = https://aur.archlinux.org/libudev0-shim.git
-[submodule "Aur/libvpx1.3"]
-	path = Aur/libvpx1.3
-	url = https://aur.archlinux.org/libvpx1.3.git
-[submodule "Aur/openssl-1.0"]
-	path = Aur/openssl-1.0
-	url = https://aur.archlinux.org/openssl-1.0.git
-[submodule "Aur/glew1.10"]
-	path = Aur/glew1.10
-	url = https://aur.archlinux.org/glew1.10.git
 [submodule "Aur/furmark"]
 	path = Aur/furmark
 	url = https://aur.archlinux.org/furmark.git
 [submodule "Aur/autosubsync-bin"]
 	path = Aur/autosubsync-bin
 	url = https://aur.archlinux.org/autosubsync-bin.git
-[submodule "Aur/steam-native-runtime"]
-	path = Aur/steam-native-runtime
-	url = https://aur.archlinux.org/steam-native-runtime.git
 [submodule "Aur/gtk-sharp-2"]
 	path = Aur/gtk-sharp-2
 	url = https://aur.archlinux.org/gtk-sharp-2.git
-[submodule "Aur/lib32-gtk2"]
-	path = Aur/lib32-gtk2
-	url = https://aur.archlinux.org/lib32-gtk2.git
-[submodule "Aur/lib32-libappindicator-gtk2"]
-	path = Aur/lib32-libappindicator-gtk2
-	url = https://aur.archlinux.org/lib32-libappindicator-gtk2.git
-[submodule "Aur/lib32-libdbusmenu-gtk2"]
-	path = Aur/lib32-libdbusmenu-gtk2
-	url = https://aur.archlinux.org/lib32-libdbusmenu-gtk2.git
-[submodule "Aur/lib32-libindicator-gtk2"]
-	path = Aur/lib32-libindicator-gtk2
-	url = https://aur.archlinux.org/lib32-libindicator-gtk2.git
 [submodule "Aur/libappindicator-gtk2"]
 	path = Aur/libappindicator-gtk2
 	url = https://aur.archlinux.org/libappindicator-gtk2.git
-[submodule "Aur/libdbusmenu-gtk2"]
-	path = Aur/libdbusmenu-gtk2
-	url = https://aur.archlinux.org/libdbusmenu-gtk2.git
-[submodule "Aur/libindicator-gtk2"]
-	path = Aur/libindicator-gtk2
-	url = https://aur.archlinux.org/libindicator-gtk2.git
 [submodule "Aur/input-remapper-bin"]
 	path = Aur/input-remapper-bin
 	url = https://aur.archlinux.org/input-remapper-bin.git
@@ -226,18 +145,12 @@
 [submodule "Aur/jstest-gtk-git"]
 	path = Aur/jstest-gtk-git
 	url = https://aur.archlinux.org/jstest-gtk-git.git
-[submodule "Aur/lib32-openssl-1.1"]
-	path = Aur/lib32-openssl-1.1
-	url = https://aur.archlinux.org/lib32-openssl-1.1.git
 [submodule "Aur/libchamplain"]
 	path = Aur/libchamplain
 	url = https://aur.archlinux.org/libchamplain.git
 [submodule "Aur/libx11-mr293"]
 	path = Aur/libx11-mr293
 	url = https://aur.archlinux.org/libx11-mr293.git
-[submodule "Aur/openssl-1.1"]
-	path = Aur/openssl-1.1
-	url = https://aur.archlinux.org/openssl-1.1.git
 [submodule "Aur/xpad-dkms-git"]
 	path = Aur/xpad-dkms-git
 	url = https://aur.archlinux.org/xpad-dkms-git.git
@@ -250,9 +163,6 @@
 [submodule "Aur/nautilus-backspace"]
 	path = Aur/nautilus-backspace
 	url = https://aur.archlinux.org/nautilus-backspace.git
-[submodule "Aur/flac1.3"]
-	path = Aur/flac1.3
-	url = https://aur.archlinux.org/flac1.3.git
 [submodule "Aur/jellyfin-desktop"]
 	path = Aur/jellyfin-desktop
 	url = https://aur.archlinux.org/jellyfin-desktop.git
