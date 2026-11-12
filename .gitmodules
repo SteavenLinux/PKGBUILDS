@@ -205,6 +205,3 @@
 [submodule "Aur/epson-printer-utility"]
 	path = Aur/epson-printer-utility
 	url = https://aur.archlinux.org/epson-printer-utility.git
-[submodule "Aur/Aur/epson-printer-utility"]
-	path = Aur/Aur/epson-printer-utility
-	url = https://aur.archlinux.org/epson-printer-utility.git

@@ -1,0 +1,9 @@
+# Local configuration overrides
+repo.local.conf
+
+# Build artifacts & logs
+*.pkg.tar.*
+*.log
+src/
+pkg/
+

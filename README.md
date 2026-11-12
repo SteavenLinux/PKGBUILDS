@@ -1,67 +1,80 @@
-# SteavenLinux PKGBUILDS
+# SteavenLinux PKGBUILDs
 
-PKGBUILDS of packages that i use and are not in arch linux repos or choatic aur packages
+PKGBUILDs for packages used in SteavenLinux that are not available in the official Arch Linux repositories or Chaotic-AUR.
 
-## SteavenGamerYT
+## Repository Structure
 
-Packages in this follder is not in aur
+- **`Aur/`** — AUR packages tracked as git submodules (packages in the AUR but not in Chaotic-AUR).
+- **`SteavenGamerYT/`** — Custom SteavenLinux packages, meta-packages, and packages not in the AUR (or where the AUR version is broken).
+  - **`SteavenGamerYT/1- Drivers/`** — Hardware/driver meta-packages (`SteavenLinux-Amd-meta`, `SteavenLinux-Nvidia-meta`, etc.).
+- **`repo.sh`** — Unified CLI for updating submodules, checking outdated packages, building/signing, deploying to the pacman repo, and running `repo-add`.
+- **`update.sh`** — Convenience wrapper for `./repo.sh update`.
+- **`repo.conf`** — Default configuration (create a gitignored `repo.local.conf` for local overrides).
 
-Some may be in Aur but its broken
+## Usage
 
-Some will never be, aka custom packages
+### 1. Update AUR Submodules
 
-## Aur
+```bash
+./update.sh                  # Fetch latest AUR submodule commits and show what changed
+./update.sh --build          # Update submodules and automatically build changed ones
+./update.sh -b -k            # Same, continuing past individual build failures
+```
 
-Packages that are in Aur but no in Choatic Aur
+### 2. Check Package Status
 
-### Issues in Choatic Aur about the Packaegs
+```bash
+./repo.sh status             # Show missing or outdated packages in REPO_DIR
+./repo.sh status --no-git    # Treat *-git / pkgver() packages as up-to-date if already in REPO_DIR
+./repo.sh status -a          # Include up-to-date packages
+```
 
-- [**adwaita-colors-icon-theme**](https://github.com/chaotic-aur/packages/issues/3617)
+### 3. Build & Deploy Packages
 
-- [**amdgpu-pro-installer**](https://github.com/chaotic-aur/packages/issues/3105) Closed with not adding.
+`./repo.sh build` copies each package to `BUILD_DIR`, runs `makepkg`, removes old versions of the exact built `pkgname`(s) from `REPO_DIR`, copies the new `.pkg.tar.*` and `.sig` files, and updates/signs the pacman database via `repo-add`.
 
-- [**an-anime-game-launcher-bin**](https://github.com/chaotic-aur/packages/issues/2472) Got removed in 2023.
+```bash
+# Build specific package(s) by name or relative path
+./repo.sh build cursor-bin
+./repo.sh build SteavenLinux-Amd-meta proton-em
+./repo.sh build Aur/unigine-heaven
 
-- [**cemu-bin**](https://github.com/chaotic-aur/packages/issues/3059) They don't want to add stable packages for a lot of apps.
+# Build by group
+./repo.sh build --outdated           # Build all missing/outdated packages
+./repo.sh build --outdated --no-git  # Build outdated packages, skipping *-git / pkgver() already in REPO_DIR
+./repo.sh build --changed            # Build packages with uncommitted/staged git changes
+./repo.sh build --aur                # Build all Aur/ packages
+./repo.sh build --custom             # Build all SteavenGamerYT/ packages
+./repo.sh build --all -k             # Build everything, continuing if a package fails
 
-- [**ciso**](https://github.com/chaotic-aur/packages/issues/3614)
+# Useful flags
+./repo.sh build --outdated -n        # Dry-run: show what would be built
+./repo.sh build cursor-bin --no-sign # Skip GPG signing in makepkg
+./repo.sh build cursor-bin --no-db   # Skip running repo-add
+```
 
-- [**cubeb**](https://github.com/chaotic-aur/packages/issues/3566) Closed because they think its unneeded dependency.
+### 4. Manage AUR Submodules & List Packages
 
-- [**gnome-shell-extension-alphabetical-grid-extension**](https://github.com/chaotic-aur/packages/issues/3568)
+```bash
+./repo.sh list                       # List all discovered packages
+./repo.sh list --aur                 # List only Aur/ packages
+./repo.sh list --custom              # List only SteavenGamerYT/ packages
+./repo.sh add-aur <pkg>              # Add https://aur.archlinux.org/<pkg>.git under Aur/<pkg>
+./repo.sh remove-aur <pkg>           # Cleanly remove Aur/<pkg> submodule
+```
 
-- [**gnome-shell-extension-legacy-theme-auto-switcher-git**](https://github.com/chaotic-aur/packages/issues/3618)
+## Configuration
 
-- [**gnome-shell-extension-wallpaper-slideshow**](https://github.com/chaotic-aur/packages/issues/3569)
+Defaults are defined in [`repo.conf`](repo.conf):
 
-- [**grimshot-bin-sway**](https://github.com/chaotic-aur/packages/issues/3570)
+| Variable | Default | Description |
+| --- | --- | --- |
+| `REPO_DIR` | `/mnt/hdd/SteavenRepo/x86_64` | Destination directory for built packages and signatures |
+| `BUILD_DIR` | `${HOME}/ah` | Scratch directory used for building |
+| `MAKEPKG_FLAGS` | `(-sr --sign)` | Flags passed to `makepkg` |
+| `REPO_DB` | `""` (auto-detected) | Path to `*.db.tar.*` inside `REPO_DIR` |
+| `UPDATE_DB` | `1` | Run `repo-add` after building (`0` to disable) |
+| `REPO_ADD_FLAGS` | `(--sign)` | Extra flags passed to `repo-add` |
+| `UPDATE_JOBS` | `8` | Parallel jobs for `git submodule update` |
 
-- [**hy3**](https://github.com/chaotic-aur/packages/issues/3571)
-
-- [**libnick**](https://github.com/chaotic-aur/packages/issues/3615) not planned, they dont add deps.
-
-- [**libretro-citra-git**](https://github.com/chaotic-aur/packages/issues/3572)
-
-- [**libstrangle-git**](https://github.com/chaotic-aur/packages/issues/3573)
-
-- [**mprime-bin**](https://github.com/chaotic-aur/packages/issues/3560) Closed with not adding.
-
-- [**noto-fonts-ar**](https://github.com/chaotic-aur/packages/issues/3564) Rejected.
-
-- [**obs-pipewire-audio-capture-bin**](https://github.com/chaotic-aur/packages/issues/3557)
-
-- [**parabolic**](https://github.com/chaotic-aur/packages/issues/3404) they said it has packaging problems.
-
-- [**unigine-heaven**](https://github.com/chaotic-aur/packages/issues/3561) Closed with too big to add.
-
-- [**unigine-superposition**](https://github.com/chaotic-aur/packages/issues/3562) Closed with too big to add.
-
-- [**unleashedrecomp-bin**](https://github.com/chaotic-aur/packages/issues/3616)
-
-- [**vulkan-memory-allocator**](https://github.com/chaotic-aur/packages/issues/3576)
-
-- [**waydroid-helper**](https://github.com/chaotic-aur/packages/issues/3556)
-
-- [**whitesur-cursor-theme-git**](https://github.com/chaotic-aur/packages/issues/3577)
-
-- [**wiiudownloader**](https://github.com/chaotic-aur/packages/issues/3582) Closed with not adding.
+To customize settings without modifying tracked files, create `repo.local.conf` (gitignored).
